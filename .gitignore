@@ -1,0 +1,3 @@
+*__pycache__
+\lightning_logs
+\.pytest_cache
