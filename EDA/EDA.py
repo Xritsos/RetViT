@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel('../../data/ODIR-5K/ODIR-5K/data.xlsx')
+df = pd.read_excel('./data/ODIR-5K.xlsx')
 
 print(df.head())
 
