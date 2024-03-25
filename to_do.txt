@@ -1,3 +1,7 @@
+********** Priority ***********
+Tsoumakas access to Aristotelis
+*******************************
+
 1) multilabel data stratification/split
 
 2) run pipeline for binary classification
