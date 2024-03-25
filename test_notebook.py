@@ -14,6 +14,8 @@ from torchvision.transforms import (CenterCrop,
                                     Resize, 
                                     ToTensor)
 
+from source.train.dataloader import CustomImageDataset
+
 # from model import ViTLightningModule
 
 def train_transforms(examples):
@@ -25,6 +27,9 @@ def val_transforms(examples):
     return examples
 
 def collate_fn(examples):
+    # print("=======================")
+    # print(type(examples))
+    # print(examples)
     pixel_values = torch.stack([example["pixel_values"] for example in examples])
     labels = torch.tensor([example["label"] for example in examples])
     return {"pixel_values": pixel_values, "labels": labels}
@@ -39,7 +44,9 @@ class ViTLightningModule(pl.LightningModule):
         self.vit = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224-in21k',
                                                               num_labels=10,
                                                               id2label=id2label,
-                                                              label2id=label2id)
+                                                              label2id=label2id,
+                                                              problem_type="multi_label_classification",
+                                                              )
 
     def forward(self, pixel_values):
         outputs = self.vit(pixel_values=pixel_values)
@@ -97,13 +104,38 @@ class ViTLightningModule(pl.LightningModule):
 
 
 # if __name__ == "__main__":
+path_csv = './data/filtered_data.csv'
+root_train = './data/train/'
+root_test = './data/test/'
+root_val = './data/val/'
+
+train_ds = CustomImageDataset(csv_file=path_csv, root_dir=root_train)
+# test_ds = CustomImageDataset(csv_file=path_csv, root_dir=root_test)
+# val_ds = CustomImageDataset(csv_file=path_csv, root_dir=root_val)
+
+
 # load cifar10 (only small portion for demonstration purposes) 
-train_ds, test_ds = load_dataset('cifar10', split=['train[:500]', 'test[:200]'])
+# train_ds, test_ds = load_dataset('cifar10', split=['train[:500]', 'test[:200]'])
 
 # split up training into training + validation
-splits = train_ds.train_test_split(test_size=0.1)
-train_ds = splits['train']
-val_ds = splits['test']
+# splits = train_ds.train_test_split(test_size=0.1)
+# train_ds = splits['train']
+# val_ds = splits['test']
+
+batch_size = 2
+train_dataloader = DataLoader(train_ds, batch_size=batch_size, collate_fn=collate_fn,
+                               shuffle=True, num_workers=4)
+
+batch = next(iter(train_dataloader))
+
+for k, v in batch.items():
+    if isinstance(v, torch.Tensor):
+        print(k, v.shape)
+        exit()
+
+# print(batch)
+
+
     
     
 print()
@@ -111,8 +143,8 @@ print(f"Train data: {train_ds}")
 print()
 print(f"Val data: {val_ds}")
 print()
-print("Dataset Features:")
-print(train_ds.features)
+# print("Dataset Features:")
+# print(train_ds.features)
 
 # integer to label mapping
 id2label = {id:label for id, label in enumerate(train_ds.features['label'].names)}
