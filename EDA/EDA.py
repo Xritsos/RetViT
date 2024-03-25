@@ -1,10 +1,6 @@
 import pandas as pd
 
-<<<<<<< Updated upstream
-df = pd.read_excel('./data/ODIR-5K.xlsx')
-=======
 df = pd.read_csv('../data/filtered_data.csv')
->>>>>>> Stashed changes
 
 print(df.head())
 
