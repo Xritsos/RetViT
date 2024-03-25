@@ -44,9 +44,9 @@ class ViTLightningModule(pl.LightningModule):
         self.vit = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224-in21k',
                                                               num_labels=10,
                                                               id2label=id2label,
-                                                              label2id=label2id,
-                                                              problem_type="multi_label_classification",
-                                                              )
+                                                              label2id=label2id)
+    # add this above for the multilabel case, plus more params values for multilabel                                  
+    #  problem_type="multi_label_classification",
 
     def forward(self, pixel_values):
         outputs = self.vit(pixel_values=pixel_values)
