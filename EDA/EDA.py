@@ -1,6 +1,10 @@
 import pandas as pd
 
+<<<<<<< Updated upstream
 df = pd.read_excel('./data/ODIR-5K.xlsx')
+=======
+df = pd.read_csv('../data/filtered_data.csv')
+>>>>>>> Stashed changes
 
 print(df.head())
 
@@ -16,3 +20,7 @@ def print_label_cases():
     print('Normal: ', df['N'].value_counts()[1])
 
 
+print_label_cases()
+
+df = df.sort_values(by='ID')
+df.to_csv('../data/filtered_data.csv', index=False)
