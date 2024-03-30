@@ -82,8 +82,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 47,60,Female,47_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 48,69,Female,48_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 48,69,Female,48_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-48,69,Female,48_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-48,69,Female,48_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 49,47,Female,49_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 49,47,Female,49_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 50,59,Female,50_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,0,0,0,1
@@ -93,13 +91,10 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 52,67,Male,52_right.jpg,myelinated nerve fibers,0,0,0,0,0,0,0,1
 53,65,Female,53_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 53,65,Female,53_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-53,65,Female,53_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 54,66,Female,54_right.jpg,moderate non proliferative retinopathy，pathological myopia,0,1,0,0,0,0,1,0
 54,66,Female,54_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 55,62,Male,55_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 55,62,Male,55_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-55,62,Male,55_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-55,62,Male,55_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 56,63,Female,56_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 56,63,Female,56_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 58,74,Male,58_left.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -178,8 +173,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 101,45,Female,101_right.jpg,drusen,0,0,0,0,0,0,0,1
 102,73,Female,102_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 102,73,Female,102_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-102,73,Female,102_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-102,73,Female,102_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 103,55,Female,103_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 103,55,Female,103_left.jpg,cataract,0,0,0,1,0,0,0,0
 105,61,Female,105_left.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
@@ -219,8 +212,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 124,68,Female,124_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 125,71,Male,125_left.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 125,71,Male,125_right.jpg,normal fundus,1,0,0,0,0,0,0,0
-126,66,Male,126_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-126,66,Male,126_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 126,66,Male,126_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 126,66,Male,126_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 127,52,Male,127_left.jpg,proliferative diabetic retinopathy，hypertensive retinopathy,0,1,0,0,0,1,0,0
@@ -268,10 +259,8 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 150,62,Male,150_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 151,48,Male,151_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 152,55,Male,152_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-152,55,Male,152_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 152,55,Male,152_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 153,79,Male,153_left.jpg,glaucoma,0,0,1,0,0,0,0,0
-153,79,Male,153_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 153,79,Male,153_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 154,67,Female,154_left.jpg,vitreous degeneration，lens dust,0,0,0,0,0,0,0,1
 155,40,Male,155_left.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -280,8 +269,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 157,65,Female,157_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 157,65,Female,157_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 158,61,Male,158_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-158,61,Male,158_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-158,61,Male,158_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 158,61,Male,158_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 159,69,Female,159_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 159,69,Female,159_left.jpg,mild nonproliferative retinopathy，epiretinal membrane,0,1,0,0,0,0,0,1
@@ -291,12 +278,8 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 161,49,Male,161_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 162,76,Female,162_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 162,76,Female,162_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-162,76,Female,162_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-162,76,Female,162_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 163,61,Female,163_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 163,61,Female,163_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
-164,62,Female,164_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-164,62,Female,164_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 164,62,Female,164_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 164,62,Female,164_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 165,48,Male,165_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -306,8 +289,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 167,71,Male,167_right.jpg,glaucoma,0,0,1,0,0,0,0,0
 167,71,Male,167_left.jpg,glaucoma,0,0,1,0,0,0,0,0
 168,66,Male,168_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-168,66,Male,168_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-168,66,Male,168_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 168,66,Male,168_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 169,64,Female,169_left.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0,0,0,0,1
 169,64,Female,169_right.jpg,macular epiretinal membrane，moderate non proliferative retinopathy,0,1,0,0,0,0,0,1
@@ -324,7 +305,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 176,65,Female,176_left.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,0,1,0,0
 176,65,Female,176_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,0,1,0,0
 178,54,Male,178_left.jpg,dry age-related macular degeneration，glaucoma,0,0,1,0,1,0,0,0
-178,54,Male,178_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 178,54,Male,178_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 179,65,Female,179_right.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 179,65,Female,179_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
@@ -378,7 +358,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 209,67,Male,209_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 210,70,Male,210_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 210,70,Male,210_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-210,70,Male,210_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 211,60,Male,211_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 211,60,Male,211_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 212,67,Female,212_left.jpg,dry age-related macular degeneration，diabetic retinopathy,0,1,0,0,1,0,0,0
@@ -414,8 +393,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 229,63,Female,229_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 229,63,Female,229_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 230,56,Female,230_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-230,56,Female,230_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-230,56,Female,230_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 230,56,Female,230_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 231,60,Female,231_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 231,60,Female,231_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
@@ -427,14 +404,11 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 234,54,Male,234_left.jpg,diabetic retinopathy,0,1,0,0,0,0,0,0
 235,67,Male,235_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 235,67,Male,235_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-235,67,Male,235_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-235,67,Male,235_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 236,65,Male,236_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 237,55,Female,237_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 237,55,Female,237_right.jpg,maculopathy,0,0,0,0,0,0,0,1
 238,70,Male,238_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 238,70,Male,238_right.jpg,dry age-related macular degeneration，glaucoma,0,0,1,0,1,0,0,0
-238,70,Male,238_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 239,62,Male,239_right.jpg,drusen,0,0,0,0,0,0,0,1
 239,62,Male,239_left.jpg,drusen,0,0,0,0,0,0,0,1
 240,35,Male,240_right.jpg,drusen,0,0,0,0,0,0,0,1
@@ -442,8 +416,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 241,58,Male,241_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 242,38,Female,242_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 243,67,Male,243_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-243,67,Male,243_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-243,67,Male,243_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 243,67,Male,243_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 244,58,Male,244_left.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 244,58,Male,244_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -476,7 +448,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 259,50,Female,259_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 260,63,Female,260_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 260,63,Female,260_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-260,63,Female,260_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 261,71,Female,261_right.jpg,maculopathy,0,0,0,0,0,0,0,1
 262,65,Female,262_right.jpg,myelinated nerve fibers，moderate non proliferative retinopathy,0,1,0,0,0,0,0,1
 262,65,Female,262_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -485,11 +456,8 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 264,58,Male,264_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 264,58,Male,264_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 265,81,Male,265_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-265,81,Male,265_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-265,81,Male,265_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 265,81,Male,265_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 266,67,Male,266_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-266,67,Male,266_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 266,67,Male,266_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 267,59,Male,267_left.jpg,mild nonproliferative retinopathy，vitreous degeneration,0,1,0,0,0,0,0,1
 268,49,Female,268_left.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,0,0,0,1
@@ -537,8 +505,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 291,67,Male,291_right.jpg,moderate non proliferative retinopathy，myelinated nerve fibers,0,1,0,0,0,0,0,1
 291,67,Male,291_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 292,55,Male,292_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-292,55,Male,292_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-292,55,Male,292_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 292,55,Male,292_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 293,31,Male,293_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 294,69,Female,294_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -590,12 +556,9 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 318,68,Female,318_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 319,58,Female,319_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 319,58,Female,319_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-319,58,Female,319_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-319,58,Female,319_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 320,58,Female,320_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 321,54,Female,321_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 321,54,Female,321_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-321,54,Female,321_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 323,65,Male,323_left.jpg,hypertensive retinopathy，optic nerve atrophy,0,0,0,0,0,1,0,1
 323,65,Male,323_right.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 324,55,Male,324_right.jpg,moderate non proliferative retinopathy，laser spot，lens dust,0,1,0,0,0,0,0,1
@@ -615,8 +578,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 332,57,Female,332_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 333,45,Male,333_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 333,45,Male,333_left.jpg,normal fundus,1,0,0,0,0,0,0,0
-334,74,Female,334_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-334,74,Female,334_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 334,74,Female,334_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 334,74,Female,334_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 335,50,Female,335_left.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -666,8 +627,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 358,47,Male,358_left.jpg,mild nonproliferative retinopathy，drusen,0,1,0,0,0,0,0,1
 359,54,Male,359_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 359,54,Male,359_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-359,54,Male,359_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-359,54,Male,359_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 360,59,Female,360_left.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
 360,59,Female,360_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 361,59,Male,361_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -696,8 +655,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 376,58,Female,376_right.jpg,moderate non proliferative retinopathy，myelinated nerve fibers,0,1,0,0,0,0,0,1
 376,58,Female,376_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 377,48,Male,377_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-377,48,Male,377_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-377,48,Male,377_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 377,48,Male,377_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 378,54,Male,378_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 379,77,Female,379_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -757,7 +714,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 408,47,Female,408_left.jpg,epiretinal membrane over the macula,0,0,0,0,0,0,0,1
 410,53,Female,410_right.jpg,dry age-related macular degeneration，macular epiretinal membrane,0,0,0,0,1,0,0,1
 410,53,Female,410_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-410,53,Female,410_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 411,57,Male,411_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 411,57,Male,411_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 412,60,Female,412_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
@@ -773,8 +729,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 418,51,Female,418_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 419,57,Male,419_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 419,57,Male,419_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-419,57,Male,419_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-419,57,Male,419_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 420,63,Female,420_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 420,63,Female,420_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 421,42,Male,421_left.jpg,drusen,0,0,0,0,0,0,0,1
@@ -784,8 +738,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 423,70,Female,423_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 423,70,Female,423_right.jpg,branch retinal vein occlusion,0,0,0,0,0,0,0,1
 424,56,Male,424_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-424,56,Male,424_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-424,56,Male,424_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 424,56,Male,424_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 425,81,Female,425_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 425,81,Female,425_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
@@ -823,8 +775,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 446,54,Female,446_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 446,54,Female,446_right.jpg,moderate non proliferative retinopathy，epiretinal membrane over the macula,0,1,0,0,0,0,0,1
 447,56,Male,447_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-447,56,Male,447_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-447,56,Male,447_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 447,56,Male,447_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 448,68,Male,448_left.jpg,cataract,0,0,0,1,0,0,0,0
 448,68,Male,448_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -836,8 +786,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 454,60,Male,454_left.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
 454,60,Male,454_right.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
 455,67,Male,455_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-455,67,Male,455_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-455,67,Male,455_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 455,67,Male,455_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 456,71,Male,456_left.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 456,71,Male,456_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -937,11 +885,9 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 512,67,Female,512_left.jpg,mild nonproliferative retinopathy，epiretinal membrane,0,1,0,0,0,0,0,1
 512,67,Female,512_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 513,55,Female,513_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-513,55,Female,513_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 513,55,Female,513_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 514,67,Male,514_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 514,67,Male,514_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-514,67,Male,514_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 515,54,Female,515_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 515,54,Female,515_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 516,42,Male,516_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -974,8 +920,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 531,60,Female,531_right.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
 532,64,Female,532_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 532,64,Female,532_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-532,64,Female,532_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-532,64,Female,532_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 533,69,Male,533_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 533,69,Male,533_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 534,61,Female,534_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -1002,8 +946,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 546,30,Male,546_left.jpg,branch retinal vein occlusion,0,0,0,0,0,0,0,1
 547,69,Male,547_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 547,69,Male,547_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-547,69,Male,547_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-547,69,Male,547_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 548,59,Male,548_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 549,70,Female,549_left.jpg,moderate non proliferative retinopathy，white vessel,0,1,0,0,0,0,0,1
 549,70,Female,549_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -1037,10 +979,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 563,62,Female,563_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 564,53,Female,564_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 564,53,Female,564_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-564,53,Female,564_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-564,53,Female,564_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-565,59,Female,565_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-565,59,Female,565_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 565,59,Female,565_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 565,59,Female,565_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 566,60,Male,566_left.jpg,drusen,0,0,0,0,0,0,0,1
@@ -1055,8 +993,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 571,52,Female,571_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 572,74,Female,572_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 572,74,Female,572_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-572,74,Female,572_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-572,74,Female,572_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 573,53,Female,573_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 573,53,Female,573_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 574,52,Male,574_left.jpg,mild nonproliferative retinopathy，mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1108,7 +1044,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 602,63,Male,602_left.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 603,66,Female,603_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 603,66,Female,603_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-603,66,Female,603_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 604,56,Female,604_left.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,0,0,0,1
 604,56,Female,604_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,0,0,0,1
 605,52,Male,605_left.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,0,1,0,0
@@ -1118,11 +1053,8 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 607,59,Male,607_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 608,55,Male,608_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 608,55,Male,608_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-608,55,Male,608_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-608,55,Male,608_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 609,60,Female,609_left.jpg,mild nonproliferative retinopathy，epiretinal membrane,0,1,0,0,0,0,0,1
 609,60,Female,609_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
-610,59,Female,610_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 610,59,Female,610_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 610,59,Female,610_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 611,73,Male,611_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
@@ -1132,10 +1064,7 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 613,54,Male,613_left.jpg,myelinated nerve fibers,0,0,0,0,0,0,0,1
 614,44,Male,614_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 614,44,Male,614_right.jpg,normal fundus,1,0,0,0,0,0,0,0
-614,44,Male,614_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 615,60,Male,615_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-615,60,Male,615_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-615,60,Male,615_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 615,60,Male,615_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 616,45,Female,616_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 616,45,Female,616_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1173,7 +1102,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 636,61,Female,636_right.jpg,drusen，epiretinal membrane,0,0,0,0,0,0,0,1
 636,61,Female,636_left.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 638,52,Male,638_right.jpg,normal fundus,1,0,0,0,0,0,0,0
-638,52,Male,638_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 638,52,Male,638_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 639,56,Female,639_right.jpg,drusen,0,0,0,0,0,0,0,1
 639,56,Female,639_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1248,8 +1176,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 680,69,Female,680_left.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
 680,69,Female,680_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 681,56,Male,681_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-681,56,Male,681_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-681,56,Male,681_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 681,56,Male,681_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 682,65,Female,682_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 682,65,Female,682_right.jpg,macular epiretinal membrane，mild nonproliferative retinopathy,0,1,0,0,0,0,0,1
@@ -1322,8 +1248,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 718,52,Male,718_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 719,59,Female,719_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 719,59,Female,719_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-719,59,Female,719_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-719,59,Female,719_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 720,58,Male,720_right.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 721,55,Male,721_left.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
 722,64,Male,722_right.jpg,pathological myopia,0,0,0,0,0,0,1,0
@@ -1399,8 +1323,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 760,56,Female,760_left.jpg,pathological myopia,0,0,0,0,0,0,1,0
 761,56,Female,761_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 761,56,Female,761_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-761,56,Female,761_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-761,56,Female,761_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 762,56,Male,762_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 763,59,Male,763_right.jpg,moderate non proliferative retinopathy，atrophic change,0,1,0,0,0,0,0,1
 763,59,Male,763_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1452,7 +1374,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 787,60,Female,787_left.jpg,myelinated nerve fibers，moderate non proliferative retinopathy,0,1,0,0,0,0,0,1
 788,48,Male,788_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 788,48,Male,788_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-788,48,Male,788_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 789,65,Female,789_right.jpg,branch retinal vein occlusion,0,0,0,0,0,0,0,1
 789,65,Female,789_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 790,61,Male,790_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
@@ -1496,8 +1417,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 813,65,Male,813_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 814,76,Male,814_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 815,56,Female,815_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-815,56,Female,815_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-815,56,Female,815_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 815,56,Female,815_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 816,64,Male,816_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 817,53,Male,817_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1508,8 +1427,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 820,82,Female,820_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 821,60,Female,821_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 821,60,Female,821_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-821,60,Female,821_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-821,60,Female,821_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 822,59,Male,822_right.jpg,myelinated nerve fibers,0,0,0,0,0,0,0,1
 822,59,Male,822_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 824,74,Female,824_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -1555,16 +1472,12 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 850,68,Male,850_right.jpg,macular epiretinal membrane，moderate non proliferative retinopathy,0,1,0,0,0,0,0,1
 852,67,Female,852_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 852,67,Female,852_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-852,67,Female,852_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-852,67,Female,852_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 853,30,Male,853_left.jpg,maculopathy,0,0,0,0,0,0,0,1
 853,30,Male,853_right.jpg,maculopathy,0,0,0,0,0,0,0,1
 854,74,Male,854_right.jpg,myelinated nerve fibers,0,0,0,0,0,0,0,1
 854,74,Male,854_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 855,55,Female,855_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 855,55,Female,855_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-855,55,Female,855_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-855,55,Female,855_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 856,46,Male,856_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 856,46,Male,856_left.jpg,myelinated nerve fibers,0,0,0,0,0,0,0,1
 857,63,Male,857_left.jpg,macular epiretinal membrane，moderate non proliferative retinopathy,0,1,0,0,0,0,0,1
@@ -1591,8 +1504,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 869,40,Male,869_right.jpg,branch retinal vein occlusion,0,0,0,0,0,0,0,1
 870,69,Male,870_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 870,69,Male,870_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-870,69,Male,870_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-870,69,Male,870_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 871,70,Female,871_right.jpg,refractive media opacity,0,0,0,0,0,0,0,1
 871,70,Female,871_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 872,64,Female,872_left.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
@@ -1602,7 +1513,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 874,60,Female,874_left.jpg,cataract，moderate non proliferative retinopathy,0,1,0,1,0,0,0,0
 874,60,Female,874_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 875,63,Female,875_right.jpg,normal fundus,1,0,0,0,0,0,0,0
-875,63,Female,875_left.jpg,epiretinal membrane，normal fundus，lens dust,0,0,0,0,0,0,0,1
 875,63,Female,875_left.jpg,epiretinal membrane，normal fundus，lens dust,0,0,0,0,0,0,0,1
 876,71,Male,876_left.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 876,71,Male,876_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
@@ -1621,19 +1531,13 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 884,60,Female,884_left.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 884,60,Female,884_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 885,54,Male,885_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-885,54,Male,885_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 885,54,Male,885_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 886,65,Female,886_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 886,65,Female,886_left.jpg,refractive media opacity,0,0,0,0,0,0,0,1
-886,65,Female,886_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 887,63,Female,887_left.jpg,macular epiretinal membrane，laser spot,0,0,0,0,0,0,0,1
 888,56,Male,888_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 888,56,Male,888_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-888,56,Male,888_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-888,56,Male,888_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 889,58,Female,889_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-889,58,Female,889_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-889,58,Female,889_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 889,58,Female,889_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 890,48,Female,890_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 890,48,Female,890_right.jpg,moderate non proliferative retinopathy，myelinated nerve fibers,0,1,0,0,0,0,0,1
@@ -1673,8 +1577,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 909,48,Male,909_left.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 910,62,Male,910_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 910,62,Male,910_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-910,62,Male,910_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-910,62,Male,910_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 911,60,Female,911_left.jpg,macular epiretinal membrane，moderate non proliferative retinopathy,0,1,0,0,0,0,0,1
 911,60,Female,911_right.jpg,macular epiretinal membrane，moderate non proliferative retinopathy,0,1,0,0,0,0,0,1
 912,74,Male,912_right.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -1706,7 +1608,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 926,44,Female,926_right.jpg,moderate non proliferative retinopathy，optic disc edema,0,1,0,0,0,0,0,1
 927,66,Male,927_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 927,66,Male,927_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-927,66,Male,927_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 928,45,Female,928_right.jpg,drusen,0,0,0,0,0,0,0,1
 928,45,Female,928_left.jpg,drusen,0,0,0,0,0,0,0,1
 929,55,Male,929_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1764,8 +1665,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 960,55,Male,960_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 960,55,Male,960_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 961,72,Male,961_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-961,72,Male,961_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-961,72,Male,961_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 961,72,Male,961_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 962,68,Female,962_left.jpg,drusen，mild nonproliferative retinopathy,0,1,0,0,0,0,0,1
 962,68,Female,962_right.jpg,drusen,0,0,0,0,0,0,0,1
@@ -1783,8 +1682,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 970,56,Female,970_right.jpg,cataract,0,0,0,1,0,0,0,0
 970,56,Female,970_left.jpg,cataract，moderate non proliferative retinopathy,0,1,0,1,0,0,0,0
 971,56,Male,971_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-971,56,Male,971_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-971,56,Male,971_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 971,56,Male,971_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 972,53,Male,972_right.jpg,mild nonproliferative retinopathy，vitreous degeneration,0,1,0,0,0,0,0,1
 972,53,Male,972_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1816,8 +1713,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 990,41,Female,990_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 991,56,Male,991_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 992,53,Female,992_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-992,53,Female,992_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-992,53,Female,992_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 992,53,Female,992_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 993,69,Male,993_right.jpg,macular epiretinal membrane，laser spot，lens dust，mild nonproliferative retinopathy,0,1,0,0,0,0,0,1
 994,65,Female,994_left.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -1878,7 +1773,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1041,71,Female,1041_right.jpg,myelinated nerve fibers,0,0,0,0,0,0,0,1
 1041,71,Female,1041_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1043,57,Female,1043_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1043,57,Female,1043_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1043,57,Female,1043_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1045,51,Male,1045_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 1045,51,Male,1045_right.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
@@ -1906,9 +1800,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1062,61,Female,1062_right.jpg,cataract,0,0,0,1,0,0,0,0
 1064,61,Male,1064_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1064,61,Male,1064_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1064,61,Male,1064_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1064,61,Male,1064_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1065,75,Male,1065_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1065,75,Male,1065_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1066,62,Male,1066_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 1068,59,Male,1068_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -1936,8 +1827,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1084,60,Male,1084_right.jpg,cataract，mild nonproliferative retinopathy,0,1,0,1,0,0,0,0
 1085,32,Male,1085_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1085,32,Male,1085_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1085,32,Male,1085_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1085,32,Male,1085_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1086,62,Male,1086_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 1086,62,Male,1086_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1089,56,Female,1089_left.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -1945,8 +1834,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1090,55,Male,1090_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 1091,70,Female,1091_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1091,70,Female,1091_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1091,70,Female,1091_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1091,70,Female,1091_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1092,68,Female,1092_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1092,68,Female,1092_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 1093,53,Male,1093_left.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
@@ -1958,8 +1845,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1097,59,Male,1097_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 1097,59,Male,1097_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1098,66,Male,1098_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1098,66,Male,1098_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1098,66,Male,1098_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1098,66,Male,1098_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1099,57,Female,1099_left.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 1099,57,Female,1099_right.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
@@ -1969,15 +1854,11 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1103,29,Male,1103_right.jpg,pathological myopia,0,0,0,0,0,0,1,0
 1104,66,Female,1104_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1104,66,Female,1104_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1104,66,Female,1104_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1104,66,Female,1104_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1106,64,Male,1106_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 1106,64,Male,1106_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 1109,60,Male,1109_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1109,60,Male,1109_right.jpg,maculopathy,0,0,0,0,0,0,0,1
 1111,65,Female,1111_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1111,65,Female,1111_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1111,65,Female,1111_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1111,65,Female,1111_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1113,56,Female,1113_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0,0,0,0
 1113,56,Female,1113_left.jpg,normal fundus,1,0,0,0,0,0,0,0
@@ -2000,8 +1881,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1123,51,Female,1123_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1124,63,Male,1124_left.jpg,vitreous degeneration,0,0,0,0,0,0,0,1
 1124,63,Male,1124_right.jpg,normal fundus,1,0,0,0,0,0,0,0
-1125,37,Female,1125_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1125,37,Female,1125_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1125,37,Female,1125_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1125,37,Female,1125_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1126,64,Female,1126_right.jpg,cataract,0,0,0,1,0,0,0,0
@@ -2039,8 +1918,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1153,65,Female,1153_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 1153,65,Female,1153_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0,0,0,0
 1154,43,Female,1154_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1154,43,Female,1154_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1154,43,Female,1154_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1154,43,Female,1154_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1156,65,Male,1156_left.jpg,drusen,0,0,0,0,0,0,0,1
 1157,68,Male,1157_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -2080,19 +1957,14 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1195,62,Female,1195_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 1195,62,Female,1195_left.jpg,macular epiretinal membrane,0,0,0,0,0,0,0,1
 1196,67,Male,1196_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1196,67,Male,1196_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1196,67,Male,1196_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1196,67,Male,1196_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1197,54,Female,1197_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1197,54,Female,1197_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1197,54,Female,1197_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1197,54,Female,1197_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1198,44,Female,1198_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 1198,44,Female,1198_left.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 1200,55,Female,1200_right.jpg,epiretinal membrane,0,0,0,0,0,0,0,1
 1200,55,Female,1200_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1202,42,Female,1202_left.jpg,dry age-related macular degeneration，choroidal nevus,0,0,0,0,1,0,0,1
-1202,42,Female,1202_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1202,42,Female,1202_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1205,58,Female,1205_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 1205,58,Female,1205_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
@@ -2235,7 +2107,6 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1294,73,Male,1294_right.jpg,glaucoma,0,0,1,0,0,0,0,0
 1295,64,Female,1295_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1295,64,Female,1295_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-1295,64,Female,1295_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1296,60,Female,1296_right.jpg,refractive media opacity,0,0,0,0,0,0,0,1
 1296,60,Female,1296_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1297,70,Male,1297_right.jpg,glaucoma,0,0,1,0,0,0,0,0
@@ -2686,84 +2557,46 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1718,65,Male,1718_left.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,0,0,0,1
 1731,72,Female,1731_left.jpg,pathological myopia,0,0,0,0,0,0,1,0
 1799,72,Female,1799_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1799,72,Female,1799_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1801,61,Female,1801_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1801,61,Female,1801_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1817,51,Female,1817_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1817,51,Female,1817_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1817,51,Female,1817_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1817,51,Female,1817_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1819,80,Male,1819_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1819,80,Male,1819_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1819,80,Male,1819_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1819,80,Male,1819_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1820,65,Male,1820_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1820,65,Male,1820_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1820,65,Male,1820_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1820,65,Male,1820_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1829,1,Female,1829_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1829,1,Female,1829_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1829,1,Female,1829_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1829,1,Female,1829_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1830,54,Female,1830_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1830,54,Female,1830_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1830,54,Female,1830_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1830,54,Female,1830_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1831,68,Male,1831_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1831,68,Male,1831_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1831,68,Male,1831_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1831,68,Male,1831_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1833,65,Female,1833_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 1833,65,Female,1833_right.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 1834,60,Female,1834_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1834,60,Female,1834_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1834,60,Female,1834_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1834,60,Female,1834_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1835,64,Female,1835_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1835,64,Female,1835_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1835,64,Female,1835_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1835,64,Female,1835_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1836,45,Female,1836_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1836,45,Female,1836_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1836,45,Female,1836_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1836,45,Female,1836_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1837,49,Male,1837_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1837,49,Male,1837_left.jpg,normal fundus,1,0,0,0,0,0,0,0
-1837,49,Male,1837_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1838,62,Male,1838_right.jpg,diabetic retinopathy,0,1,0,0,0,0,0,0
 1840,61,Male,1840_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1840,61,Male,1840_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1840,61,Male,1840_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1840,61,Male,1840_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1841,68,Male,1841_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1841,68,Male,1841_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1841,68,Male,1841_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1841,68,Male,1841_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1843,79,Female,1843_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1843,79,Female,1843_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1843,79,Female,1843_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1843,79,Female,1843_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1844,67,Male,1844_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1844,67,Male,1844_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1844,67,Male,1844_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1844,67,Male,1844_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1845,55,Male,1845_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1845,55,Male,1845_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1845,55,Male,1845_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1845,55,Male,1845_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1846,73,Female,1846_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1846,73,Female,1846_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1846,73,Female,1846_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1846,73,Female,1846_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1847,61,Female,1847_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1847,61,Female,1847_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1847,61,Female,1847_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1847,61,Female,1847_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1850,65,Female,1850_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1850,65,Female,1850_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1850,65,Female,1850_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1850,65,Female,1850_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1853,48,Male,1853_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1853,48,Male,1853_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1853,48,Male,1853_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 1854,83,Male,1854_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
@@ -2772,80 +2605,53 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 1856,84,Female,1856_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1857,66,Male,1857_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1857,66,Male,1857_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-1857,66,Male,1857_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1859,59,Male,1859_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1859,59,Male,1859_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-1859,59,Male,1859_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1862,67,Female,1862_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1862,67,Female,1862_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1862,67,Female,1862_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1862,67,Female,1862_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1865,65,Male,1865_right.jpg,refractive media opacity,0,0,0,0,0,0,0,1
 1867,64,Male,1867_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 1867,64,Male,1867_right.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 1868,63,Male,1868_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1868,63,Male,1868_left.jpg,normal fundus,1,0,0,0,0,0,0,0
-1868,63,Male,1868_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1869,75,Male,1869_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1869,75,Male,1869_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1869,75,Male,1869_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1869,75,Male,1869_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1872,63,Male,1872_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1872,63,Male,1872_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1872,63,Male,1872_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1872,63,Male,1872_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1873,66,Male,1873_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1873,66,Male,1873_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-1874,87,Male,1874_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1874,87,Male,1874_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1874,87,Male,1874_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1876,62,Male,1876_left.jpg,normal fundus,1,0,0,0,0,0,0,0
 1876,62,Male,1876_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1877,64,Male,1877_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1877,64,Male,1877_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1877,64,Male,1877_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1877,64,Male,1877_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1878,63,Female,1878_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1878,63,Female,1878_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1878,63,Female,1878_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1878,63,Female,1878_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1879,68,Male,1879_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1879,68,Male,1879_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1879,68,Male,1879_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1879,68,Male,1879_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1880,68,Male,1880_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1880,68,Male,1880_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
-1880,68,Male,1880_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1881,67,Female,1881_left.jpg,dry age-related macular degeneration，glaucoma,0,0,1,0,1,0,0,0
 1881,67,Female,1881_right.jpg,dry age-related macular degeneration，glaucoma,0,0,1,0,1,0,0,0
 1884,78,Female,1884_left.jpg,refractive media opacity,0,0,0,0,0,0,0,1
 1884,78,Female,1884_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1885,66,Male,1885_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1885,66,Male,1885_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1885,66,Male,1885_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1886,74,Female,1886_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1886,74,Female,1886_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1886,74,Female,1886_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1886,74,Female,1886_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1889,45,Male,1889_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1889,45,Male,1889_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1889,45,Male,1889_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1889,45,Male,1889_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1890,55,Female,1890_left.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1890,55,Female,1890_right.jpg,normal fundus,1,0,0,0,0,0,0,0
 1891,64,Male,1891_left.jpg,drusen,0,0,0,0,0,0,0,1
 1891,64,Male,1891_right.jpg,wet age-related macular degeneration,0,0,0,0,1,0,0,0
 1892,69,Female,1892_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1892,69,Female,1892_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1892,69,Female,1892_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1892,69,Female,1892_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1893,67,Female,1893_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1893,67,Female,1893_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1893,67,Female,1893_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-1893,67,Female,1893_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1919,50,Male,1919_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1919,50,Male,1919_left.jpg,refractive media opacity,0,0,0,0,0,0,0,1
-1919,50,Male,1919_right.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 1942,52,Male,1942_right.jpg,diabetic retinopathy，dry age-related macular degeneration,0,1,0,0,1,0,0,0
 1942,52,Male,1942_left.jpg,diabetic retinopathy，dry age-related macular degeneration,0,1,0,0,1,0,0,0
 1959,54,Male,1959_left.jpg,glaucoma,0,0,1,0,0,0,0,0
@@ -2892,19 +2698,16 @@ ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,G,C,A,H,M,O
 2032,48,Male,2032_right.jpg,moderate non proliferative retinopathy，suspected glaucoma,0,1,1,0,0,0,0,0
 2032,48,Male,2032_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0,0,0,0
 2034,63,Male,2034_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-2034,63,Male,2034_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 2041,55,Female,2041_left.jpg,glaucoma，wet age-related macular degeneration,0,0,1,0,1,0,0,1
 2048,63,Male,2048_left.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
 2048,63,Male,2048_right.jpg,glaucoma，old central retinal vein occlusion,0,0,1,0,0,0,0,1
 2052,62,Male,2052_left.jpg,hypertensive retinopathy，cataract,0,0,0,1,0,1,0,0
 2052,62,Male,2052_right.jpg,hypertensive retinopathy，cataract,0,0,0,1,0,1,0,0
 2053,47,Male,2053_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
-2053,47,Male,2053_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 2063,77,Male,2063_left.jpg,glaucoma，lens dust,0,0,1,0,0,0,0,0
 2063,77,Male,2063_right.jpg,glaucoma，moderate non proliferative retinopathy，laser spot,0,1,1,0,0,0,0,1
 2064,56,Female,2064_right.jpg,hypertensive retinopathy，diabetic retinopathy,0,1,0,0,0,1,0,0
 2064,56,Female,2064_left.jpg,hypertensive retinopathy，diabetic retinopathy,0,1,0,0,0,1,0,0
-2065,58,Male,2065_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 2065,58,Male,2065_left.jpg,dry age-related macular degeneration,0,0,0,0,1,0,0,0
 2065,58,Male,2065_right.jpg,myelinated nerve fibers,0,0,0,0,0,0,0,1
 2066,52,Male,2066_right.jpg,hypertensive retinopathy,0,0,0,0,0,1,0,0
