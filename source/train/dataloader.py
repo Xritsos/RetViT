@@ -38,5 +38,7 @@ class CustomImageDataset(Dataset):
         image_tensor = torch.tensor(np.array(image))
         image_tensor = torch.permute(image_tensor, (2, 0, 1))
         
+        # this return dictionary is returned in the collate_fn function
+        # this might be useless and should be removed ?
         return {"img": image, "label": label, "pixel_values": image_tensor}
     
