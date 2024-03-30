@@ -149,9 +149,14 @@ def collate_fn(examples):
 train_batch_size = 2
 eval_batch_size = 2
 
-train_dataloader = DataLoader(train_ds, shuffle=True, collate_fn=collate_fn, batch_size=train_batch_size)
-val_dataloader = DataLoader(val_ds, collate_fn=collate_fn, batch_size=eval_batch_size)
-test_dataloader = DataLoader(test_ds, collate_fn=collate_fn, batch_size=eval_batch_size)
+train_dataloader = DataLoader(train_ds, shuffle=True, collate_fn=collate_fn, batch_size=train_batch_size,
+                              num_workers=7)
+
+val_dataloader = DataLoader(val_ds, collate_fn=collate_fn, batch_size=eval_batch_size,
+                            num_workers=7)
+
+test_dataloader = DataLoader(test_ds, collate_fn=collate_fn, batch_size=eval_batch_size,
+                             num_workers=7)
 
 print(f"train_dataloader type: {type(train_dataloader)}")
 
@@ -177,7 +182,9 @@ early_stop_callback = EarlyStopping(
 )
 
 model = ViTLightningModule()
-trainer = Trainer(accelerator='gpu', callbacks=[EarlyStopping(monitor='validation_loss')])
+trainer = Trainer(accelerator='gpu', max_epochs=1, 
+                  callbacks=[EarlyStopping(monitor='validation_loss')])
+
 trainer.fit(model)
 
 print()
