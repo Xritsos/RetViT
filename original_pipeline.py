@@ -10,19 +10,17 @@ train_ds = splits['train']
 val_ds = splits['test']
 
 id2label = {id:label for id, label in enumerate(train_ds.features['label'].names)}
-
-print(id2label)
-
 label2id = {label:id for id,label in id2label.items()}
-print(label2id)
-exit()
 
-from transformers import ViTImageProcessor
+from transformers import AutoImageProcessor
 
-processor = ViTImageProcessor.from_pretrained("google/vit-base-patch16-224-in21k")
+processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+print(processor)
 image_mean = processor.image_mean
 image_std = processor.image_std
 size = processor.size["height"]
+print(size)
+# size = 
 
 from torchvision.transforms import (CenterCrop, 
                                     Compose, 
@@ -33,9 +31,19 @@ from torchvision.transforms import (CenterCrop,
                                     ToTensor)
 
 normalize = Normalize(mean=image_mean, std=image_std)
+
+if "height" in processor.size:
+    size = (processor.size["height"], processor.size["width"])
+    crop_size = size
+    max_size = None
+elif "shortest_edge" in processor.size:
+    size = processor.size["shortest_edge"]
+    crop_size = (size, size)
+    max_size = processor.size.get("longest_edge")
+    
 _train_transforms = Compose(
         [
-            RandomResizedCrop(size),
+            RandomResizedCrop(crop_size),
             RandomHorizontalFlip(),
             ToTensor(),
             normalize,
@@ -45,15 +53,15 @@ _train_transforms = Compose(
 _val_transforms = Compose(
         [
             Resize(size),
-            CenterCrop(size),
+            CenterCrop(crop_size),
             ToTensor(),
             normalize,
         ]
     )
 
 def train_transforms(examples):
-    print(f"Examples type: {type(examples)}")
-    print(f"Image type: {type(examples['img'][0])}")
+    # print(f"Examples type: {type(examples)}")
+    # print(f"Image type: {type(examples['img'][0])}")
     
     examples['pixel_values'] = [_train_transforms(image.convert("RGB")) for image in examples['img']]
     return examples
@@ -74,6 +82,7 @@ import torch
 def collate_fn(examples):
     pixel_values = torch.stack([example["pixel_values"] for example in examples])
     labels = torch.tensor([example["label"] for example in examples])
+    
     return {"pixel_values": pixel_values, "labels": labels}
 
 train_batch_size = 2
@@ -98,16 +107,17 @@ next(iter(val_dataloader))['pixel_values'].shape
 
 
 import pytorch_lightning as pl
-from transformers import ViTForImageClassification, AdamW
+from transformers import AutoModelForImageClassification, AdamW
 import torch.nn as nn
 
 class ViTLightningModule(pl.LightningModule):
     def __init__(self, num_labels=10):
         super(ViTLightningModule, self).__init__()
-        self.vit = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224-in21k',
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
                                                               num_labels=10,
                                                               id2label=id2label,
-                                                              label2id=label2id)
+                                                              label2id=label2id,
+                                                              ignore_mismatched_sizes=True)
 
     def forward(self, pixel_values):
         outputs = self.vit(pixel_values=pixel_values)
@@ -131,14 +141,14 @@ class ViTLightningModule(pl.LightningModule):
         # logs metrics for each training_step,
         # and the average across the epoch
         self.log("training_loss", loss)
-        self.log("training_accuracy", accuracy)
+        self.log("training_accuracy", accuracy, on_epoch=True, prog_bar=True)
 
         return loss
     
     def validation_step(self, batch, batch_idx):
         loss, accuracy = self.common_step(batch, batch_idx)     
         self.log("validation_loss", loss, on_epoch=True)
-        self.log("validation_accuracy", accuracy, on_epoch=True)
+        self.log("validation_accuracy", accuracy, on_epoch=True, prog_bar=True)
 
         return loss
 
