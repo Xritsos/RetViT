@@ -1,10 +1,11 @@
 ********** Priority ***********
-Tsoumakas access to Aristotelis
+Tsoumakas access to Aristotelis - Done
 *******************************
 
 1) multilabel data stratification/split
 
-2) run pipeline for binary classification
+2) run pipeline for binary classification - Done
 
-3) run pipeline for multilabel classification
+3) run pipeline for multilabel classification - Done
 
+4) add random_seeds for reproducibility - Done
