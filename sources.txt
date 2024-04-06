@@ -1,0 +1,15 @@
+##################### Papers ##############################
+1)
+
+
+
+
+###########################################################
+
+
+********************** Code *******************************
+1) https://github.com/NielsRogge/Transformers-Tutorials/blob/master/VisionTransformer/Fine_tuning_the_Vision_Transformer_on_CIFAR_10_with_PyTorch_Lightning.ipynb
+
+
+
+***********************************************************
