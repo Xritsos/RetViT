@@ -17,6 +17,7 @@ class CustomImageDataset(Dataset):
         self.data_frame = pd.read_csv(csv_file)
         self.root_dir = root_dir
         self.transform = transform
+        self.label_names = ["N", "D", "G", "C", "A", "H", "M", "O"]
 
     def __len__(self):
         return len(self.data_frame)
@@ -24,12 +25,17 @@ class CustomImageDataset(Dataset):
     def __getitem__(self, idx):
         img_name = os.path.join(self.root_dir, self.data_frame.iloc[idx, 3])
         image = Image.open(img_name)
-        label = self.data_frame.at[idx, 'N']
-        # print("================")
-        # print(type(label))
-        # print(label)
-        # input()
+        label = []
         
+        for name in self.label_names:
+            if self.data_frame.at[idx, name] == 1:
+                label.append(1)
+            else:
+                label.append(0)
+                
+        label = torch.tensor(label)
+                
+        # label = self.data_frame.at[idx, 'N']
         
         # Apply your preprocessing pipeline
         if self.transform:
