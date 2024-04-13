@@ -23,6 +23,10 @@ import pytorch_lightning as pl
 from transformers import AutoModelForImageClassification, AdamW
 import torch.nn as nn
 
+seed_value = 42
+torch.manual_seed(seed_value)
+
+
 class ViTLightningModule(pl.LightningModule):
     def __init__(self, num_labels=10):
         super(ViTLightningModule, self).__init__()
@@ -167,8 +171,8 @@ def collate_fn(examples):
     
     return {"pixel_values": pixel_values, "labels": labels}
 
-train_batch_size = 10
-eval_batch_size = 10
+train_batch_size = 32
+eval_batch_size = 32
 
 train_dataloader = DataLoader(train_ds, shuffle=True, collate_fn=collate_fn, batch_size=train_batch_size,
                               num_workers=4)
@@ -196,14 +200,14 @@ for k,v in batch.items():
 # for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
 early_stop_callback = EarlyStopping(
     monitor='val_loss',
-    patience=3,
+    patience=20,
     strict=False,
     verbose=False,
     mode='min'
 )
 
 model = ViTLightningModule()
-trainer = Trainer(accelerator='gpu', max_epochs=3, 
+trainer = Trainer(accelerator='gpu', max_epochs=20,
                   callbacks=[EarlyStopping(monitor='validation_loss')])
 
 trainer.fit(model)
