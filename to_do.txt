@@ -18,4 +18,4 @@ Tsoumakas access to Aristotelis - Done
 
 8) Change the head classifier (perhaps according to paper)
 
-9) Tune the fuck out of it
+9) Tune it
