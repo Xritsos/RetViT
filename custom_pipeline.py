@@ -14,6 +14,7 @@ import pandas as pd
 
 import pytorch_lightning as pl
 from transformers import AutoModelForImageClassification, AdamW
+from transformers import SwinConfig, ViTForImageClassification
 import torch.nn as nn
 from source import utils
 
@@ -27,7 +28,7 @@ learning_rate, weight_decay, batch_size, early_stopping_patience, num_epochs, cr
 class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
+        self.vit = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224-in21k',
                                                               num_labels=8,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
