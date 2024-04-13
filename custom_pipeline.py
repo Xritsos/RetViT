@@ -10,8 +10,6 @@ from torchmetrics.classification import MultilabelF1Score
 
 import pandas as pd
 
-# from model import ViTLightningModule
-
 import pytorch_lightning as pl
 from transformers import AutoModelForImageClassification, AdamW
 from transformers import SwinConfig, ViTForImageClassification
@@ -29,18 +27,18 @@ learning_rate, weight_decay, batch_size, early_stopping_patience, num_epochs, cr
 class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
+
+        # self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
                                                               num_labels=8,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
                                                               label2id=label2id,
                                                               ignore_mismatched_sizes=True)
 
-
         for param in self.vit.parameters():
             param.requires_grad = False
 
-        # Unfreeze head layers
         for param in self.vit.classifier.parameters():
             param.requires_grad = True
 
@@ -57,7 +55,6 @@ class ViTLightningModule(pl.LightningModule):
         logits = self(pixel_values)
 
         loss = criterion(logits, labels.float())
-        # predictions = logits.argmax(-1) # for cross entropy
 
         probabilities = torch.sigmoid(logits)
         predicted_labels = (probabilities > 0.5).float()

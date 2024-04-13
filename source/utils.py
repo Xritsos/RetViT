@@ -13,7 +13,8 @@ import torch
 
 
 # prepare images for inference
-processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
+# processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
+processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
 image_mean = processor.image_mean
 image_std = processor.image_std
 
@@ -40,7 +41,9 @@ def get_params(config_path):
     batch_size = int(config.loc[0, 'batch_size'])
     early_stopping_patience = int(config.loc[0, 'early_stopping_patience'])
     num_epochs = int(config.loc[0, 'num_epochs'])
-    criterion = nn.BCEWithLogitsLoss()
+
+    class_weights = torch.tensor([0.2, 0.5, 0.4, 0.3, 0.9, 0.2, 0.0, 1.0], dtype=torch.float).to('cuda')
+    criterion = nn.BCEWithLogitsLoss(weight=class_weights)
 
     return learning_rate, weight_decay, batch_size, early_stopping_patience, num_epochs, criterion
 

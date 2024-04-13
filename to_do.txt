@@ -10,12 +10,16 @@ Tsoumakas access to Aristotelis - Done
 
 4) add random_seeds for reproducibility - Done
 
-5) Refine the code structure
+5) Refine the code structure - visualization sto training
 
 6) Check the head layer of the current model
 
-7) Check the paper's encoder
-
-8) Change the head classifier (perhaps according to paper)
+8) Change the head classifier (exists in my mind)
 
 9) Tune it
+
+10) Plot data distributions
+
+11) Configure weights - or resampling techniques
+
+12) Brainstorm
