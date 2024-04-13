@@ -13,7 +13,7 @@ import torch
 
 
 # prepare images for inference
-processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
 image_mean = processor.image_mean
 image_std = processor.image_std
 

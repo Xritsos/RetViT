@@ -25,15 +25,24 @@ config_path = "configuration/config.csv"
 
 learning_rate, weight_decay, batch_size, early_stopping_patience, num_epochs, criterion = utils.get_params(config_path)
 
+
 class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
-        self.vit = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224-in21k',
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
                                                               num_labels=8,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
                                                               label2id=label2id,
                                                               ignore_mismatched_sizes=True)
+
+
+        for param in self.vit.parameters():
+            param.requires_grad = False
+
+        # Unfreeze head layers
+        for param in self.vit.classifier.parameters():
+            param.requires_grad = True
 
     # add this above for the multilabel case, plus more params values for multilabel
     #  problem_type="multi_label_classification",
