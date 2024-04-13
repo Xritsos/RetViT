@@ -21,7 +21,9 @@ from source.train.dataloader import CustomImageDataset
 
 import pytorch_lightning as pl
 from transformers import AutoModelForImageClassification, AdamW
+from transformers import SwinConfig, ViTForImageClassification
 import torch.nn as nn
+from torchsummary import summary
 
 seed_value = 42
 torch.manual_seed(seed_value)
@@ -37,13 +39,13 @@ def configure_hyperparams():
 class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
+        self.vit = ViTForImageClassification.from_pretrained('google/vit-base-patch16-224-in21k',
                                                               num_labels=8,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
                                                               label2id=label2id,
                                                               ignore_mismatched_sizes=True)
-        
+
     # add this above for the multilabel case, plus more params values for multilabel                                  
     #  problem_type="multi_label_classification",
 
@@ -140,7 +142,7 @@ id2label = {0: "N", 1: "D", 2: "G", 3: "C", 4: "A", 5: "H", 6: "M", 7: "O"}
 label2id = {label:id for id, label in id2label.items()}
 
 # prepare images for inference
-processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224-in21k")
 image_mean = processor.image_mean
 image_std = processor.image_std
 # size = processor.size["height"]
