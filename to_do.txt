@@ -1,10 +1,21 @@
 ********** Priority ***********
-Tsoumakas access to Aristotelis
+Tsoumakas access to Aristotelis - Done
 *******************************
 
 1) multilabel data stratification/split
 
-2) run pipeline for binary classification
+2) run pipeline for binary classification - Done
 
-3) run pipeline for multilabel classification
+3) run pipeline for multilabel classification - Done
 
+4) add random_seeds for reproducibility - Done
+
+5) Refine the code structure
+
+6) Check the head layer of the current model
+
+7) Check the paper's encoder
+
+8) Change the head classifier (perhaps according to paper)
+
+9) Tune it

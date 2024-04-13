@@ -23,8 +23,19 @@ import pytorch_lightning as pl
 from transformers import AutoModelForImageClassification, AdamW
 import torch.nn as nn
 
+seed_value = 42
+torch.manual_seed(seed_value)
+
+def configure_hyperparams():
+    criterion = nn.BCEWithLogitsLoss()
+    optimizer = torch.optim.AdamW(self.parameters(), lr=1e-4, weight_decay=0.02)
+    batch_size = batch_size
+    early_stopping_patience = patience
+    num_epochs = epochs
+
+
 class ViTLightningModule(pl.LightningModule):
-    def __init__(self, num_labels=10):
+    def __init__(self):
         super(ViTLightningModule, self).__init__()
         self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
                                                               num_labels=8,
@@ -48,11 +59,14 @@ class ViTLightningModule(pl.LightningModule):
         criterion = nn.BCEWithLogitsLoss()
         loss = criterion(logits, labels.float())
         # predictions = logits.argmax(-1) # for cross entropy
-        predictions = logits
-        correct = (predictions == labels).sum().item()
+
+        probabilities = torch.sigmoid(logits)
+        predicted_labels = (probabilities > 0.5).float()
+
+        correct = (predicted_labels == labels).sum().item()
         accuracy = correct/pixel_values.shape[0]
         f1 = MultilabelF1Score(num_labels=8, average='weighted').to(device)
-        f1 = f1(predictions, labels)
+        f1 = f1(predicted_labels, labels)
 
         return loss, accuracy, f1
       
@@ -82,7 +96,7 @@ class ViTLightningModule(pl.LightningModule):
     def configure_optimizers(self):
         # We could make the optimizer more fancy by adding a scheduler and specifying which parameters do
         # not require weight_decay but just using AdamW out-of-the-box works fine
-        return torch.optim.AdamW(self.parameters(), lr=5e-5)
+        return torch.optim.AdamW(self.parameters(), lr=1e-4, weight_decay=0.02)
 
     def train_dataloader(self):
         return train_dataloader
@@ -167,8 +181,8 @@ def collate_fn(examples):
     
     return {"pixel_values": pixel_values, "labels": labels}
 
-train_batch_size = 10
-eval_batch_size = 10
+train_batch_size = 32
+eval_batch_size = 32
 
 train_dataloader = DataLoader(train_ds, shuffle=True, collate_fn=collate_fn, batch_size=train_batch_size,
                               num_workers=4)
@@ -196,14 +210,16 @@ for k,v in batch.items():
 # for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
 early_stop_callback = EarlyStopping(
     monitor='val_loss',
-    patience=3,
+    patience=20,
     strict=False,
     verbose=False,
     mode='min'
 )
 
 model = ViTLightningModule()
-trainer = Trainer(accelerator='gpu', max_epochs=3, 
+print(model)
+input()
+trainer = Trainer(accelerator='gpu', max_epochs=40,
                   callbacks=[EarlyStopping(monitor='validation_loss')])
 
 trainer.fit(model)
