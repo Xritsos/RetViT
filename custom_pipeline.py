@@ -29,37 +29,38 @@ class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
 
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
-        # self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
+        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
                                                               num_labels=8,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
                                                               label2id=label2id,
                                                               ignore_mismatched_sizes=True)
-        custom_head = nn.Sequential(
-            nn.Linear(1536, 1024),
-            nn.ReLU(),
-            nn.Dropout(p=0.2),
-            nn.Linear(1024, 768),
-            nn.ReLU(),
-            nn.Dropout(p=0.2),
-            nn.Linear(768, 512),
-            nn.ReLU(),
-            nn.Dropout(p=0.2),
-            nn.Linear(512, 256),
-            nn.ReLU(),
-            nn.Dropout(p=0.2),
-            nn.Linear(256, 128),
-            nn.ReLU(),
-            nn.Dropout(p=0.2),
-            nn.Linear(128, 64),
-            nn.ReLU(),
-            nn.Dropout(p=0.2),
-            nn.Linear(64, 8)
-        )
+
+        # custom_head = nn.Sequential(
+        #     nn.Linear(1536, 1024),
+        #     nn.ReLU(),
+        #     nn.Dropout(p=0.2),
+        #     nn.Linear(1024, 768),
+        #     nn.ReLU(),
+        #     nn.Dropout(p=0.2),
+        #     nn.Linear(768, 512),
+        #     nn.ReLU(),
+        #     nn.Dropout(p=0.2),
+        #     nn.Linear(512, 256),
+        #     nn.ReLU(),
+        #     nn.Dropout(p=0.2),
+        #     nn.Linear(256, 128),
+        #     nn.ReLU(),
+        #     nn.Dropout(p=0.2),
+        #     nn.Linear(128, 64),
+        #     nn.ReLU(),
+        #     nn.Dropout(p=0.2),
+        #     nn.Linear(64, 8)
+        # )
 
         # Replace the classifier with your custom head
-        self.vit.classifier = custom_head
+        # self.vit.classifier = custom_head
 
         for param in self.vit.parameters():
             param.requires_grad = False
@@ -142,13 +143,19 @@ label2id = {label:id for id, label in id2label.items()}
 
 
 train_dataloader = DataLoader(train_ds, shuffle=True, collate_fn=utils.collate_fn, batch_size=batch_size,
-                              num_workers=4)
+                              num_workers=4,
+                              persistent_workers=True,
+                              pin_memory=True)
 
 val_dataloader = DataLoader(val_ds, collate_fn=utils.collate_fn, batch_size=batch_size,
-                            num_workers=4)
+                            num_workers=4,
+                            persistent_workers=True,
+                            pin_memory=True)
 
 test_dataloader = DataLoader(test_ds, collate_fn=utils.collate_fn, batch_size=batch_size,
-                             num_workers=4)
+                             num_workers=4,
+                             persistent_workers=True,
+                             pin_memory=True)
 
 # for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
 early_stop_callback = EarlyStopping(
@@ -158,14 +165,14 @@ early_stop_callback = EarlyStopping(
     verbose=False,
     mode='min'
 )
-csv_logger = CSVLogger(save_dir='logs/', name='experiment_name')
+csv_logger = CSVLogger(save_dir='logs/', name='experiment_name', flush_logs_every_n_steps=1)
 
 # checkpoint_path = '/home/g/gbotso/Desktop/Project/RetViT/logs/experiment_name/version_2/checkpoints/epoch=41-step=11718.ckpt'
 #model = ViTLightningModule.load_from_checkpoint(checkpoint_path)
 model = ViTLightningModule()
 
 trainer = Trainer(accelerator='gpu', max_epochs=num_epochs,
-                  callbacks=[early_stop_callback], logger=csv_logger)
+                  callbacks=[early_stop_callback], logger=csv_logger, log_every_n_steps=5)
 
 trainer.fit(model)
 

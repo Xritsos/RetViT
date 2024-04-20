@@ -29,4 +29,3 @@ if __name__ == "__main__":
             shutil.move(f'./data/dataset/{image}', f'./data/train/{image}')
         except Exception as ex:
             print(ex)
-    
