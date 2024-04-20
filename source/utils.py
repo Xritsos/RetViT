@@ -13,8 +13,8 @@ import torch
 
 
 # prepare images for inference
-# processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
-processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
+# processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
 image_mean = processor.image_mean
 image_std = processor.image_std
 
@@ -23,7 +23,7 @@ normalize = Normalize(mean=image_mean, std=image_std)
 
 if "height" in processor.size:
     size = (processor.size["height"], processor.size["width"])
-    crop_size = size
+    # crop_size = size
     max_size = None
 elif "shortest_edge" in processor.size:
     size = processor.size["shortest_edge"]
@@ -42,8 +42,9 @@ def get_params(config_path):
     early_stopping_patience = int(config.loc[0, 'early_stopping_patience'])
     num_epochs = int(config.loc[0, 'num_epochs'])
 
-    class_weights = torch.tensor([0.2, 0.5, 0.4, 0.3, 0.9, 0.2, 0.0, 1.0], dtype=torch.float).to('cuda')
-    criterion = nn.BCEWithLogitsLoss(weight=class_weights)
+    #class_weights = torch.tensor([0.2, 0.5, 0.4, 0.3, 0.9, 0.2, 0.0, 1.0], dtype=torch.float).to('cuda')
+    #weight=class_weights
+    criterion = nn.BCEWithLogitsLoss()
 
     return learning_rate, weight_decay, batch_size, early_stopping_patience, num_epochs, criterion
 
@@ -72,13 +73,13 @@ def load_data():
     val_ds = CustomImageDataset(csv_file=path_val, root_dir=root_val, transform=val_transforms)
     test_ds = CustomImageDataset(csv_file=path_test, root_dir=root_test, transform=val_transforms)
 
-    _train_transforms = Compose([RandomResizedCrop(crop_size),
+    _train_transforms = Compose([Resize(size),
                                  RandomHorizontalFlip(),
                                  ToTensor(),
                                  normalize])
 
     _val_transforms = Compose([Resize(size),
-                               CenterCrop(crop_size),
+                               # CenterCrop(crop_size),
                                ToTensor(),
                                normalize])
 

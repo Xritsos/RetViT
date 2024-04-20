@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-metrics_df = pd.read_csv('lightning_logs/version_2/metrics.csv')
+metrics_df = pd.read_csv('logs/experiment_name/version_4/metrics.csv')
 
 mean_train_loss = metrics_df.groupby('epoch')['training_loss_epoch'].mean()
 mean_val_loss = metrics_df.groupby('epoch')['validation_loss'].mean()

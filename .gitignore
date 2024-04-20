@@ -1,4 +1,6 @@
 *__pycache__
 *.jpg
+*.yaml
+*.ckpt
 \lightning_logs
 \.pytest_cache

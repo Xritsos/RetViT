@@ -36,25 +36,20 @@ class ViTLightningModule(pl.LightningModule):
                                                               id2label=id2label,
                                                               label2id=label2id,
                                                               ignore_mismatched_sizes=True)
+
         custom_head = nn.Sequential(
             nn.Linear(1536, 1024),
             nn.ReLU(),
-            nn.Dropout(p=0.2),
             nn.Linear(1024, 768),
             nn.ReLU(),
-            nn.Dropout(p=0.2),
             nn.Linear(768, 512),
             nn.ReLU(),
-            nn.Dropout(p=0.2),
             nn.Linear(512, 256),
             nn.ReLU(),
-            nn.Dropout(p=0.2),
             nn.Linear(256, 128),
             nn.ReLU(),
-            nn.Dropout(p=0.2),
             nn.Linear(128, 64),
             nn.ReLU(),
-            nn.Dropout(p=0.2),
             nn.Linear(64, 8)
         )
 
@@ -149,7 +144,33 @@ val_dataloader = DataLoader(val_ds, collate_fn=utils.collate_fn, batch_size=batc
 
 test_dataloader = DataLoader(test_ds, collate_fn=utils.collate_fn, batch_size=batch_size,
                              num_workers=4)
+for batch_idx, batch in enumerate(train_dataloader):
+    print(f"Batch {batch_idx}:")
+    for i in range(len(batch['pixel_values'])):
+        sample_image = batch['pixel_values'][i].cpu().numpy().transpose((1, 2, 0))  # Assuming batch dimension is first
+        plt.imshow(sample_image)
+        plt.show()
+    break  # Break after printing the first batch
 
+# Print first batch from validation DataLoader
+for batch_idx, batch in enumerate(val_dataloader):
+    print(f"Batch {batch_idx}:")
+    for i in range(len(batch['pixel_values'])):
+        sample_image = batch['pixel_values'][i].cpu().numpy().transpose((1, 2, 0))  # Assuming batch dimension is first
+        plt.imshow(sample_image)
+        plt.show()
+    break  # Break after printing the first batch
+
+# Print first batch from test DataLoader
+for batch_idx, batch in enumerate(test_dataloader):
+    print(f"Batch {batch_idx}:")
+    for i in range(len(batch['pixel_values'])):
+        sample_image = batch['pixel_values'][i].cpu().numpy().transpose((1, 2, 0))  # Assuming batch dimension is first
+        plt.imshow(sample_image)
+        plt.show()
+    break
+
+input()
 # for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
 early_stop_callback = EarlyStopping(
     monitor='val_loss',
@@ -160,8 +181,6 @@ early_stop_callback = EarlyStopping(
 )
 csv_logger = CSVLogger(save_dir='logs/', name='experiment_name')
 
-# checkpoint_path = '/home/g/gbotso/Desktop/Project/RetViT/logs/experiment_name/version_2/checkpoints/epoch=41-step=11718.ckpt'
-#model = ViTLightningModule.load_from_checkpoint(checkpoint_path)
 model = ViTLightningModule()
 
 trainer = Trainer(accelerator='gpu', max_epochs=num_epochs,
@@ -169,6 +188,7 @@ trainer = Trainer(accelerator='gpu', max_epochs=num_epochs,
 
 trainer.fit(model)
 
+print()
 print("================ Testing... ======================")
-trainer.test(model, ckpt_path='best')
+trainer.test(ckpt_path='best')
 print("==================================================")

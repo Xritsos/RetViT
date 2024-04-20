@@ -23,3 +23,5 @@ Tsoumakas access to Aristotelis - Done
 11) Configure weights - or resampling techniques
 
 12) Brainstorm
+
+13) SOS Print an image before feeding to the model
