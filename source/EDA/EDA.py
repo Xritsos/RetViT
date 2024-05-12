@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('../data/filtered_data.csv')
+df = pd.read_csv('./data/preprocessed_filtered.csv')
 
 print(df.head())
 
@@ -16,7 +16,9 @@ def print_label_cases():
     print('Normal: ', df['N'].value_counts()[1])
 
 
-print_label_cases()
+#print_label_cases()
 
 df = df.sort_values(by='ID')
-df.to_csv('../data/filtered_data.csv', index=False)
+grouped = df.groupby(['N', 'A', 'G', 'H', 'D', 'C', 'M']).size().reset_index(name='Count')
+
+print(grouped)

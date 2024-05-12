@@ -1,1045 +1,1282 @@
-ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,C,M
-3323,53,Female,3323_left.jpg,normal fundus,1,0,0,0
-4487,55,Female,4487_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2351,51,Male,2351_right.jpg,normal fundus,1,0,0,0
-3230,57,Female,3230_left.jpg,normal fundus,1,0,0,0
-4203,66,Female,4203_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4047,18,Female,4047_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2213,83,Female,2213_right.jpg,cataract,0,0,1,0
-93,70,Male,93_left.jpg,moderate non proliferative retinopathy，retina fold,0,1,0,0
-3411,61,Male,3411_left.jpg,normal fundus,1,0,0,0
-2592,38,Male,2592_left.jpg,normal fundus,1,0,0,0
-4571,51,Male,4571_right.jpg,normal fundus,1,0,0,0
-1136,67,Female,1136_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2465,62,Female,2465_right.jpg,normal fundus,1,0,0,0
-4125,54,Male,4125_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-4515,61,Male,4515_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-3146,51,Female,3146_right.jpg,normal fundus,1,0,0,0
-4319,69,Male,4319_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-176,65,Female,176_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0
-4560,65,Female,4560_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-4314,64,Female,4314_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4543,67,Male,4543_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2953,47,Male,2953_right.jpg,normal fundus,1,0,0,0
-3258,64,Female,3258_right.jpg,normal fundus,1,0,0,0
-2973,63,Female,2973_right.jpg,normal fundus,1,0,0,0
-161,49,Male,161_left.jpg,mild nonproliferative retinopathy，myelinated nerve fibers,0,1,0,0
-2731,69,Female,2731_right.jpg,normal fundus,1,0,0,0
-2225,57,Male,2225_left.jpg,cataract,0,0,1,0
-2729,62,Female,2729_left.jpg,normal fundus,1,0,0,0
-2228,64,Female,2228_right.jpg,cataract,0,0,1,0
-2923,46,Male,2923_right.jpg,normal fundus,1,0,0,0
-3382,59,Female,3382_left.jpg,normal fundus,1,0,0,0
-3336,62,Male,3336_right.jpg,normal fundus,1,0,0,0
-1838,62,Male,1838_right.jpg,diabetic retinopathy,0,1,0,0
-3485,70,Male,3485_right.jpg,normal fundus,1,0,0,0
-3400,53,Female,3400_right.jpg,normal fundus,1,0,0,0
-4175,38,Male,4175_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3291,61,Female,3291_left.jpg,normal fundus,1,0,0,0
-3308,62,Female,3308_right.jpg,normal fundus,1,0,0,0
-2691,54,Female,2691_right.jpg,normal fundus,1,0,0,0
-4234,43,Male,4234_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4645,45,Male,4645_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-441,48,Male,441_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1483,69,Female,1483_right.jpg,cataract,0,0,1,0
-3085,60,Female,3085_left.jpg,normal fundus,1,0,0,0
-206,67,Female,206_left.jpg,mild nonproliferative retinopathy，epiretinal membrane over the macula,0,1,0,0
-3211,35,Female,3211_right.jpg,normal fundus,1,0,0,0
-3013,44,Male,3013_right.jpg,normal fundus,1,0,0,0
-1526,74,Female,1526_right.jpg,pathological myopia,0,0,0,1
-2443,46,Male,2443_right.jpg,normal fundus,1,0,0,0
-2996,32,Female,2996_right.jpg,normal fundus,1,0,0,0
-1994,67,Male,1994_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2984,53,Male,2984_left.jpg,normal fundus,1,0,0,0
-4637,45,Male,4637_left.jpg,normal fundus,1,0,0,0
-4331,75,Male,4331_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2758,57,Male,2758_left.jpg,normal fundus,1,0,0,0
-571,52,Female,571_right.jpg,hypertensive retinopathy，mild nonproliferative retinopathy,0,1,0,0
-461,62,Female,461_left.jpg,normal fundus,1,0,0,0
-206,67,Female,206_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-795,56,Female,795_right.jpg,normal fundus,1,0,0,0
-2596,63,Female,2596_left.jpg,normal fundus,1,0,0,0
-1530,70,Male,1530_right.jpg,pathological myopia,0,0,0,1
-800,62,Male,800_left.jpg,normal fundus,1,0,0,0
-622,62,Male,622_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4002,67,Male,4002_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-1559,56,Female,1559_right.jpg,pathological myopia，suspected macular epimacular membrane,0,0,0,1
-2733,56,Male,2733_left.jpg,normal fundus,1,0,0,0
-4281,60,Male,4281_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2198,69,Female,2198_left.jpg,cataract,0,0,1,0
-2388,54,Female,2388_left.jpg,normal fundus,1,0,0,0
-4217,39,Male,4217_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-2127,70,Male,2127_right.jpg,cataract,0,0,1,0
-3285,54,Female,3285_left.jpg,normal fundus,1,0,0,0
-2126,75,Male,2126_right.jpg,cataract,0,0,1,0
-4584,42,Male,4584_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2924,57,Male,2924_right.jpg,normal fundus,1,0,0,0
-3153,58,Female,3153_left.jpg,normal fundus,1,0,0,0
-1617,1,Female,1617_left.jpg,pathological myopia,0,0,0,1
-2892,72,Male,2892_right.jpg,normal fundus,1,0,0,0
-4275,69,Female,4275_right.jpg,normal fundus,1,0,0,0
-4098,57,Female,4098_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-2957,62,Female,2957_right.jpg,normal fundus,1,0,0,0
-791,36,Male,791_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0
-3119,67,Female,3119_left.jpg,normal fundus，lens dust,1,0,0,0
-4129,57,Female,4129_right.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0
-4522,67,Male,4522_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-2665,63,Male,2665_left.jpg,normal fundus,1,0,0,0
-457,64,Female,457_left.jpg,normal fundus,1,0,0,0
-4095,67,Male,4095_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-370,57,Male,370_right.jpg,normal fundus,1,0,0,0
-2600,57,Male,2600_right.jpg,normal fundus,1,0,0,0
-4064,46,Male,4064_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2753,70,Male,2753_right.jpg,normal fundus,1,0,0,0
-130,66,Female,130_right.jpg,macular epiretinal membrane，mild nonproliferative retinopathy,0,1,0,0
-2376,65,Female,2376_right.jpg,normal fundus,1,0,0,0
-4094,65,Female,4094_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-114,48,Male,114_right.jpg,normal fundus,1,0,0,0
-433,45,Female,433_right.jpg,normal fundus,1,0,0,0
-4303,50,Male,4303_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1613,66,Female,1613_left.jpg,pathological myopia,0,0,0,1
-1554,78,Female,1554_left.jpg,pathological myopia,0,0,0,1
-4608,50,Female,4608_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2927,56,Male,2927_right.jpg,normal fundus,1,0,0,0
-3273,53,Male,3273_left.jpg,normal fundus,1,0,0,0
-2614,56,Male,2614_right.jpg,normal fundus,1,0,0,0
-3203,74,Female,3203_left.jpg,normal fundus,1,0,0,0
-934,72,Female,934_left.jpg,diabetic retinopathy,0,1,0,0
-3124,39,Female,3124_left.jpg,normal fundus,1,0,0,0
-2795,78,Female,2795_right.jpg,normal fundus,1,0,0,0
-234,54,Male,234_right.jpg,diabetic retinopathy,0,1,0,0
-2472,60,Female,2472_right.jpg,normal fundus,1,0,0,0
-2994,54,Male,2994_right.jpg,normal fundus,1,0,0,0
-2331,59,Male,2331_right.jpg,normal fundus,1,0,0,0
-4306,70,Male,4306_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4563,54,Male,4563_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-4115,60,Male,4115_right.jpg,normal fundus,1,0,0,0
-8,59,Male,8_left.jpg,normal fundus,1,0,0,0
-2971,39,Male,2971_left.jpg,normal fundus,1,0,0,0
-358,47,Male,358_left.jpg,mild nonproliferative retinopathy，drusen,0,1,0,0
-124,68,Female,124_left.jpg,normal fundus,1,0,0,0
-2964,48,Male,2964_left.jpg,normal fundus,1,0,0,0
-4299,52,Female,4299_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2945,65,Male,2945_left.jpg,normal fundus,1,0,0,0
-2483,33,Male,2483_left.jpg,normal fundus，lens dust,1,0,0,0
-766,64,Male,766_left.jpg,normal fundus,1,0,0,0
-4566,53,Female,4566_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2167,75,Female,2167_left.jpg,cataract,0,0,1,0
-1570,46,Female,1570_right.jpg,pathological myopia,0,0,0,1
-49,47,Female,49_right.jpg,normal fundus,1,0,0,0
-2194,50,Male,2194_left.jpg,cataract,0,0,1,0
-4207,66,Female,4207_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0
-2190,84,Female,2190_left.jpg,normal fundus,1,0,0,0
-3419,64,Male,3419_right.jpg,normal fundus,1,0,0,0
-4488,45,Male,4488_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-200,64,Female,200_right.jpg,normal fundus,1,0,0,0
-2164,67,Male,2164_left.jpg,cataract，mild nonproliferative retinopathy,0,1,1,0
-2149,73,Female,2149_left.jpg,normal fundus,1,0,0,0
-2939,53,Male,2939_right.jpg,normal fundus,1,0,0,0
-4632,46,Male,4632_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-2794,56,Male,2794_left.jpg,normal fundus,1,0,0,0
-544,57,Male,544_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0
-4558,55,Male,4558_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-3432,76,Female,3432_left.jpg,normal fundus,1,0,0,0
-4342,59,Male,4342_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-621,59,Female,621_left.jpg,mild nonproliferative retinopathy，macular epiretinal membrane,0,1,0,0
-2760,62,Male,2760_left.jpg,normal fundus,1,0,0,0
-530,50,Male,530_right.jpg,normal fundus,1,0,0,0
-2101,62,Male,2101_left.jpg,cataract,0,0,1,0
-4233,60,Female,4233_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3169,63,Male,3169_left.jpg,normal fundus,1,0,0,0
-2472,60,Female,2472_left.jpg,normal fundus,1,0,0,0
-1581,58,Female,1581_right.jpg,pathological myopia,0,0,0,1
-2579,41,Male,2579_right.jpg,normal fundus,1,0,0,0
-905,60,Male,905_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0
-2343,53,Male,2343_left.jpg,normal fundus,1,0,0,0
-2973,63,Female,2973_left.jpg,normal fundus,1,0,0,0
-3307,78,Female,3307_right.jpg,normal fundus,1,0,0,0
-160,40,Female,160_left.jpg,normal fundus,1,0,0,0
-3038,66,Male,3038_left.jpg,normal fundus,1,0,0,0
-4097,50,Female,4097_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4334,49,Male,4334_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4317,64,Male,4317_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1578,34,Female,1578_right.jpg,pathological myopia,0,0,0,1
-3384,67,Male,3384_right.jpg,normal fundus,1,0,0,0
-3406,46,Female,3406_left.jpg,normal fundus,1,0,0,0
-4353,47,Male,4353_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3194,47,Male,3194_left.jpg,normal fundus,1,0,0,0
-2262,65,Female,2262_left.jpg,cataract,0,0,1,0
-560,74,Male,560_left.jpg,cataract,0,0,1,0
-801,63,Male,801_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2652,49,Female,2652_right.jpg,normal fundus,1,0,0,0
-3020,45,Female,3020_left.jpg,normal fundus,1,0,0,0
-4316,36,Male,4316_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4580,68,Male,4580_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-1,57,Male,1_right.jpg,normal fundus,1,0,0,0
-4615,64,Female,4615_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4556,68,Male,4556_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-3094,47,Male,3094_left.jpg,normal fundus,1,0,0,0
-787,60,Female,787_right.jpg,myelinated nerve fibers，mild nonproliferative retinopathy,0,1,0,0
-4611,66,Male,4611_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2129,73,Male,2129_left.jpg,cataract,0,0,1,0
-11,60,Female,11_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0
-3069,65,Female,3069_right.jpg,normal fundus,1,0,0,0
-466,62,Male,466_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4350,51,Female,4350_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3299,57,Male,3299_left.jpg,normal fundus,1,0,0,0
-4213,52,Female,4213_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4403,56,Male,4403_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4175,38,Male,4175_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-3171,65,Male,3171_right.jpg,normal fundus,1,0,0,0
-214,70,Male,214_left.jpg,normal fundus,1,0,0,0
-4634,64,Female,4634_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-523,61,Female,523_left.jpg,normal fundus,1,0,0,0
-2597,61,Male,2597_right.jpg,normal fundus,1,0,0,0
-208,68,Female,208_right.jpg,normal fundus,1,0,0,0
-2363,66,Female,2363_left.jpg,normal fundus,1,0,0,0
-437,53,Female,437_right.jpg,macular epiretinal membrane，mild nonproliferative retinopathy,0,1,0,0
-4415,31,Male,4415_right.jpg,normal fundus,1,0,0,0
-3275,59,Female,3275_right.jpg,normal fundus,1,0,0,0
-442,56,Male,442_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2175,63,Male,2175_right.jpg,normal fundus,1,0,0,0
-1060,54,Male,1060_right.jpg,normal fundus,1,0,0,0
-2155,72,Male,2155_right.jpg,cataract,0,0,1,0
-3089,56,Male,3089_left.jpg,normal fundus,1,0,0,0
-3166,43,Male,3166_right.jpg,normal fundus,1,0,0,0
-3398,48,Female,3398_left.jpg,normal fundus,1,0,0,0
-3401,66,Male,3401_right.jpg,normal fundus,1,0,0,0
-276,66,Male,276_right.jpg,normal fundus,1,0,0,0
-3385,43,Male,3385_left.jpg,normal fundus,1,0,0,0
-4688,42,Male,4688_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2788,58,Female,2788_right.jpg,normal fundus,1,0,0,0
-3354,76,Male,3354_left.jpg,normal fundus,1,0,0,0
-296,57,Female,296_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0
-3971,64,Female,3971_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2552,73,Male,2552_left.jpg,normal fundus,1,0,0,0
-143,54,Male,143_left.jpg,normal fundus,1,0,0,0
-2998,49,Male,2998_right.jpg,normal fundus,1,0,0,0
-1035,53,Male,1035_left.jpg,normal fundus,1,0,0,0
-2622,59,Male,2622_right.jpg,normal fundus,1,0,0,0
-1520,57,Male,1520_left.jpg,refractive media opacity，pathological myopia,0,0,0,1
-2601,67,Male,2601_right.jpg,normal fundus,1,0,0,0
-2208,62,Male,2208_right.jpg,cataract,0,0,1,0
-3380,60,Female,3380_right.jpg,normal fundus,1,0,0,0
-3366,54,Female,3366_right.jpg,normal fundus,1,0,0,0
-2672,28,Female,2672_right.jpg,normal fundus,1,0,0,0
-4134,57,Male,4134_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-975,66,Female,975_left.jpg,normal fundus,1,0,0,0
-695,52,Female,695_right.jpg,normal fundus,1,0,0,0
-2498,59,Female,2498_right.jpg,normal fundus,1,0,0,0
-715,66,Female,715_right.jpg,normal fundus,1,0,0,0
-3064,62,Female,3064_right.jpg,normal fundus,1,0,0,0
-4338,54,Male,4338_right.jpg,normal fundus,1,0,0,0
-1551,50,Male,1551_right.jpg,pathological myopia,0,0,0,1
-2553,54,Female,2553_left.jpg,normal fundus,1,0,0,0
-2370,46,Female,2370_right.jpg,normal fundus，lens dust,1,0,0,0
-3092,44,Female,3092_right.jpg,normal fundus,1,0,0,0
-2813,65,Female,2813_right.jpg,normal fundus,1,0,0,0
-4014,60,Female,4014_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4465,45,Female,4465_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4536,60,Female,4536_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-225,70,Female,225_left.jpg,pathological myopia,0,0,0,1
-425,81,Female,425_left.jpg,normal fundus,1,0,0,0
-3236,63,Male,3236_right.jpg,normal fundus,1,0,0,0
-2493,40,Male,2493_left.jpg,normal fundus,1,0,0,0
-2933,50,Female,2933_right.jpg,normal fundus,1,0,0,0
-4244,73,Male,4244_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-3090,50,Male,3090_left.jpg,normal fundus,1,0,0,0
-3122,49,Female,3122_right.jpg,normal fundus,1,0,0,0
-296,57,Female,296_left.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0
-999,56,Female,999_right.jpg,cataract,0,0,1,0
-3312,74,Male,3312_right.jpg,normal fundus,1,0,0,0
-2931,67,Male,2931_right.jpg,normal fundus,1,0,0,0
-4335,66,Female,4335_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4498,40,Male,4498_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2568,65,Female,2568_right.jpg,normal fundus,1,0,0,0
-2143,83,Female,2143_left.jpg,normal fundus,1,0,0,0
-2998,49,Male,2998_left.jpg,normal fundus,1,0,0,0
-2504,65,Female,2504_right.jpg,normal fundus,1,0,0,0
-807,72,Female,807_right.jpg,normal fundus,1,0,0,0
-2768,67,Male,2768_left.jpg,normal fundus,1,0,0,0
-2769,55,Female,2769_left.jpg,normal fundus,1,0,0,0
-746,59,Male,746_right.jpg,suspected glaucoma，suspicious diabetic retinopathy,0,1,0,0
-4589,56,Male,4589_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4458,65,Male,4458_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-4406,63,Male,4406_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3004,66,Male,3004_left.jpg,normal fundus,1,0,0,0
-3306,62,Male,3306_left.jpg,normal fundus,1,0,0,0
-3934,42,Male,3934_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3244,45,Female,3244_left.jpg,normal fundus,1,0,0,0
-174,71,Female,174_left.jpg,pathological myopia,0,0,0,1
-4623,55,Male,4623_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-832,61,Male,832_right.jpg,normal fundus,1,0,0,0
-4151,54,Female,4151_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2921,60,Male,2921_left.jpg,normal fundus,1,0,0,0
-233,56,Male,233_left.jpg,normal fundus,1,0,0,0
-4566,53,Female,4566_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-709,57,Male,709_left.jpg,severe proliferative diabetic retinopathy,0,1,0,0
-2171,87,Female,2171_left.jpg,cataract,0,0,1,0
-3973,45,Female,3973_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-4683,58,Male,4683_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4279,47,Male,4279_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-4633,66,Male,4633_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2709,47,Male,2709_left.jpg,normal fundus,1,0,0,0
-736,29,Male,736_left.jpg,normal fundus,1,0,0,0
-113,67,Female,113_left.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0
-3987,52,Male,3987_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-609,60,Female,609_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2389,64,Male,2389_left.jpg,normal fundus,1,0,0,0
-3344,55,Male,3344_right.jpg,normal fundus,1,0,0,0
-227,58,Female,227_left.jpg,normal fundus,1,0,0,0
-2970,70,Female,2970_left.jpg,normal fundus,1,0,0,0
-3076,59,Female,3076_right.jpg,normal fundus,1,0,0,0
-3054,65,Male,3054_right.jpg,normal fundus,1,0,0,0
-2879,53,Male,2879_left.jpg,normal fundus,1,0,0,0
-1191,58,Male,1191_left.jpg,dry age-related macular degeneration，diabetic retinopathy,0,1,0,0
-2671,67,Male,2671_left.jpg,normal fundus,1,0,0,0
-1600,1,Female,1600_left.jpg,pathological myopia,0,0,0,1
-2794,56,Male,2794_right.jpg,normal fundus,1,0,0,0
-184,69,Male,184_right.jpg,epiretinal membrane over the macula，moderate non proliferative retinopathy，lens dust,0,1,0,0
-3197,45,Male,3197_left.jpg,normal fundus,1,0,0,0
-2646,50,Female,2646_left.jpg,normal fundus,1,0,0,0
-2903,19,Male,2903_right.jpg,normal fundus,1,0,0,0
-726,60,Female,726_right.jpg,cataract,0,0,1,0
-2541,58,Male,2541_left.jpg,normal fundus,1,0,0,0
-2970,70,Female,2970_right.jpg,normal fundus,1,0,0,0
-4651,41,Male,4651_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1579,57,Female,1579_left.jpg,pathological myopia,0,0,0,1
-1547,66,Female,1547_left.jpg,pathological myopia,0,0,0,1
-394,63,Male,394_left.jpg,normal fundus,1,0,0,0
-3952,56,Male,3952_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3177,66,Female,3177_left.jpg,normal fundus,1,0,0,0
-4001,69,Female,4001_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1409,79,Female,1409_right.jpg,moderate non proliferative retinopathy，lens dust，suspected glaucoma,0,1,0,0
-389,54,Male,389_right.jpg,normal fundus,1,0,0,0
-1552,67,Male,1552_left.jpg,pathological myopia,0,0,0,1
-3192,58,Male,3192_right.jpg,normal fundus,1,0,0,0
-2471,56,Female,2471_left.jpg,normal fundus,1,0,0,0
-632,58,Male,632_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4632,46,Male,4632_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-3389,49,Male,3389_left.jpg,normal fundus,1,0,0,0
-4552,57,Female,4552_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4190,48,Male,4190_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2586,53,Female,2586_left.jpg,normal fundus,1,0,0,0
-3101,59,Male,3101_left.jpg,normal fundus,1,0,0,0
-223,56,Female,223_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-427,56,Female,427_right.jpg,normal fundus,1,0,0,0
-3166,43,Male,3166_left.jpg,normal fundus,1,0,0,0
-2413,53,Female,2413_right.jpg,normal fundus,1,0,0,0
-4327,49,Male,4327_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0
-2424,58,Female,2424_left.jpg,normal fundus,1,0,0,0
-4021,52,Male,4021_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-831,54,Male,831_left.jpg,pathological myopia,0,0,0,1
-3263,51,Female,3263_left.jpg,normal fundus,1,0,0,0
-2588,75,Male,2588_left.jpg,normal fundus,1,0,0,0
-2589,45,Male,2589_right.jpg,normal fundus，lens dust,1,0,0,0
-2117,71,Female,2117_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2946,64,Female,2946_right.jpg,normal fundus,1,0,0,0
-562,73,Male,562_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-2111,73,Female,2111_left.jpg,cataract,0,0,1,0
-4126,64,Male,4126_left.jpg,normal fundus,1,0,0,0
-4140,29,Male,4140_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1890,55,Female,1890_right.jpg,normal fundus,1,0,0,0
-2119,91,Male,2119_left.jpg,normal fundus,1,0,0,0
-2382,47,Female,2382_left.jpg,normal fundus,1,0,0,0
-2866,58,Male,2866_right.jpg,normal fundus,1,0,0,0
-2478,56,Female,2478_left.jpg,normal fundus，lens dust,1,0,0,0
-3207,47,Female,3207_left.jpg,normal fundus,1,0,0,0
-2223,56,Male,2223_right.jpg,cataract,0,0,1,0
-4408,59,Female,4408_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-4022,46,Female,4022_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-658,64,Male,658_left.jpg,normal fundus,1,0,0,0
-1569,50,Male,1569_right.jpg,pathological myopia,0,0,0,1
-4318,55,Male,4318_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3330,49,Male,3330_right.jpg,normal fundus,1,0,0,0
-2463,41,Female,2463_left.jpg,normal fundus,1,0,0,0
-4444,61,Male,4444_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-3372,74,Female,3372_right.jpg,normal fundus,1,0,0,0
-2913,68,Male,2913_left.jpg,normal fundus,1,0,0,0
-2176,82,Female,2176_left.jpg,cataract,0,0,1,0
-4418,45,Male,4418_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-1491,60,Female,1491_right.jpg,normal fundus,1,0,0,0
-898,77,Female,898_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-924,72,Female,924_left.jpg,normal fundus,1,0,0,0
-4323,69,Male,4323_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-2128,81,Female,2128_right.jpg,cataract,0,0,1,0
-2663,61,Male,2663_right.jpg,normal fundus,1,0,0,0
-601,50,Female,601_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1080,60,Female,1080_right.jpg,normal fundus,1,0,0,0
-4459,50,Female,4459_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-3387,56,Male,3387_right.jpg,normal fundus,1,0,0,0
-2104,74,Male,2104_left.jpg,cataract,0,0,1,0
-3257,56,Male,3257_right.jpg,normal fundus,1,0,0,0
-279,56,Female,279_right.jpg,normal fundus,1,0,0,0
-2436,42,Male,2436_right.jpg,normal fundus,1,0,0,0
-778,53,Female,778_left.jpg,myelinated nerve fibers，moderate non proliferative retinopathy,0,1,0,0
-2990,58,Female,2990_right.jpg,normal fundus,1,0,0,0
-4086,64,Male,4086_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-324,55,Male,324_left.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0
-4036,56,Male,4036_left.jpg,normal fundus,1,0,0,0
-2,42,Male,2_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3167,57,Female,3167_right.jpg,normal fundus,1,0,0,0
-4617,57,Male,4617_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2219,68,Female,2219_left.jpg,cataract,0,0,1,0
-549,70,Female,549_right.jpg,normal fundus,1,0,0,0
-3231,58,Female,3231_left.jpg,normal fundus,1,0,0,0
-2762,53,Male,2762_right.jpg,normal fundus,1,0,0,0
-1103,29,Male,1103_left.jpg,pathological myopia,0,0,0,1
-616,45,Female,616_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3448,63,Male,3448_right.jpg,normal fundus,1,0,0,0
-4441,62,Male,4441_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4438,56,Male,4438_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4549,45,Female,4549_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-281,68,Female,281_right.jpg,mild nonproliferative retinopathy，epiretinal membrane,0,1,0,0
-3110,52,Male,3110_left.jpg,normal fundus,1,0,0,0
-4573,44,Male,4573_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3386,49,Male,3386_left.jpg,normal fundus,1,0,0,0
-1096,59,Female,1096_left.jpg,normal fundus,1,0,0,0
-949,49,Male,949_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2458,52,Female,2458_left.jpg,normal fundus,1,0,0,0
-182,64,Male,182_right.jpg,normal fundus,1,0,0,0
-883,63,Male,883_right.jpg,normal fundus,1,0,0,0
-1059,43,Male,1059_right.jpg,normal fundus,1,0,0,0
-701,60,Male,701_left.jpg,normal fundus,1,0,0,0
-2544,57,Male,2544_left.jpg,normal fundus,1,0,0,0
-9,54,Male,9_left.jpg,normal fundus,1,0,0,0
-678,54,Male,678_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2776,54,Male,2776_left.jpg,normal fundus,1,0,0,0
-2805,49,Male,2805_right.jpg,normal fundus,1,0,0,0
-3412,70,Female,3412_right.jpg,normal fundus,1,0,0,0
-4029,36,Female,4029_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2831,76,Female,2831_left.jpg,normal fundus,1,0,0,0
-3346,65,Female,3346_right.jpg,normal fundus,1,0,0,0
-705,61,Male,705_right.jpg,normal fundus,1,0,0,0
-4185,65,Female,4185_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4133,60,Male,4133_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4535,59,Male,4535_left.jpg,normal fundus,1,0,0,0
-1152,54,Female,1152_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2806,75,Female,2806_left.jpg,normal fundus,1,0,0,0
-4095,67,Male,4095_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3319,71,Female,3319_right.jpg,normal fundus,1,0,0,0
-4440,60,Male,4440_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3,66,Male,3_left.jpg,normal fundus,1,0,0,0
-1006,64,Male,1006_left.jpg,normal fundus,1,0,0,0
-4208,47,Male,4208_left.jpg,normal fundus,1,0,0,0
-3113,63,Male,3113_right.jpg,normal fundus,1,0,0,0
-1538,49,Female,1538_right.jpg,pathological myopia,0,0,0,1
-2183,47,Female,2183_left.jpg,cataract,0,0,1,0
-2211,80,Male,2211_left.jpg,cataract,0,0,1,0
-3049,46,Female,3049_left.jpg,normal fundus,1,0,0,0
-4399,62,Male,4399_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-859,61,Male,859_left.jpg,normal fundus,1,0,0,0
-77,67,Male,77_left.jpg,moderate non proliferative retinopathy，myelinated nerve fibers,0,1,0,0
-4530,43,Male,4530_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3249,56,Male,3249_left.jpg,normal fundus,1,0,0,0
-3984,55,Male,3984_right.jpg,normal fundus,1,0,0,0
-2712,60,Male,2712_right.jpg,normal fundus,1,0,0,0
-2508,74,Male,2508_left.jpg,normal fundus,1,0,0,0
-2890,53,Female,2890_right.jpg,normal fundus,1,0,0,0
-4360,54,Female,4360_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-498,43,Male,498_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2469,74,Female,2469_right.jpg,normal fundus,1,0,0,0
-712,62,Male,712_right.jpg,diabetic retinopathy,0,1,0,0
-2770,59,Female,2770_left.jpg,normal fundus,1,0,0,0
-3047,62,Female,3047_left.jpg,normal fundus,1,0,0,0
-2388,54,Female,2388_right.jpg,normal fundus,1,0,0,0
-1157,68,Male,1157_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4148,48,Female,4148_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-3235,53,Female,3235_right.jpg,normal fundus,1,0,0,0
-931,65,Male,931_right.jpg,suspected glaucoma，moderate non proliferative retinopathy,0,1,0,0
-3224,53,Male,3224_right.jpg,normal fundus,1,0,0,0
-4208,47,Male,4208_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2126,75,Male,2126_left.jpg,cataract,0,0,1,0
-3946,55,Male,3946_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-1168,67,Female,1168_left.jpg,normal fundus,1,0,0,0
-2748,55,Female,2748_left.jpg,normal fundus,1,0,0,0
-4456,54,Female,4456_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-4420,34,Female,4420_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3357,69,Male,3357_left.jpg,normal fundus,1,0,0,0
-354,65,Male,354_right.jpg,cataract,0,0,1,0
-3437,42,Female,3437_right.jpg,normal fundus,1,0,0,0
-2896,62,Female,2896_right.jpg,normal fundus,1,0,0,0
-2592,38,Male,2592_right.jpg,normal fundus,1,0,0,0
-4374,58,Female,4374_left.jpg,normal fundus,1,0,0,0
-4326,66,Female,4326_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-2489,50,Male,2489_right.jpg,normal fundus,1,0,0,0
-1529,57,Male,1529_right.jpg,pathological myopia,0,0,0,1
-4458,65,Male,4458_right.jpg,normal fundus,1,0,0,0
-3081,67,Female,3081_right.jpg,normal fundus,1,0,0,0
-2946,64,Female,2946_left.jpg,normal fundus,1,0,0,0
-2412,60,Female,2412_left.jpg,normal fundus,1,0,0,0
-4494,60,Male,4494_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-3262,57,Male,3262_right.jpg,normal fundus,1,0,0,0
-2430,45,Female,2430_left.jpg,normal fundus,1,0,0,0
-2993,49,Female,2993_left.jpg,normal fundus,1,0,0,0
-2826,54,Male,2826_right.jpg,normal fundus,1,0,0,0
-3424,24,Female,3424_left.jpg,normal fundus,1,0,0,0
-4090,68,Female,4090_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0
-4081,37,Female,4081_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-298,55,Female,298_right.jpg,normal fundus,1,0,0,0
-3992,63,Male,3992_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3282,54,Female,3282_left.jpg,normal fundus,1,0,0,0
-3348,33,Male,3348_right.jpg,normal fundus,1,0,0,0
-620,55,Male,620_left.jpg,normal fundus,1,0,0,0
-4037,58,Male,4037_left.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0
-2407,56,Female,2407_right.jpg,normal fundus,1,0,0,0
-2772,41,Male,2772_left.jpg,normal fundus,1,0,0,0
-2735,51,Male,2735_left.jpg,normal fundus,1,0,0,0
-4453,42,Female,4453_right.jpg,normal fundus,1,0,0,0
-3176,64,Female,3176_left.jpg,normal fundus,1,0,0,0
-4624,60,Male,4624_left.jpg,proliferative diabetic retinopathy,0,1,0,0
-400,64,Male,400_left.jpg,normal fundus,1,0,0,0
-436,64,Male,436_left.jpg,normal fundus,1,0,0,0
-1072,54,Female,1072_right.jpg,normal fundus,1,0,0,0
-58,74,Male,58_left.jpg,normal fundus,1,0,0,0
-2820,59,Female,2820_right.jpg,normal fundus,1,0,0,0
-2454,65,Female,2454_left.jpg,normal fundus,1,0,0,0
-4127,57,Female,4127_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-3300,60,Female,3300_left.jpg,normal fundus，lens dust,1,0,0,0
-1485,69,Female,1485_left.jpg,normal fundus,1,0,0,0
-2513,69,Male,2513_right.jpg,normal fundus,1,0,0,0
-2979,53,Male,2979_left.jpg,normal fundus,1,0,0,0
-1435,79,Male,1435_left.jpg,cataract,0,0,1,0
-1281,61,Male,1281_right.jpg,glaucoma，diabetic retinopathy,0,1,0,0
-3248,82,Female,3248_right.jpg,normal fundus,1,0,0,0
-1572,75,Male,1572_left.jpg,pathological myopia,0,0,0,1
-1579,57,Female,1579_right.jpg,pathological myopia,0,0,0,1
-1544,68,Female,1544_left.jpg,pathological myopia,0,0,0,1
-4273,32,Female,4273_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3305,86,Female,3305_left.jpg,normal fundus,1,0,0,0
-4272,40,Female,4272_right.jpg,normal fundus,1,0,0,0
-4116,45,Male,4116_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2534,76,Male,2534_left.jpg,normal fundus,1,0,0,0
-130,66,Female,130_left.jpg,macular epiretinal membrane，moderate non proliferative retinopathy,0,1,0,0
-451,56,Male,451_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4260,46,Male,4260_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-3109,69,Male,3109_left.jpg,normal fundus,1,0,0,0
-180,45,Female,180_right.jpg,normal fundus,1,0,0,0
-1434,54,Male,1434_left.jpg,suspected glaucoma，moderate non proliferative retinopathy,0,1,0,0
-3936,50,Male,3936_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0
-4221,65,Male,4221_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4152,66,Female,4152_left.jpg,normal fundus,1,0,0,0
-2378,80,Female,2378_left.jpg,normal fundus,1,0,0,0
-2467,69,Female,2467_right.jpg,normal fundus,1,0,0,0
-1549,78,Female,1549_left.jpg,pathological myopia,0,0,0,1
-213,44,Female,213_left.jpg,normal fundus,1,0,0,0
-4302,44,Male,4302_right.jpg,normal fundus,1,0,0,0
-1066,62,Male,1066_right.jpg,normal fundus,1,0,0,0
-2643,28,Male,2643_left.jpg,normal fundus,1,0,0,0
-1474,79,Female,1474_left.jpg,glaucoma，moderate non proliferative retinopathy,0,1,0,0
-254,60,Female,254_left.jpg,cataract,0,0,1,0
-416,60,Female,416_left.jpg,normal fundus,1,0,0,0
-2368,57,Male,2368_left.jpg,normal fundus,1,0,0,0
-2379,66,Male,2379_left.jpg,normal fundus,1,0,0,0
-4142,54,Male,4142_left.jpg,severe nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0
-3352,57,Female,3352_left.jpg,normal fundus,1,0,0,0
-2853,69,Female,2853_left.jpg,normal fundus,1,0,0,0
-2649,66,Male,2649_left.jpg,normal fundus,1,0,0,0
-3342,60,Male,3342_left.jpg,normal fundus,1,0,0,0
-345,64,Female,345_right.jpg,hypertensive retinopathy，cataract,0,0,1,0
-2818,49,Male,2818_right.jpg,normal fundus,1,0,0,0
-885,54,Male,885_left.jpg,normal fundus,1,0,0,0
-1550,76,Male,1550_left.jpg,pathological myopia,0,0,0,1
-151,48,Male,151_left.jpg,normal fundus,1,0,0,0
-2149,73,Female,2149_right.jpg,cataract,0,0,1,0
-3955,67,Male,3955_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3406,46,Female,3406_right.jpg,normal fundus,1,0,0,0
-4547,49,Female,4547_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-1527,64,Female,1527_left.jpg,pathological myopia,0,0,0,1
-4324,53,Male,4324_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3095,74,Male,3095_left.jpg,normal fundus,1,0,0,0
-2417,51,Male,2417_left.jpg,normal fundus,1,0,0,0
-1987,70,Female,1987_left.jpg,cataract,0,0,1,0
-4120,61,Male,4120_right.jpg,severe nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0
-103,55,Female,103_left.jpg,cataract,0,0,1,0
-4251,49,Male,4251_right.jpg,normal fundus,1,0,0,0
-3290,72,Male,3290_right.jpg,normal fundus,1,0,0,0
-949,49,Male,949_right.jpg,cataract,0,0,1,0
-231,60,Female,231_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3943,54,Male,3943_right.jpg,normal fundus,1,0,0,0
-3044,60,Female,3044_left.jpg,normal fundus,1,0,0,0
-771,45,Female,771_right.jpg,normal fundus,1,0,0,0
-2385,74,Female,2385_left.jpg,normal fundus,1,0,0,0
-2825,64,Female,2825_left.jpg,normal fundus,1,0,0,0
-4399,62,Male,4399_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4468,65,Male,4468_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-98,69,Male,98_right.jpg,normal fundus,1,0,0,0
-4575,40,Male,4575_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2414,60,Female,2414_right.jpg,normal fundus,1,0,0,0
-2999,63,Male,2999_right.jpg,normal fundus,1,0,0,0
-1571,65,Male,1571_left.jpg,pathological myopia,0,0,0,1
-953,46,Male,953_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-249,64,Male,249_right.jpg,proliferative diabetic retinopathy,0,1,0,0
-1543,30,Female,1543_right.jpg,pathological myopia,0,0,0,1
-730,59,Male,730_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4391,47,Male,4391_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3345,65,Female,3345_left.jpg,normal fundus,1,0,0,0
-4339,52,Male,4339_right.jpg,normal fundus,1,0,0,0
-86,56,Female,86_right.jpg,pathological myopia,0,0,0,1
-4415,31,Male,4415_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-245,65,Male,245_left.jpg,normal fundus,1,0,0,0
-4545,60,Male,4545_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-202,63,Female,202_left.jpg,normal fundus,1,0,0,0
-3250,44,Male,3250_right.jpg,normal fundus,1,0,0,0
-19,45,Male,19_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-3369,50,Female,3369_left.jpg,normal fundus，lens dust,1,0,0,0
-4689,54,Male,4689_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-3315,57,Male,3315_right.jpg,normal fundus,1,0,0,0
-4268,50,Male,4268_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-327,53,Male,327_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3282,54,Female,3282_right.jpg,normal fundus,1,0,0,0
-2856,59,Male,2856_right.jpg,normal fundus,1,0,0,0
-2452,58,Male,2452_left.jpg,normal fundus,1,0,0,0
-4085,66,Male,4085_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-593,69,Female,593_right.jpg,severe nonproliferative retinopathy，white vessel,0,1,0,0
-2882,48,Male,2882_right.jpg,normal fundus,1,0,0,0
-1540,56,Female,1540_right.jpg,pathological myopia，lens dust,0,0,0,1
-3979,54,Male,3979_left.jpg,mild nonproliferative retinopathy，dry age-related macular degeneration,0,1,0,0
-2180,66,Female,2180_left.jpg,cataract,0,0,1,0
-4456,54,Female,4456_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3099,61,Female,3099_right.jpg,normal fundus,1,0,0,0
-952,76,Female,952_left.jpg,macular epiretinal membrane，mild nonproliferative retinopathy,0,1,0,0
-420,63,Female,420_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2154,83,Male,2154_left.jpg,cataract,0,0,1,0
-3125,52,Male,3125_left.jpg,normal fundus,1,0,0,0
-366,74,Male,366_right.jpg,normal fundus,1,0,0,0
-3344,55,Male,3344_left.jpg,normal fundus,1,0,0,0
-896,57,Female,896_left.jpg,normal fundus,1,0,0,0
-2373,44,Male,2373_left.jpg,normal fundus,1,0,0,0
-4628,47,Female,4628_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4194,50,Female,4194_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-4146,57,Female,4146_left.jpg,normal fundus,1,0,0,0
-2898,54,Male,2898_right.jpg,normal fundus,1,0,0,0
-4235,69,Female,4235_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2505,55,Female,2505_left.jpg,normal fundus,1,0,0,0
-4486,78,Female,4486_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4270,53,Female,4270_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-4614,58,Male,4614_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4686,63,Male,4686_right.jpg,proliferative diabetic retinopathy,0,1,0,0
-3082,64,Male,3082_left.jpg,normal fundus,1,0,0,0
-2462,53,Male,2462_left.jpg,normal fundus,1,0,0,0
-763,59,Male,763_right.jpg,moderate non proliferative retinopathy，atrophic change,0,1,0,0
-1040,65,Male,1040_right.jpg,normal fundus,1,0,0,0
-2982,64,Female,2982_left.jpg,normal fundus,1,0,0,0
-2835,56,Female,2835_right.jpg,normal fundus,1,0,0,0
-2797,59,Male,2797_right.jpg,normal fundus,1,0,0,0
-4673,85,Male,4673_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3007,59,Female,3007_right.jpg,normal fundus,1,0,0,0
-802,46,Male,802_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4528,62,Male,4528_right.jpg,normal fundus,1,0,0,0
-3249,56,Male,3249_right.jpg,normal fundus,1,0,0,0
-3027,62,Male,3027_right.jpg,normal fundus,1,0,0,0
-2443,46,Male,2443_left.jpg,normal fundus,1,0,0,0
-2216,38,Male,2216_right.jpg,cataract,0,0,1,0
-93,70,Male,93_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-576,62,Female,576_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0
-4159,57,Male,4159_right.jpg,normal fundus,1,0,0,0
-4345,45,Male,4345_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4469,52,Male,4469_left.jpg,normal fundus,1,0,0,0
-3264,63,Male,3264_right.jpg,normal fundus,1,0,0,0
-1157,68,Male,1157_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4280,74,Female,4280_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-3156,67,Male,3156_right.jpg,normal fundus,1,0,0,0
-4630,52,Male,4630_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2631,52,Male,2631_left.jpg,normal fundus,1,0,0,0
-4113,50,Male,4113_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2440,59,Female,2440_right.jpg,normal fundus,1,0,0,0
-2221,71,Male,2221_left.jpg,cataract,0,0,1,0
-1311,67,Female,1311_left.jpg,normal fundus,1,0,0,0
-3168,53,Male,3168_right.jpg,normal fundus,1,0,0,0
-4214,45,Male,4214_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0
-16,54,Female,16_left.jpg,normal fundus,1,0,0,0
-2251,70,Male,2251_right.jpg,cataract，lens dust,0,0,1,0
-2706,56,Male,2706_right.jpg,normal fundus,1,0,0,0
-2511,53,Male,2511_right.jpg,normal fundus,1,0,0,0
-4408,59,Female,4408_right.jpg,normal fundus,1,0,0,0
-1539,68,Male,1539_left.jpg,pathological myopia,0,0,0,1
-469,69,Female,469_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1623,58,Female,1623_left.jpg,pathological myopia,0,0,0,1
-1465,54,Male,1465_left.jpg,normal fundus,1,0,0,0
-2513,69,Male,2513_left.jpg,normal fundus,1,0,0,0
-2561,32,Male,2561_left.jpg,normal fundus,1,0,0,0
-872,64,Female,872_right.jpg,normal fundus,1,0,0,0
-3159,62,Male,3159_left.jpg,normal fundus,1,0,0,0
-4167,54,Male,4167_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2105,76,Female,2105_left.jpg,cataract,0,0,1,0
-2793,70,Male,2793_left.jpg,normal fundus,1,0,0,0
-4427,43,Male,4427_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2600,57,Male,2600_left.jpg,normal fundus,1,0,0,0
-3951,54,Male,3951_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0
-4438,56,Male,4438_left.jpg,normal fundus,1,0,0,0
-1568,1,Female,1568_right.jpg,pathological myopia,0,0,0,1
-118,48,Male,118_left.jpg,moderate non proliferative retinopathy，myelinated nerve fibers,0,1,0,0
-2666,61,Male,2666_right.jpg,normal fundus,1,0,0,0
-1570,46,Female,1570_left.jpg,pathological myopia,0,0,0,1
-3214,47,Male,3214_left.jpg,normal fundus,1,0,0,0
-2210,78,Female,2210_left.jpg,cataract,0,0,1,0
-2175,63,Male,2175_left.jpg,cataract,0,0,1,0
-4050,62,Male,4050_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-1573,69,Female,1573_right.jpg,pathological myopia,0,0,0,1
-4107,48,Male,4107_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4340,49,Male,4340_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4678,54,Male,4678_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2195,47,Female,2195_left.jpg,cataract,0,0,1,0
-2456,48,Male,2456_left.jpg,normal fundus,1,0,0,0
-3276,50,Male,3276_right.jpg,normal fundus,1,0,0,0
-3034,48,Male,3034_left.jpg,normal fundus,1,0,0,0
-3044,60,Female,3044_right.jpg,normal fundus,1,0,0,0
-2542,73,Male,2542_right.jpg,normal fundus,1,0,0,0
-1198,44,Female,1198_right.jpg,normal fundus,1,0,0,0
-2179,70,Female,2179_left.jpg,cataract,0,0,1,0
-1153,65,Female,1153_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-2944,64,Female,2944_left.jpg,normal fundus,1,0,0,0
-2745,48,Male,2745_right.jpg,normal fundus,1,0,0,0
-4093,55,Male,4093_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1225,39,Male,1225_right.jpg,glaucoma，myopia retinopathy,0,0,0,1
-2652,49,Female,2652_left.jpg,normal fundus，lens dust,1,0,0,0
-1611,70,Female,1611_left.jpg,pathological myopia,0,0,0,1
-1072,54,Female,1072_left.jpg,normal fundus,1,0,0,0
-4647,52,Male,4647_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-2177,87,Male,2177_left.jpg,normal fundus，lens dust,1,0,0,0
-1299,49,Female,1299_right.jpg,normal fundus,1,0,0,0
-1620,62,Male,1620_left.jpg,normal fundus,1,0,0,0
-2766,37,Female,2766_left.jpg,normal fundus,1,0,0,0
-3206,71,Male,3206_left.jpg,normal fundus,1,0,0,0
-2888,14,Female,2888_left.jpg,normal fundus,1,0,0,0
-4590,40,Male,4590_right.jpg,normal fundus,1,0,0,0
-4455,65,Male,4455_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-4059,69,Male,4059_left.jpg,normal fundus,1,0,0,0
-4176,52,Female,4176_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4451,37,Male,4451_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-4417,52,Male,4417_left.jpg,normal fundus,1,0,0,0
-1556,66,Female,1556_right.jpg,normal fundus,1,0,0,0
-734,74,Male,734_left.jpg,normal fundus,1,0,0,0
-4195,56,Male,4195_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2391,52,Female,2391_left.jpg,normal fundus,1,0,0,0
-2401,57,Female,2401_right.jpg,normal fundus,1,0,0,0
-3086,45,Male,3086_left.jpg,normal fundus,1,0,0,0
-3937,57,Male,3937_left.jpg,normal fundus,1,0,0,0
-4078,64,Female,4078_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2161,59,Male,2161_right.jpg,cataract,0,0,1,0
-3125,52,Male,3125_right.jpg,normal fundus,1,0,0,0
-3945,51,Female,3945_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3141,47,Male,3141_left.jpg,normal fundus,1,0,0,0
-2181,79,Female,2181_left.jpg,cataract,0,0,1,0
-3117,55,Male,3117_left.jpg,normal fundus,1,0,0,0
-692,45,Female,692_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0
-493,68,Female,493_left.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0
-3292,57,Female,3292_left.jpg,normal fundus,1,0,0,0
-4507,70,Female,4507_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2184,65,Female,2184_right.jpg,cataract,0,0,1,0
-2651,55,Female,2651_right.jpg,normal fundus,1,0,0,0
-1410,69,Female,1410_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2473,31,Male,2473_left.jpg,normal fundus,1,0,0,0
-4636,54,Male,4636_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1624,71,Female,1624_right.jpg,pathological myopia,0,0,0,1
-691,68,Female,691_left.jpg,cataract,0,0,1,0
-1527,64,Female,1527_right.jpg,pathological myopia,0,0,0,1
-792,59,Female,792_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-809,67,Male,809_left.jpg,cataract,0,0,1,0
-2775,66,Male,2775_right.jpg,normal fundus,1,0,0,0
-1583,1,Female,1583_right.jpg,pathological myopia,0,0,0,1
-1535,45,Male,1535_right.jpg,pathological myopia，lens dust,0,0,0,1
-2569,68,Female,2569_left.jpg,normal fundus,1,0,0,0
-4030,49,Female,4030_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2566,62,Female,2566_left.jpg,normal fundus，lens dust,1,0,0,0
-824,74,Female,824_right.jpg,normal fundus,1,0,0,0
-4005,62,Female,4005_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-1531,63,Female,1531_left.jpg,pathological myopia,0,0,0,1
-1567,47,Male,1567_right.jpg,pathological myopia,0,0,0,1
-2989,44,Male,2989_left.jpg,normal fundus,1,0,0,0
-2895,33,Male,2895_left.jpg,normal fundus,1,0,0,0
-4621,67,Male,4621_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2123,47,Male,2123_left.jpg,cataract,0,0,1,0
-2219,68,Female,2219_right.jpg,cataract,0,0,1,0
-2488,48,Female,2488_left.jpg,normal fundus,1,0,0,0
-2623,45,Female,2623_left.jpg,normal fundus,1,0,0,0
-2164,67,Male,2164_right.jpg,cataract,0,0,1,0
-582,48,Male,582_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-3100,57,Male,3100_right.jpg,normal fundus,1,0,0,0
-2907,58,Male,2907_right.jpg,normal fundus,1,0,0,0
-3271,42,Female,3271_right.jpg,normal fundus,1,0,0,0
-4353,47,Male,4353_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4274,54,Female,4274_right.jpg,normal fundus,1,0,0,0
-3214,47,Male,3214_right.jpg,normal fundus,1,0,0,0
-3177,66,Female,3177_right.jpg,normal fundus,1,0,0,0
-3415,70,Female,3415_left.jpg,normal fundus,1,0,0,0
-2827,66,Male,2827_left.jpg,normal fundus,1,0,0,0
-4300,49,Female,4300_left.jpg,normal fundus,1,0,0,0
-2626,55,Female,2626_left.jpg,normal fundus,1,0,0,0
-3438,67,Male,3438_left.jpg,normal fundus,1,0,0,0
-2933,50,Female,2933_left.jpg,normal fundus,1,0,0,0
-82,33,Male,82_left.jpg,normal fundus,1,0,0,0
-4110,67,Male,4110_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2819,74,Female,2819_right.jpg,normal fundus,1,0,0,0
-4602,59,Male,4602_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-625,72,Female,625_left.jpg,cataract，suspected glaucoma,0,0,1,0
-1102,56,Male,1102_right.jpg,cataract,0,0,1,0
-412,60,Female,412_right.jpg,proliferative diabetic retinopathy,0,1,0,0
-2915,61,Female,2915_right.jpg,normal fundus,1,0,0,0
-3965,72,Female,3965_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-111,64,Male,111_right.jpg,moderate non proliferative retinopathy，white vessel,0,1,0,0
-848,56,Male,848_right.jpg,normal fundus,1,0,0,0
-1663,77,Male,1663_right.jpg,normal fundus,1,0,0,0
-4067,54,Female,4067_right.jpg,normal fundus,1,0,0,0
-4247,56,Female,4247_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3962,54,Female,3962_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4168,65,Female,4168_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1147,65,Female,1147_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3385,43,Male,3385_right.jpg,normal fundus,1,0,0,0
-3420,55,Female,3420_right.jpg,normal fundus,1,0,0,0
-4324,53,Male,4324_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1138,46,Male,1138_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3252,70,Female,3252_right.jpg,normal fundus,1,0,0,0
-4595,58,Male,4595_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4582,63,Female,4582_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-2189,81,Female,2189_left.jpg,cataract,0,0,1,0
-2685,57,Male,2685_right.jpg,normal fundus,1,0,0,0
-3348,33,Male,3348_left.jpg,normal fundus,1,0,0,0
-2519,61,Female,2519_left.jpg,normal fundus,1,0,0,0
-174,71,Female,174_right.jpg,normal fundus,1,0,0,0
-4492,56,Male,4492_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-2824,60,Male,2824_right.jpg,normal fundus,1,0,0,0
-229,63,Female,229_left.jpg,severe nonproliferative retinopathy,0,1,0,0
-750,56,Male,750_left.jpg,cataract,0,0,1,0
-2900,65,Male,2900_left.jpg,normal fundus,1,0,0,0
-2632,63,Male,2632_left.jpg,normal fundus,1,0,0,0
-2205,51,Female,2205_left.jpg,normal fundus,1,0,0,0
-157,65,Female,157_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4377,54,Female,4377_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-1137,60,Female,1137_left.jpg,normal fundus，lens dust,1,0,0,0
-2409,52,Male,2409_left.jpg,normal fundus,1,0,0,0
-2537,56,Male,2537_left.jpg,normal fundus,1,0,0,0
-4118,50,Female,4118_left.jpg,normal fundus,1,0,0,0
-2563,49,Male,2563_right.jpg,normal fundus,1,0,0,0
-4511,39,Female,4511_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4326,66,Female,4326_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4441,62,Male,4441_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2642,25,Male,2642_left.jpg,normal fundus,1,0,0,0
-2524,59,Male,2524_right.jpg,normal fundus,1,0,0,0
-4289,46,Male,4289_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-972,53,Male,972_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2356,51,Male,2356_right.jpg,normal fundus,1,0,0,0
-2408,78,Female,2408_left.jpg,normal fundus,1,0,0,0
-1122,65,Female,1122_right.jpg,normal fundus,1,0,0,0
-2226,52,Female,2226_left.jpg,cataract,0,0,1,0
-2138,79,Female,2138_right.jpg,cataract,0,0,1,0
-2981,68,Female,2981_right.jpg,normal fundus,1,0,0,0
-3340,53,Female,3340_left.jpg,normal fundus,1,0,0,0
-2555,51,Male,2555_right.jpg,normal fundus,1,0,0,0
-4298,59,Male,4298_left.jpg,normal fundus,1,0,0,0
-2377,51,Male,2377_left.jpg,normal fundus,1,0,0,0
-962,68,Female,962_left.jpg,drusen，mild nonproliferative retinopathy,0,1,0,0
-4054,63,Male,4054_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2640,49,Male,2640_left.jpg,normal fundus,1,0,0,0
-1514,33,Male,1514_right.jpg,normal fundus,1,0,0,0
-3223,56,Male,3223_right.jpg,normal fundus,1,0,0,0
-2452,58,Male,2452_right.jpg,normal fundus,1,0,0,0
-2342,76,Male,2342_right.jpg,normal fundus,1,0,0,0
-2999,63,Male,2999_left.jpg,normal fundus,1,0,0,0
-2761,53,Female,2761_left.jpg,normal fundus,1,0,0,0
-4269,61,Female,4269_right.jpg,normal fundus,1,0,0,0
-4221,65,Male,4221_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-3345,65,Female,3345_right.jpg,normal fundus,1,0,0,0
-6,60,Male,6_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0
-4308,48,Male,4308_left.jpg,normal fundus,1,0,0,0
-4036,56,Male,4036_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-1576,67,Female,1576_left.jpg,pathological myopia,0,0,0,1
-3160,37,Male,3160_right.jpg,normal fundus,1,0,0,0
-1968,52,Male,1968_left.jpg,cataract，lens dust,0,0,1,0
-3235,53,Female,3235_left.jpg,normal fundus,1,0,0,0
-4587,67,Male,4587_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1145,40,Female,1145_right.jpg,normal fundus,1,0,0,0
-2595,75,Male,2595_left.jpg,normal fundus,1,0,0,0
-2136,76,Female,2136_left.jpg,cataract,0,0,1,0
-2397,58,Male,2397_right.jpg,normal fundus,1,0,0,0
-4564,50,Male,4564_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2095,76,Female,2095_right.jpg,cataract,0,0,1,0
-4471,53,Female,4471_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1681,70,Male,1681_right.jpg,pathological myopia,0,0,0,1
-2905,38,Female,2905_left.jpg,normal fundus,1,0,0,0
-3441,44,Male,3441_left.jpg,normal fundus,1,0,0,0
-1225,39,Male,1225_left.jpg,glaucoma，myopia retinopathy,0,0,0,1
-411,57,Male,411_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2239,46,Male,2239_right.jpg,cataract,0,0,1,0
-1460,62,Female,1460_left.jpg,normal fundus,1,0,0,0
-2505,55,Female,2505_right.jpg,normal fundus,1,0,0,0
-594,70,Female,594_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-940,48,Female,940_right.jpg,normal fundus,1,0,0,0
-914,61,Female,914_left.jpg,moderate non proliferative retinopathy，myelinated nerve fibers，laser spot,0,1,0,0
-3310,56,Male,3310_right.jpg,normal fundus,1,0,0,0
-535,47,Male,535_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4205,46,Female,4205_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4030,49,Female,4030_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2248,74,Female,2248_right.jpg,cataract，lens dust,0,0,1,0
-477,65,Female,477_left.jpg,cataract,0,0,1,0
-3353,42,Female,3353_left.jpg,normal fundus,1,0,0,0
-4038,75,Female,4038_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2456,48,Male,2456_right.jpg,normal fundus,1,0,0,0
-3157,62,Female,3157_left.jpg,normal fundus,1,0,0,0
-309,52,Female,309_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1560,77,Female,1560_right.jpg,pathological myopia,0,0,0,1
-4534,56,Male,4534_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2647,43,Male,2647_right.jpg,normal fundus,1,0,0,0
-2129,73,Male,2129_right.jpg,cataract,0,0,1,0
-459,59,Female,459_left.jpg,normal fundus，lens dust,1,0,0,0
-3262,57,Male,3262_left.jpg,normal fundus,1,0,0,0
-2682,54,Male,2682_left.jpg,normal fundus,1,0,0,0
-599,65,Male,599_left.jpg,normal fundus,1,0,0,0
-1012,56,Female,1012_right.jpg,pathological myopia,0,0,0,1
-4119,41,Male,4119_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4572,54,Female,4572_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-1558,73,Female,1558_right.jpg,pathological myopia,0,0,0,1
-4204,47,Female,4204_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-4334,49,Male,4334_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4239,62,Male,4239_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2892,72,Male,2892_left.jpg,normal fundus,1,0,0,0
-684,60,Female,684_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4618,58,Male,4618_left.jpg,normal fundus,1,0,0,0
-259,50,Female,259_left.jpg,normal fundus,1,0,0,0
-4056,52,Female,4056_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2979,53,Male,2979_right.jpg,normal fundus,1,0,0,0
-2559,52,Male,2559_left.jpg,normal fundus,1,0,0,0
-551,57,Female,551_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-211,60,Male,211_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4432,49,Male,4432_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2800,63,Female,2800_right.jpg,normal fundus,1,0,0,0
-948,65,Male,948_right.jpg,moderate non proliferative retinopathy，macular epiretinal membrane,0,1,0,0
-2766,37,Female,2766_right.jpg,normal fundus,1,0,0,0
-4593,65,Male,4593_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3379,45,Female,3379_right.jpg,normal fundus,1,0,0,0
-464,50,Female,464_right.jpg,normal fundus,1,0,0,0
-107,68,Female,107_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0
-3361,64,Male,3361_right.jpg,normal fundus,1,0,0,0
-2577,60,Male,2577_left.jpg,normal fundus,1,0,0,0
-2883,72,Male,2883_right.jpg,normal fundus,1,0,0,0
-3433,34,Male,3433_left.jpg,normal fundus,1,0,0,0
-2335,55,Female,2335_right.jpg,normal fundus,1,0,0,0
-3429,79,Male,3429_right.jpg,normal fundus,1,0,0,0
-3333,71,Male,3333_right.jpg,normal fundus,1,0,0,0
-1710,62,Male,1710_left.jpg,pathological myopia,0,0,0,1
-4044,62,Male,4044_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2032,48,Male,2032_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2496,52,Female,2496_right.jpg,normal fundus,1,0,0,0
-2447,34,Female,2447_left.jpg,normal fundus,1,0,0,0
-3175,70,Female,3175_left.jpg,normal fundus,1,0,0,0
-2786,61,Male,2786_left.jpg,normal fundus,1,0,0,0
-4185,65,Female,4185_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-569,64,Male,569_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2528,37,Male,2528_right.jpg,normal fundus,1,0,0,0
-2874,45,Male,2874_right.jpg,normal fundus,1,0,0,0
-814,76,Male,814_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2559,52,Male,2559_right.jpg,normal fundus,1,0,0,0
-1942,52,Male,1942_right.jpg,diabetic retinopathy，dry age-related macular degeneration,0,1,0,0
-4209,62,Female,4209_left.jpg,normal fundus,1,0,0,0
-133,59,Female,133_left.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0
-24,75,Female,24_left.jpg,normal fundus,1,0,0,0
-2629,34,Male,2629_right.jpg,normal fundus,1,0,0,0
-4595,58,Male,4595_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2545,46,Male,2545_left.jpg,normal fundus,1,0,0,0
-4647,52,Male,4647_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-3093,73,Female,3093_right.jpg,normal fundus,1,0,0,0
-3443,65,Male,3443_left.jpg,normal fundus,1,0,0,0
-4289,46,Male,4289_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2401,57,Female,2401_left.jpg,normal fundus,1,0,0,0
-4497,52,Male,4497_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2442,54,Male,2442_left.jpg,normal fundus,1,0,0,0
-4440,60,Male,4440_left.jpg,normal fundus,1,0,0,0
-4158,52,Male,4158_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1532,62,Female,1532_left.jpg,pathological myopia,0,0,0,1
-2246,69,Male,2246_left.jpg,cataract,0,0,1,0
-694,64,Female,694_right.jpg,normal fundus,1,0,0,0
-4576,50,Female,4576_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4398,59,Male,4398_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3066,65,Female,3066_right.jpg,normal fundus,1,0,0,0
-3227,52,Male,3227_right.jpg,normal fundus,1,0,0,0
-676,52,Male,676_right.jpg,moderate non proliferative retinopathy，moderate non proliferative retinopathy，moderate non proliferative retinopathy,0,1,0,0
-2662,49,Female,2662_left.jpg,normal fundus,1,0,0,0
-3351,55,Female,3351_right.jpg,normal fundus,1,0,0,0
-923,49,Male,923_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-2585,56,Male,2585_right.jpg,normal fundus,1,0,0,0
-2113,52,Female,2113_left.jpg,cataract,0,0,1,0
-4394,56,Male,4394_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-913,61,Female,913_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-4493,39,Female,4493_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-3162,33,Male,3162_right.jpg,normal fundus,1,0,0,0
-46,66,Male,46_right.jpg,pathological myopia,0,0,0,1
-3377,72,Male,3377_right.jpg,normal fundus,1,0,0,0
-2140,70,Male,2140_right.jpg,cataract,0,0,1,0
-2349,45,Male,2349_right.jpg,normal fundus,1,0,0,0
-4033,45,Male,4033_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-4437,50,Male,4437_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-268,49,Female,268_right.jpg,severe proliferative diabetic retinopathy，laser spot,0,1,0,0
-2907,58,Male,2907_left.jpg,normal fundus,1,0,0,0
-2125,83,Female,2125_right.jpg,normal fundus,1,0,0,0
-1606,54,Male,1606_right.jpg,pathological myopia,0,0,0,1
-671,65,Male,671_left.jpg,normal fundus,1,0,0,0
-4675,53,Male,4675_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1548,63,Female,1548_right.jpg,pathological myopia,0,0,0,1
-3035,80,Female,3035_right.jpg,normal fundus,1,0,0,0
-3968,75,Female,3968_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2678,67,Female,2678_left.jpg,normal fundus,1,0,0,0
-100,59,Male,100_right.jpg,normal fundus,1,0,0,0
-127,52,Male,127_right.jpg,proliferative diabetic retinopathy，hypertensive retinopathy,0,1,0,0
-2425,68,Male,2425_left.jpg,normal fundus,1,0,0,0
-274,53,Male,274_left.jpg,mild nonproliferative retinopathy，epiretinal membrane,0,1,0,0
-2384,65,Female,2384_left.jpg,normal fundus,1,0,0,0
-27,33,Male,27_left.jpg,normal fundus,1,0,0,0
-3350,30,Male,3350_right.jpg,normal fundus,1,0,0,0
-2233,77,Female,2233_left.jpg,cataract,0,0,1,0
-854,74,Male,854_left.jpg,normal fundus,1,0,0,0
-289,57,Male,289_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-2428,76,Male,2428_left.jpg,normal fundus，lens dust,1,0,0,0
-2792,54,Male,2792_right.jpg,normal fundus,1,0,0,0
-373,60,Female,373_left.jpg,normal fundus,1,0,0,0
-2739,46,Male,2739_right.jpg,normal fundus,1,0,0,0
-2815,74,Male,2815_right.jpg,normal fundus,1,0,0,0
-186,45,Male,186_right.jpg,mild nonproliferative retinopathy，myelinated nerve fibers,0,1,0,0
-4161,55,Female,4161_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-4568,54,Male,4568_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-553,69,Female,553_right.jpg,cataract,0,0,1,0
-864,71,Female,864_right.jpg,severe nonproliferative retinopathy,0,1,0,0
-64,80,Male,64_left.jpg,diabetic retinopathy,0,1,0,0
-2387,64,Female,2387_left.jpg,normal fundus,1,0,0,0
-1554,78,Female,1554_right.jpg,pathological myopia,0,0,0,1
-575,65,Male,575_left.jpg,normal fundus,1,0,0,0
-403,47,Female,403_right.jpg,normal fundus,1,0,0,0
-1280,50,Female,1280_right.jpg,normal fundus,1,0,0,0
-846,54,Male,846_right.jpg,normal fundus,1,0,0,0
-3015,35,Male,3015_left.jpg,normal fundus,1,0,0,0
-157,65,Female,157_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2540,64,Male,2540_left.jpg,normal fundus,1,0,0,0
-1531,63,Female,1531_right.jpg,pathological myopia,0,0,0,1
-718,52,Male,718_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-515,54,Female,515_left.jpg,normal fundus,1,0,0,0
-2448,56,Male,2448_left.jpg,normal fundus,1,0,0,0
-3152,62,Male,3152_right.jpg,normal fundus,1,0,0,0
-1034,56,Male,1034_right.jpg,normal fundus,1,0,0,0
-4406,63,Male,4406_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-2339,35,Male,2339_left.jpg,normal fundus,1,0,0,0
-4546,71,Female,4546_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-1115,81,Female,1115_left.jpg,cataract,0,0,1,0
-2825,64,Female,2825_right.jpg,normal fundus,1,0,0,0
-2191,80,Female,2191_left.jpg,normal fundus,1,0,0,0
-2981,68,Female,2981_left.jpg,normal fundus,1,0,0,0
-1510,56,Male,1510_left.jpg,normal fundus,1,0,0,0
-2415,66,Female,2415_right.jpg,normal fundus,1,0,0,0
-3329,44,Male,3329_left.jpg,normal fundus,1,0,0,0
-4644,60,Female,4644_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-2902,60,Male,2902_right.jpg,normal fundus,1,0,0,0
-4679,69,Male,4679_right.jpg,moderate non proliferative retinopathy,0,1,0,0
-3303,29,Female,3303_left.jpg,normal fundus,1,0,0,0
-2337,61,Female,2337_right.jpg,normal fundus,1,0,0,0
-1165,44,Male,1165_left.jpg,normal fundus,1,0,0,0
-390,59,Female,390_right.jpg,pathological myopia,0,0,0,1
-4542,54,Male,4542_left.jpg,normal fundus,1,0,0,0
-2563,49,Male,2563_left.jpg,normal fundus,1,0,0,0
-466,62,Male,466_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0
-4192,65,Female,4192_left.jpg,moderate non proliferative retinopathy,0,1,0,0
-26,63,Female,26_right.jpg,moderate non proliferative retinopathy，abnormal pigment ,0,1,0,0
-3327,68,Male,3327_right.jpg,normal fundus,1,0,0,0
-4557,53,Female,4557_right.jpg,mild nonproliferative retinopathy,0,1,0,0
-1109,60,Male,1109_left.jpg,normal fundus,1,0,0,0
-4252,58,Male,4252_left.jpg,mild nonproliferative retinopathy,0,1,0,0
-997,63,Female,997_left.jpg,diabetic retinopathy，post laser photocoagulation,0,1,0,0
-1666,47,Male,1666_left.jpg,normal fundus,1,0,0,0
+ID,Patient Age,Patient Sex,Fundus,Diagnostic Keywords,N,D,C,M,O
+3323,53,Female,3323_left.jpg,normal fundus,1,0,0,0,0
+4487,55,Female,4487_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1099,57,Female,1099_right.jpg,macular epiretinal membrane,0,0,0,0,1
+1443,57,Male,1443_right.jpg,glaucoma,0,0,0,0,1
+2351,51,Male,2351_right.jpg,normal fundus,1,0,0,0,0
+3230,57,Female,3230_left.jpg,normal fundus,1,0,0,0,0
+4203,66,Female,4203_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4047,18,Female,4047_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2213,83,Female,2213_right.jpg,cataract,0,0,1,0,0
+93,70,Male,93_left.jpg,moderate non proliferative retinopathy，retina fold,0,1,0,0,1
+3411,61,Male,3411_left.jpg,normal fundus,1,0,0,0,0
+2592,38,Male,2592_left.jpg,normal fundus,1,0,0,0,0
+4571,51,Male,4571_right.jpg,normal fundus,1,0,0,0,0
+1136,67,Female,1136_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2465,62,Female,2465_right.jpg,normal fundus,1,0,0,0,0
+743,56,Female,743_right.jpg,epiretinal membrane，vessel tortuosity,0,0,0,0,1
+4125,54,Male,4125_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+4515,61,Male,4515_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3146,51,Female,3146_right.jpg,normal fundus,1,0,0,0,0
+431,53,Male,431_left.jpg,epiretinal membrane,0,0,0,0,1
+4319,69,Male,4319_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+176,65,Female,176_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+4560,65,Female,4560_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+1264,54,Male,1264_right.jpg,refractive media opacity,0,0,0,0,1
+4314,64,Female,4314_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4543,67,Male,4543_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2953,47,Male,2953_right.jpg,normal fundus,1,0,0,0,0
+3258,64,Female,3258_right.jpg,normal fundus,1,0,0,0,0
+2973,63,Female,2973_right.jpg,normal fundus,1,0,0,0,0
+161,49,Male,161_left.jpg,mild nonproliferative retinopathy，myelinated nerve fibers,0,1,0,0,1
+2731,69,Female,2731_right.jpg,normal fundus,1,0,0,0,0
+2225,57,Male,2225_left.jpg,cataract,0,0,1,0,0
+2729,62,Female,2729_left.jpg,normal fundus,1,0,0,0,0
+1889,45,Male,1889_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+2228,64,Female,2228_right.jpg,cataract,0,0,1,0,0
+2923,46,Male,2923_right.jpg,normal fundus,1,0,0,0,0
+3382,59,Female,3382_left.jpg,normal fundus,1,0,0,0,0
+3336,62,Male,3336_right.jpg,normal fundus,1,0,0,0,0
+1838,62,Male,1838_right.jpg,diabetic retinopathy,0,1,0,0,0
+3485,70,Male,3485_right.jpg,normal fundus,1,0,0,0,0
+3400,53,Female,3400_right.jpg,normal fundus,1,0,0,0,0
+4175,38,Male,4175_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3291,61,Female,3291_left.jpg,normal fundus,1,0,0,0,0
+3308,62,Female,3308_right.jpg,normal fundus,1,0,0,0,0
+2691,54,Female,2691_right.jpg,normal fundus,1,0,0,0,0
+4234,43,Male,4234_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4645,45,Male,4645_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+441,48,Male,441_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1483,69,Female,1483_right.jpg,cataract,0,0,1,0,0
+3085,60,Female,3085_left.jpg,normal fundus,1,0,0,0,0
+206,67,Female,206_left.jpg,mild nonproliferative retinopathy，epiretinal membrane over the macula,0,1,0,0,1
+3211,35,Female,3211_right.jpg,normal fundus,1,0,0,0,0
+43,35,Male,43_right.jpg,dry age-related macular degeneration，glaucoma,0,0,0,0,1
+3013,44,Male,3013_right.jpg,normal fundus,1,0,0,0,0
+1526,74,Female,1526_right.jpg,pathological myopia,0,0,0,1,0
+1831,68,Male,1831_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+859,61,Male,859_right.jpg,epiretinal membrane,0,0,0,0,1
+2443,46,Male,2443_right.jpg,normal fundus,1,0,0,0,0
+1845,55,Male,1845_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+2996,32,Female,2996_right.jpg,normal fundus,1,0,0,0,0
+1994,67,Male,1994_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2984,53,Male,2984_left.jpg,normal fundus,1,0,0,0,0
+4637,45,Male,4637_left.jpg,normal fundus,1,0,0,0,0
+4331,75,Male,4331_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2758,57,Male,2758_left.jpg,normal fundus,1,0,0,0,0
+571,52,Female,571_right.jpg,hypertensive retinopathy，mild nonproliferative retinopathy,0,1,0,0,1
+312,74,Male,312_left.jpg,epiretinal membrane,0,0,0,0,1
+461,62,Female,461_left.jpg,normal fundus,1,0,0,0,0
+579,70,Male,579_left.jpg,myelinated nerve fibers,0,0,0,0,1
+206,67,Female,206_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+795,56,Female,795_right.jpg,normal fundus,1,0,0,0,0
+2596,63,Female,2596_left.jpg,normal fundus,1,0,0,0,0
+1462,71,Male,1462_right.jpg,epiretinal membrane,0,0,0,0,1
+1530,70,Male,1530_right.jpg,pathological myopia,0,0,0,1,0
+800,62,Male,800_left.jpg,normal fundus,1,0,0,0,0
+622,62,Male,622_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+56,63,Female,56_right.jpg,epiretinal membrane,0,0,0,0,1
+4002,67,Male,4002_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+1559,56,Female,1559_right.jpg,pathological myopia，suspected macular epimacular membrane,0,0,0,1,1
+2733,56,Male,2733_left.jpg,normal fundus,1,0,0,0,0
+4281,60,Male,4281_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2198,69,Female,2198_left.jpg,cataract,0,0,1,0,0
+2388,54,Female,2388_left.jpg,normal fundus,1,0,0,0,0
+4217,39,Male,4217_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2127,70,Male,2127_right.jpg,cataract,0,0,1,0,0
+3285,54,Female,3285_left.jpg,normal fundus,1,0,0,0,0
+2126,75,Male,2126_right.jpg,cataract,0,0,1,0,0
+4584,42,Male,4584_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+928,45,Female,928_right.jpg,drusen,0,0,0,0,1
+1264,54,Male,1264_left.jpg,glaucoma,0,0,0,0,1
+2924,57,Male,2924_right.jpg,normal fundus,1,0,0,0,0
+3153,58,Female,3153_left.jpg,normal fundus,1,0,0,0,0
+1617,1,Female,1617_left.jpg,pathological myopia,0,0,0,1,0
+2892,72,Male,2892_right.jpg,normal fundus,1,0,0,0,0
+4275,69,Female,4275_right.jpg,normal fundus,1,0,0,0,0
+4098,57,Female,4098_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2957,62,Female,2957_right.jpg,normal fundus,1,0,0,0,0
+791,36,Male,791_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,1
+3119,67,Female,3119_left.jpg,normal fundus，lens dust,1,0,0,0,0
+4129,57,Female,4129_right.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+4522,67,Male,4522_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2665,63,Male,2665_left.jpg,normal fundus,1,0,0,0,0
+457,64,Female,457_left.jpg,normal fundus,1,0,0,0,0
+657,46,Male,657_left.jpg,epiretinal membrane,0,0,0,0,1
+4095,67,Male,4095_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+370,57,Male,370_right.jpg,normal fundus,1,0,0,0,0
+2600,57,Male,2600_right.jpg,normal fundus,1,0,0,0,0
+780,37,Male,780_left.jpg,myelinated nerve fibers,0,0,0,0,1
+4064,46,Male,4064_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2753,70,Male,2753_right.jpg,normal fundus,1,0,0,0,0
+130,66,Female,130_right.jpg,macular epiretinal membrane，mild nonproliferative retinopathy,0,1,0,0,1
+2376,65,Female,2376_right.jpg,normal fundus,1,0,0,0,0
+4094,65,Female,4094_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+665,54,Male,665_right.jpg,macular epiretinal membrane,0,0,0,0,1
+761,56,Female,761_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+114,48,Male,114_right.jpg,normal fundus,1,0,0,0,0
+433,45,Female,433_right.jpg,normal fundus,1,0,0,0,0
+4303,50,Male,4303_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1613,66,Female,1613_left.jpg,pathological myopia,0,0,0,1,0
+1554,78,Female,1554_left.jpg,pathological myopia,0,0,0,1,0
+4608,50,Female,4608_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1318,61,Female,1318_left.jpg,glaucoma,0,0,0,0,1
+2927,56,Male,2927_right.jpg,normal fundus,1,0,0,0,0
+990,41,Female,990_right.jpg,macular epiretinal membrane,0,0,0,0,1
+3273,53,Male,3273_left.jpg,normal fundus,1,0,0,0,0
+2614,56,Male,2614_right.jpg,normal fundus,1,0,0,0,0
+3203,74,Female,3203_left.jpg,normal fundus,1,0,0,0,0
+934,72,Female,934_left.jpg,diabetic retinopathy,0,1,0,0,0
+3124,39,Female,3124_left.jpg,normal fundus,1,0,0,0,0
+2795,78,Female,2795_right.jpg,normal fundus,1,0,0,0,0
+234,54,Male,234_right.jpg,diabetic retinopathy,0,1,0,0,0
+2472,60,Female,2472_right.jpg,normal fundus,1,0,0,0,0
+2994,54,Male,2994_right.jpg,normal fundus,1,0,0,0,0
+1231,59,Female,1231_left.jpg,glaucoma,0,0,0,0,1
+2331,59,Male,2331_right.jpg,normal fundus,1,0,0,0,0
+731,58,Male,731_left.jpg,epiretinal membrane over the macula,0,0,0,0,1
+4306,70,Male,4306_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4563,54,Male,4563_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4115,60,Male,4115_right.jpg,normal fundus,1,0,0,0,0
+8,59,Male,8_left.jpg,normal fundus,1,0,0,0,0
+2971,39,Male,2971_left.jpg,normal fundus,1,0,0,0,0
+358,47,Male,358_left.jpg,mild nonproliferative retinopathy，drusen,0,1,0,0,1
+1296,60,Female,1296_right.jpg,refractive media opacity,0,0,0,0,1
+308,73,Male,308_right.jpg,macular epiretinal membrane,0,0,0,0,1
+124,68,Female,124_left.jpg,normal fundus,1,0,0,0,0
+2964,48,Male,2964_left.jpg,normal fundus,1,0,0,0,0
+4299,52,Female,4299_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2945,65,Male,2945_left.jpg,normal fundus,1,0,0,0,0
+2483,33,Male,2483_left.jpg,normal fundus，lens dust,1,0,0,0,0
+766,64,Male,766_left.jpg,normal fundus,1,0,0,0,0
+4566,53,Female,4566_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2167,75,Female,2167_left.jpg,cataract,0,0,1,0,0
+1570,46,Female,1570_right.jpg,pathological myopia,0,0,0,1,0
+49,47,Female,49_right.jpg,normal fundus,1,0,0,0,0
+2194,50,Male,2194_left.jpg,cataract,0,0,1,0,0
+4207,66,Female,4207_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+1881,67,Female,1881_right.jpg,dry age-related macular degeneration，glaucoma,0,0,0,0,1
+2190,84,Female,2190_left.jpg,normal fundus,1,0,0,0,0
+3419,64,Male,3419_right.jpg,normal fundus,1,0,0,0,0
+4488,45,Male,4488_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+200,64,Female,200_right.jpg,normal fundus,1,0,0,0,0
+2164,67,Male,2164_left.jpg,cataract，mild nonproliferative retinopathy,0,1,1,0,0
+2149,73,Female,2149_left.jpg,normal fundus,1,0,0,0,0
+2939,53,Male,2939_right.jpg,normal fundus,1,0,0,0,0
+4632,46,Male,4632_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2794,56,Male,2794_left.jpg,normal fundus,1,0,0,0,0
+544,57,Male,544_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0,1
+1353,63,Male,1353_right.jpg,glaucoma,0,0,0,0,1
+181,64,Male,181_left.jpg,drusen,0,0,0,0,1
+4558,55,Male,4558_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3432,76,Female,3432_left.jpg,normal fundus,1,0,0,0,0
+4342,59,Male,4342_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+222,68,Female,222_right.jpg,vitreous degeneration，lens dust,0,0,0,0,1
+621,59,Female,621_left.jpg,mild nonproliferative retinopathy，macular epiretinal membrane,0,1,0,0,1
+2760,62,Male,2760_left.jpg,normal fundus,1,0,0,0,0
+530,50,Male,530_right.jpg,normal fundus,1,0,0,0,0
+2101,62,Male,2101_left.jpg,cataract,0,0,1,0,0
+4233,60,Female,4233_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3169,63,Male,3169_left.jpg,normal fundus,1,0,0,0,0
+2472,60,Female,2472_left.jpg,normal fundus,1,0,0,0,0
+1581,58,Female,1581_right.jpg,pathological myopia,0,0,0,1,0
+2579,41,Male,2579_right.jpg,normal fundus,1,0,0,0,0
+905,60,Male,905_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,1
+2343,53,Male,2343_left.jpg,normal fundus,1,0,0,0,0
+2973,63,Female,2973_left.jpg,normal fundus,1,0,0,0,0
+3307,78,Female,3307_right.jpg,normal fundus,1,0,0,0,0
+160,40,Female,160_left.jpg,normal fundus,1,0,0,0,0
+15,50,Male,15_right.jpg,myelinated nerve fibers,0,0,0,0,1
+3038,66,Male,3038_left.jpg,normal fundus,1,0,0,0,0
+4097,50,Female,4097_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4334,49,Male,4334_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4317,64,Male,4317_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1578,34,Female,1578_right.jpg,pathological myopia,0,0,0,1,0
+226,50,Male,226_right.jpg,drusen,0,0,0,0,1
+3384,67,Male,3384_right.jpg,normal fundus,1,0,0,0,0
+3406,46,Female,3406_left.jpg,normal fundus,1,0,0,0,0
+4353,47,Male,4353_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+887,63,Female,887_left.jpg,macular epiretinal membrane，laser spot,0,0,0,0,1
+3194,47,Male,3194_left.jpg,normal fundus,1,0,0,0,0
+2262,65,Female,2262_left.jpg,cataract,0,0,1,0,0
+79,72,Female,79_left.jpg,epiretinal membrane,0,0,0,0,1
+560,74,Male,560_left.jpg,cataract,0,0,1,0,0
+801,63,Male,801_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2652,49,Female,2652_right.jpg,normal fundus,1,0,0,0,0
+564,53,Female,564_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+3020,45,Female,3020_left.jpg,normal fundus,1,0,0,0,0
+4316,36,Male,4316_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4580,68,Male,4580_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1,57,Male,1_right.jpg,normal fundus,1,0,0,0,0
+4615,64,Female,4615_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1243,81,Female,1243_right.jpg,dry age-related macular degeneration，glaucoma,0,0,0,0,1
+4556,68,Male,4556_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3094,47,Male,3094_left.jpg,normal fundus,1,0,0,0,0
+787,60,Female,787_right.jpg,myelinated nerve fibers，mild nonproliferative retinopathy,0,1,0,0,1
+4611,66,Male,4611_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2129,73,Male,2129_left.jpg,cataract,0,0,1,0,0
+32,64,Female,32_right.jpg,hypertensive retinopathy,0,0,0,0,1
+11,60,Female,11_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+3069,65,Female,3069_right.jpg,normal fundus,1,0,0,0,0
+466,62,Male,466_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4350,51,Female,4350_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3299,57,Male,3299_left.jpg,normal fundus,1,0,0,0,0
+4213,52,Female,4213_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4403,56,Male,4403_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4175,38,Male,4175_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+357,66,Male,357_left.jpg,epiretinal membrane,0,0,0,0,1
+3171,65,Male,3171_right.jpg,normal fundus,1,0,0,0,0
+214,70,Male,214_left.jpg,normal fundus,1,0,0,0,0
+4634,64,Female,4634_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+523,61,Female,523_left.jpg,normal fundus,1,0,0,0,0
+1396,63,Male,1396_right.jpg,refractive media opacity,0,0,0,0,1
+2597,61,Male,2597_right.jpg,normal fundus,1,0,0,0,0
+208,68,Female,208_right.jpg,normal fundus,1,0,0,0,0
+2363,66,Female,2363_left.jpg,normal fundus,1,0,0,0,0
+437,53,Female,437_right.jpg,macular epiretinal membrane，mild nonproliferative retinopathy,0,1,0,0,1
+4415,31,Male,4415_right.jpg,normal fundus,1,0,0,0,0
+3275,59,Female,3275_right.jpg,normal fundus,1,0,0,0,0
+442,56,Male,442_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1314,43,Female,1314_right.jpg,wet age-related macular degeneration，glaucoma,0,0,0,0,1
+2175,63,Male,2175_right.jpg,normal fundus,1,0,0,0,0
+1060,54,Male,1060_right.jpg,normal fundus,1,0,0,0,0
+2155,72,Male,2155_right.jpg,cataract,0,0,1,0,0
+3089,56,Male,3089_left.jpg,normal fundus,1,0,0,0,0
+3166,43,Male,3166_right.jpg,normal fundus,1,0,0,0,0
+3398,48,Female,3398_left.jpg,normal fundus,1,0,0,0,0
+1473,57,Male,1473_right.jpg,glaucoma,0,0,0,0,1
+3401,66,Male,3401_right.jpg,normal fundus,1,0,0,0,0
+276,66,Male,276_right.jpg,normal fundus,1,0,0,0,0
+3385,43,Male,3385_left.jpg,normal fundus,1,0,0,0,0
+4688,42,Male,4688_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2788,58,Female,2788_right.jpg,normal fundus,1,0,0,0,0
+3354,76,Male,3354_left.jpg,normal fundus,1,0,0,0,0
+296,57,Female,296_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+3971,64,Female,3971_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2552,73,Male,2552_left.jpg,normal fundus,1,0,0,0,0
+185,63,Female,185_left.jpg,drusen,0,0,0,0,1
+143,54,Male,143_left.jpg,normal fundus,1,0,0,0,0
+2998,49,Male,2998_right.jpg,normal fundus,1,0,0,0,0
+1035,53,Male,1035_left.jpg,normal fundus,1,0,0,0,0
+2622,59,Male,2622_right.jpg,normal fundus,1,0,0,0,0
+1520,57,Male,1520_left.jpg,refractive media opacity，pathological myopia,0,0,0,1,1
+2601,67,Male,2601_right.jpg,normal fundus,1,0,0,0,0
+2208,62,Male,2208_right.jpg,cataract,0,0,1,0,0
+3380,60,Female,3380_right.jpg,normal fundus,1,0,0,0,0
+1111,65,Female,1111_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+3366,54,Female,3366_right.jpg,normal fundus,1,0,0,0,0
+2672,28,Female,2672_right.jpg,normal fundus,1,0,0,0,0
+4134,57,Male,4134_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+975,66,Female,975_left.jpg,normal fundus,1,0,0,0,0
+695,52,Female,695_right.jpg,normal fundus,1,0,0,0,0
+608,55,Male,608_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+2498,59,Female,2498_right.jpg,normal fundus,1,0,0,0,0
+715,66,Female,715_right.jpg,normal fundus,1,0,0,0,0
+3064,62,Female,3064_right.jpg,normal fundus,1,0,0,0,0
+4338,54,Male,4338_right.jpg,normal fundus,1,0,0,0,0
+1551,50,Male,1551_right.jpg,pathological myopia,0,0,0,1,0
+2553,54,Female,2553_left.jpg,normal fundus,1,0,0,0,0
+2370,46,Female,2370_right.jpg,normal fundus，lens dust,1,0,0,0,0
+3092,44,Female,3092_right.jpg,normal fundus,1,0,0,0,0
+858,25,Male,858_left.jpg,drusen,0,0,0,0,1
+2813,65,Female,2813_right.jpg,normal fundus,1,0,0,0,0
+205,58,Male,205_left.jpg,drusen,0,0,0,0,1
+4014,60,Female,4014_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4465,45,Female,4465_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1038,54,Female,1038_right.jpg,macular epiretinal membrane,0,0,0,0,1
+4536,60,Female,4536_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+225,70,Female,225_left.jpg,pathological myopia,0,0,0,1,0
+425,81,Female,425_left.jpg,normal fundus,1,0,0,0,0
+3236,63,Male,3236_right.jpg,normal fundus,1,0,0,0,0
+2493,40,Male,2493_left.jpg,normal fundus,1,0,0,0,0
+2933,50,Female,2933_right.jpg,normal fundus,1,0,0,0,0
+4244,73,Male,4244_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3090,50,Male,3090_left.jpg,normal fundus,1,0,0,0,0
+3122,49,Female,3122_right.jpg,normal fundus,1,0,0,0,0
+1850,65,Female,1850_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+296,57,Female,296_left.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+999,56,Female,999_right.jpg,cataract,0,0,1,0,0
+3312,74,Male,3312_right.jpg,normal fundus,1,0,0,0,0
+2931,67,Male,2931_right.jpg,normal fundus,1,0,0,0,0
+4335,66,Female,4335_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+14,55,Male,14_right.jpg,macular epiretinal membrane,0,0,0,0,1
+1819,80,Male,1819_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+4498,40,Male,4498_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2568,65,Female,2568_right.jpg,normal fundus,1,0,0,0,0
+1210,62,Male,1210_right.jpg,glaucoma,0,0,0,0,1
+2143,83,Female,2143_left.jpg,normal fundus,1,0,0,0,0
+2998,49,Male,2998_left.jpg,normal fundus,1,0,0,0,0
+266,67,Male,266_left.jpg,wet age-related macular degeneration,0,0,0,0,1
+1202,42,Female,1202_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+2504,65,Female,2504_right.jpg,normal fundus,1,0,0,0,0
+807,72,Female,807_right.jpg,normal fundus,1,0,0,0,0
+2768,67,Male,2768_left.jpg,normal fundus,1,0,0,0,0
+1392,80,Female,1392_left.jpg,glaucoma,0,0,0,0,1
+2769,55,Female,2769_left.jpg,normal fundus,1,0,0,0,0
+746,59,Male,746_right.jpg,suspected glaucoma，suspicious diabetic retinopathy,0,1,0,0,1
+352,70,Male,352_right.jpg,refractive media opacity,0,0,0,0,1
+4589,56,Male,4589_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4458,65,Male,4458_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4406,63,Male,4406_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3004,66,Male,3004_left.jpg,normal fundus,1,0,0,0,0
+3306,62,Male,3306_left.jpg,normal fundus,1,0,0,0,0
+1471,45,Male,1471_left.jpg,glaucoma,0,0,0,0,1
+3934,42,Male,3934_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3244,45,Female,3244_left.jpg,normal fundus,1,0,0,0,0
+174,71,Female,174_left.jpg,pathological myopia,0,0,0,1,0
+4623,55,Male,4623_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+832,61,Male,832_right.jpg,normal fundus,1,0,0,0,0
+723,53,Female,723_left.jpg,hypertensive retinopathy,0,0,0,0,1
+4151,54,Female,4151_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+421,42,Male,421_right.jpg,drusen,0,0,0,0,1
+325,39,Male,325_left.jpg,myelinated nerve fibers,0,0,0,0,1
+2921,60,Male,2921_left.jpg,normal fundus,1,0,0,0,0
+233,56,Male,233_left.jpg,normal fundus,1,0,0,0,0
+4566,53,Female,4566_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+709,57,Male,709_left.jpg,severe proliferative diabetic retinopathy,0,1,0,0,0
+2171,87,Female,2171_left.jpg,cataract,0,0,1,0,0
+3973,45,Female,3973_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+244,58,Male,244_left.jpg,epiretinal membrane,0,0,0,0,1
+4683,58,Male,4683_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4279,47,Male,4279_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+4633,66,Male,4633_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1195,62,Female,1195_left.jpg,macular epiretinal membrane,0,0,0,0,1
+2709,47,Male,2709_left.jpg,normal fundus,1,0,0,0,0
+736,29,Male,736_left.jpg,normal fundus,1,0,0,0,0
+901,57,Male,901_right.jpg,myelinated nerve fibers,0,0,0,0,1
+113,67,Female,113_left.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0,1
+3987,52,Male,3987_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+973,70,Male,973_left.jpg,refractive media opacity,0,0,0,0,1
+609,60,Female,609_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2389,64,Male,2389_left.jpg,normal fundus,1,0,0,0,0
+3344,55,Male,3344_right.jpg,normal fundus,1,0,0,0,0
+227,58,Female,227_left.jpg,normal fundus,1,0,0,0,0
+2970,70,Female,2970_left.jpg,normal fundus,1,0,0,0,0
+3076,59,Female,3076_right.jpg,normal fundus,1,0,0,0,0
+3054,65,Male,3054_right.jpg,normal fundus,1,0,0,0,0
+2879,53,Male,2879_left.jpg,normal fundus,1,0,0,0,0
+1191,58,Male,1191_left.jpg,dry age-related macular degeneration，diabetic retinopathy,0,1,0,0,1
+72,78,Female,72_right.jpg,epiretinal membrane,0,0,0,0,1
+2671,67,Male,2671_left.jpg,normal fundus,1,0,0,0,0
+1600,1,Female,1600_left.jpg,pathological myopia,0,0,0,1,0
+2794,56,Male,2794_right.jpg,normal fundus,1,0,0,0,0
+184,69,Male,184_right.jpg,epiretinal membrane over the macula，moderate non proliferative retinopathy，lens dust,0,1,0,0,1
+3197,45,Male,3197_left.jpg,normal fundus,1,0,0,0,0
+2646,50,Female,2646_left.jpg,normal fundus,1,0,0,0,0
+2903,19,Male,2903_right.jpg,normal fundus,1,0,0,0,0
+726,60,Female,726_right.jpg,cataract,0,0,1,0,0
+657,46,Male,657_right.jpg,epiretinal membrane,0,0,0,0,1
+517,66,Male,517_right.jpg,drusen,0,0,0,0,1
+2541,58,Male,2541_left.jpg,normal fundus,1,0,0,0,0
+60,54,Female,60_right.jpg,epiretinal membrane,0,0,0,0,1
+2970,70,Female,2970_right.jpg,normal fundus,1,0,0,0,0
+1975,55,Male,1975_left.jpg,glaucoma,0,0,0,0,1
+4651,41,Male,4651_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1579,57,Female,1579_left.jpg,pathological myopia,0,0,0,1,0
+983,63,Male,983_right.jpg,hypertensive retinopathy,0,0,0,0,1
+1547,66,Female,1547_left.jpg,pathological myopia,0,0,0,1,0
+394,63,Male,394_left.jpg,normal fundus,1,0,0,0,0
+3952,56,Male,3952_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3177,66,Female,3177_left.jpg,normal fundus,1,0,0,0,0
+4001,69,Female,4001_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1409,79,Female,1409_right.jpg,moderate non proliferative retinopathy，lens dust，suspected glaucoma,0,1,0,0,1
+1261,62,Female,1261_left.jpg,glaucoma,0,0,0,0,1
+389,54,Male,389_right.jpg,normal fundus,1,0,0,0,0
+2048,63,Male,2048_right.jpg,glaucoma，old central retinal vein occlusion,0,0,0,0,1
+1990,56,Female,1990_right.jpg,myelinated nerve fibers，glaucoma,0,0,0,0,1
+1552,67,Male,1552_left.jpg,pathological myopia,0,0,0,1,0
+3192,58,Male,3192_right.jpg,normal fundus,1,0,0,0,0
+2471,56,Female,2471_left.jpg,normal fundus,1,0,0,0,0
+632,58,Male,632_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4632,46,Male,4632_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3389,49,Male,3389_left.jpg,normal fundus,1,0,0,0,0
+4552,57,Female,4552_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4190,48,Male,4190_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2586,53,Female,2586_left.jpg,normal fundus,1,0,0,0,0
+3101,59,Male,3101_left.jpg,normal fundus,1,0,0,0,0
+223,56,Female,223_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+427,56,Female,427_right.jpg,normal fundus,1,0,0,0,0
+396,55,Male,396_right.jpg,epiretinal membrane,0,0,0,0,1
+3166,43,Male,3166_left.jpg,normal fundus,1,0,0,0,0
+2413,53,Female,2413_right.jpg,normal fundus,1,0,0,0,0
+316,51,Male,316_right.jpg,drusen,0,0,0,0,1
+4327,49,Male,4327_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+2424,58,Female,2424_left.jpg,normal fundus,1,0,0,0,0
+4021,52,Male,4021_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+646,64,Female,646_right.jpg,myelinated nerve fibers,0,0,0,0,1
+1200,55,Female,1200_right.jpg,epiretinal membrane,0,0,0,0,1
+831,54,Male,831_left.jpg,pathological myopia,0,0,0,1,0
+3263,51,Female,3263_left.jpg,normal fundus,1,0,0,0,0
+2588,75,Male,2588_left.jpg,normal fundus,1,0,0,0,0
+181,64,Male,181_right.jpg,drusen,0,0,0,0,1
+2589,45,Male,2589_right.jpg,normal fundus，lens dust,1,0,0,0,0
+661,66,Female,661_right.jpg,drusen,0,0,0,0,1
+2117,71,Female,2117_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2946,64,Female,2946_right.jpg,normal fundus,1,0,0,0,0
+562,73,Male,562_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2111,73,Female,2111_left.jpg,cataract,0,0,1,0,0
+4126,64,Male,4126_left.jpg,normal fundus,1,0,0,0,0
+4140,29,Male,4140_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1890,55,Female,1890_right.jpg,normal fundus,1,0,0,0,0
+2119,91,Male,2119_left.jpg,normal fundus,1,0,0,0,0
+2382,47,Female,2382_left.jpg,normal fundus,1,0,0,0,0
+2866,58,Male,2866_right.jpg,normal fundus,1,0,0,0,0
+2478,56,Female,2478_left.jpg,normal fundus，lens dust,1,0,0,0,0
+1079,64,Female,1079_right.jpg,epiretinal membrane,0,0,0,0,1
+3207,47,Female,3207_left.jpg,normal fundus,1,0,0,0,0
+2223,56,Male,2223_right.jpg,cataract,0,0,1,0,0
+4408,59,Female,4408_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4022,46,Female,4022_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+658,64,Male,658_left.jpg,normal fundus,1,0,0,0,0
+1569,50,Male,1569_right.jpg,pathological myopia,0,0,0,1,0
+4318,55,Male,4318_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3330,49,Male,3330_right.jpg,normal fundus,1,0,0,0,0
+2463,41,Female,2463_left.jpg,normal fundus,1,0,0,0,0
+961,72,Male,961_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+4444,61,Male,4444_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3372,74,Female,3372_right.jpg,normal fundus,1,0,0,0,0
+2913,68,Male,2913_left.jpg,normal fundus,1,0,0,0,0
+2176,82,Female,2176_left.jpg,cataract,0,0,1,0,0
+4418,45,Male,4418_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+774,70,Female,774_left.jpg,drusen,0,0,0,0,1
+1491,60,Female,1491_right.jpg,normal fundus,1,0,0,0,0
+898,77,Female,898_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+924,72,Female,924_left.jpg,normal fundus,1,0,0,0,0
+4323,69,Male,4323_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2128,81,Female,2128_right.jpg,cataract,0,0,1,0,0
+2663,61,Male,2663_right.jpg,normal fundus,1,0,0,0,0
+601,50,Female,601_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1080,60,Female,1080_right.jpg,normal fundus,1,0,0,0,0
+1287,74,Male,1287_right.jpg,glaucoma,0,0,0,0,1
+28,63,Female,28_left.jpg,hypertensive retinopathy,0,0,0,0,1
+4459,50,Female,4459_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3387,56,Male,3387_right.jpg,normal fundus,1,0,0,0,0
+2104,74,Male,2104_left.jpg,cataract,0,0,1,0,0
+3257,56,Male,3257_right.jpg,normal fundus,1,0,0,0,0
+279,56,Female,279_right.jpg,normal fundus,1,0,0,0,0
+2436,42,Male,2436_right.jpg,normal fundus,1,0,0,0,0
+778,53,Female,778_left.jpg,myelinated nerve fibers，moderate non proliferative retinopathy,0,1,0,0,1
+2990,58,Female,2990_right.jpg,normal fundus,1,0,0,0,0
+4086,64,Male,4086_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+324,55,Male,324_left.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,1
+542,64,Male,542_right.jpg,maculopathy,0,0,0,0,1
+4036,56,Male,4036_left.jpg,normal fundus,1,0,0,0,0
+192,66,Female,192_right.jpg,epiretinal membrane,0,0,0,0,1
+2,42,Male,2_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3167,57,Female,3167_right.jpg,normal fundus,1,0,0,0,0
+4617,57,Male,4617_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2219,68,Female,2219_left.jpg,cataract,0,0,1,0,0
+549,70,Female,549_right.jpg,normal fundus,1,0,0,0,0
+3231,58,Female,3231_left.jpg,normal fundus,1,0,0,0,0
+2762,53,Male,2762_right.jpg,normal fundus,1,0,0,0,0
+1103,29,Male,1103_left.jpg,pathological myopia,0,0,0,1,0
+616,45,Female,616_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3448,63,Male,3448_right.jpg,normal fundus,1,0,0,0,0
+4441,62,Male,4441_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+204,54,Male,204_right.jpg,macular epiretinal membrane,0,0,0,0,1
+4438,56,Male,4438_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4549,45,Female,4549_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+281,68,Female,281_right.jpg,mild nonproliferative retinopathy，epiretinal membrane,0,1,0,0,1
+3110,52,Male,3110_left.jpg,normal fundus,1,0,0,0,0
+4573,44,Male,4573_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3386,49,Male,3386_left.jpg,normal fundus,1,0,0,0,0
+1096,59,Female,1096_left.jpg,normal fundus,1,0,0,0,0
+949,49,Male,949_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2458,52,Female,2458_left.jpg,normal fundus,1,0,0,0,0
+182,64,Male,182_right.jpg,normal fundus,1,0,0,0,0
+883,63,Male,883_right.jpg,normal fundus,1,0,0,0,0
+1059,43,Male,1059_right.jpg,normal fundus,1,0,0,0,0
+701,60,Male,701_left.jpg,normal fundus,1,0,0,0,0
+2544,57,Male,2544_left.jpg,normal fundus,1,0,0,0,0
+9,54,Male,9_left.jpg,normal fundus,1,0,0,0,0
+678,54,Male,678_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2776,54,Male,2776_left.jpg,normal fundus,1,0,0,0,0
+2805,49,Male,2805_right.jpg,normal fundus,1,0,0,0,0
+3412,70,Female,3412_right.jpg,normal fundus,1,0,0,0,0
+4029,36,Female,4029_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2831,76,Female,2831_left.jpg,normal fundus,1,0,0,0,0
+3346,65,Female,3346_right.jpg,normal fundus,1,0,0,0,0
+705,61,Male,705_right.jpg,normal fundus,1,0,0,0,0
+4185,65,Female,4185_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+675,56,Male,675_left.jpg,hypertensive retinopathy,0,0,0,0,1
+4133,60,Male,4133_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4535,59,Male,4535_left.jpg,normal fundus,1,0,0,0,0
+1152,54,Female,1152_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2806,75,Female,2806_left.jpg,normal fundus,1,0,0,0,0
+4095,67,Male,4095_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3319,71,Female,3319_right.jpg,normal fundus,1,0,0,0,0
+4440,60,Male,4440_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3,66,Male,3_left.jpg,normal fundus,1,0,0,0,0
+1006,64,Male,1006_left.jpg,normal fundus,1,0,0,0,0
+4208,47,Male,4208_left.jpg,normal fundus,1,0,0,0,0
+3113,63,Male,3113_right.jpg,normal fundus,1,0,0,0,0
+1538,49,Female,1538_right.jpg,pathological myopia,0,0,0,1,0
+2183,47,Female,2183_left.jpg,cataract,0,0,1,0,0
+2211,80,Male,2211_left.jpg,cataract,0,0,1,0,0
+3049,46,Female,3049_left.jpg,normal fundus,1,0,0,0,0
+4399,62,Male,4399_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+859,61,Male,859_left.jpg,normal fundus,1,0,0,0,0
+77,67,Male,77_left.jpg,moderate non proliferative retinopathy，myelinated nerve fibers,0,1,0,0,1
+4530,43,Male,4530_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3249,56,Male,3249_left.jpg,normal fundus,1,0,0,0,0
+3984,55,Male,3984_right.jpg,normal fundus,1,0,0,0,0
+2712,60,Male,2712_right.jpg,normal fundus,1,0,0,0,0
+2508,74,Male,2508_left.jpg,normal fundus,1,0,0,0,0
+2890,53,Female,2890_right.jpg,normal fundus,1,0,0,0,0
+4360,54,Female,4360_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+498,43,Male,498_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2469,74,Female,2469_right.jpg,normal fundus,1,0,0,0,0
+2173,81,Female,2173_left.jpg,refractive media opacity,0,0,0,0,1
+712,62,Male,712_right.jpg,diabetic retinopathy,0,1,0,0,0
+2770,59,Female,2770_left.jpg,normal fundus,1,0,0,0,0
+3047,62,Female,3047_left.jpg,normal fundus,1,0,0,0,0
+344,70,Female,344_left.jpg,macular epiretinal membrane,0,0,0,0,1
+2388,54,Female,2388_right.jpg,normal fundus,1,0,0,0,0
+1157,68,Male,1157_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4148,48,Female,4148_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3235,53,Female,3235_right.jpg,normal fundus,1,0,0,0,0
+931,65,Male,931_right.jpg,suspected glaucoma，moderate non proliferative retinopathy,0,1,0,0,1
+3224,53,Male,3224_right.jpg,normal fundus,1,0,0,0,0
+4208,47,Male,4208_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2126,75,Male,2126_left.jpg,cataract,0,0,1,0,0
+3946,55,Male,3946_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1168,67,Female,1168_left.jpg,normal fundus,1,0,0,0,0
+2748,55,Female,2748_left.jpg,normal fundus,1,0,0,0,0
+150,62,Male,150_left.jpg,macular epiretinal membrane,0,0,0,0,1
+4456,54,Female,4456_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+45,54,Male,45_right.jpg,hypertensive retinopathy,0,0,0,0,1
+4420,34,Female,4420_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3357,69,Male,3357_left.jpg,normal fundus,1,0,0,0,0
+354,65,Male,354_right.jpg,cataract,0,0,1,0,0
+3437,42,Female,3437_right.jpg,normal fundus,1,0,0,0,0
+2896,62,Female,2896_right.jpg,normal fundus,1,0,0,0,0
+2592,38,Male,2592_right.jpg,normal fundus,1,0,0,0,0
+4374,58,Female,4374_left.jpg,normal fundus,1,0,0,0,0
+4326,66,Female,4326_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2489,50,Male,2489_right.jpg,normal fundus,1,0,0,0,0
+1529,57,Male,1529_right.jpg,pathological myopia,0,0,0,1,0
+4458,65,Male,4458_right.jpg,normal fundus,1,0,0,0,0
+3081,67,Female,3081_right.jpg,normal fundus,1,0,0,0,0
+2946,64,Female,2946_left.jpg,normal fundus,1,0,0,0,0
+2412,60,Female,2412_left.jpg,normal fundus,1,0,0,0,0
+4494,60,Male,4494_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3262,57,Male,3262_right.jpg,normal fundus,1,0,0,0,0
+2430,45,Female,2430_left.jpg,normal fundus,1,0,0,0,0
+2993,49,Female,2993_left.jpg,normal fundus,1,0,0,0,0
+2826,54,Male,2826_right.jpg,normal fundus,1,0,0,0,0
+3424,24,Female,3424_left.jpg,normal fundus,1,0,0,0,0
+4090,68,Female,4090_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+4081,37,Female,4081_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+821,60,Female,821_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+298,55,Female,298_right.jpg,normal fundus,1,0,0,0,0
+3992,63,Male,3992_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3282,54,Female,3282_left.jpg,normal fundus,1,0,0,0,0
+3348,33,Male,3348_right.jpg,normal fundus,1,0,0,0,0
+620,55,Male,620_left.jpg,normal fundus,1,0,0,0,0
+4037,58,Male,4037_left.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+2407,56,Female,2407_right.jpg,normal fundus,1,0,0,0,0
+2772,41,Male,2772_left.jpg,normal fundus,1,0,0,0,0
+2735,51,Male,2735_left.jpg,normal fundus,1,0,0,0,0
+4453,42,Female,4453_right.jpg,normal fundus,1,0,0,0,0
+455,67,Male,455_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+3176,64,Female,3176_left.jpg,normal fundus,1,0,0,0,0
+4624,60,Male,4624_left.jpg,proliferative diabetic retinopathy,0,1,0,0,0
+400,64,Male,400_left.jpg,normal fundus,1,0,0,0,0
+1032,67,Female,1032_right.jpg,macular epiretinal membrane,0,0,0,0,1
+436,64,Male,436_left.jpg,normal fundus,1,0,0,0,0
+1072,54,Female,1072_right.jpg,normal fundus,1,0,0,0,0
+58,74,Male,58_left.jpg,normal fundus,1,0,0,0,0
+1043,57,Female,1043_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+2820,59,Female,2820_right.jpg,normal fundus,1,0,0,0,0
+2454,65,Female,2454_left.jpg,normal fundus,1,0,0,0,0
+4127,57,Female,4127_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3300,60,Female,3300_left.jpg,normal fundus，lens dust,1,0,0,0,0
+1485,69,Female,1485_left.jpg,normal fundus,1,0,0,0,0
+2513,69,Male,2513_right.jpg,normal fundus,1,0,0,0,0
+2979,53,Male,2979_left.jpg,normal fundus,1,0,0,0,0
+821,60,Female,821_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+1435,79,Male,1435_left.jpg,cataract,0,0,1,0,0
+1281,61,Male,1281_right.jpg,glaucoma，diabetic retinopathy,0,1,0,0,1
+3248,82,Female,3248_right.jpg,normal fundus,1,0,0,0,0
+614,44,Male,614_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+1572,75,Male,1572_left.jpg,pathological myopia,0,0,0,1,0
+921,57,Male,921_right.jpg,drusen,0,0,0,0,1
+1579,57,Female,1579_right.jpg,pathological myopia,0,0,0,1,0
+1232,61,Male,1232_right.jpg,glaucoma,0,0,0,0,1
+1544,68,Female,1544_left.jpg,pathological myopia,0,0,0,1,0
+4273,32,Female,4273_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3305,86,Female,3305_left.jpg,normal fundus,1,0,0,0,0
+4272,40,Female,4272_right.jpg,normal fundus,1,0,0,0,0
+1886,74,Female,1886_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+351,68,Female,351_left.jpg,epiretinal membrane,0,0,0,0,1
+4116,45,Male,4116_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2534,76,Male,2534_left.jpg,normal fundus,1,0,0,0,0
+130,66,Female,130_left.jpg,macular epiretinal membrane，moderate non proliferative retinopathy,0,1,0,0,1
+450,49,Female,450_left.jpg,myelinated nerve fibers,0,0,0,0,1
+451,56,Male,451_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4260,46,Male,4260_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3109,69,Male,3109_left.jpg,normal fundus,1,0,0,0,0
+180,45,Female,180_right.jpg,normal fundus,1,0,0,0,0
+1425,70,Female,1425_right.jpg,suspected glaucoma,0,0,0,0,1
+1434,54,Male,1434_left.jpg,suspected glaucoma，moderate non proliferative retinopathy,0,1,0,0,1
+3936,50,Male,3936_right.jpg,moderate non proliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+4221,65,Male,4221_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4152,66,Female,4152_left.jpg,normal fundus,1,0,0,0,0
+2378,80,Female,2378_left.jpg,normal fundus,1,0,0,0,0
+2467,69,Female,2467_right.jpg,normal fundus,1,0,0,0,0
+402,46,Male,402_left.jpg,drusen,0,0,0,0,1
+1272,59,Female,1272_right.jpg,glaucoma,0,0,0,0,1
+1549,78,Female,1549_left.jpg,pathological myopia,0,0,0,1,0
+146,57,Female,146_right.jpg,myelinated nerve fibers,0,0,0,0,1
+213,44,Female,213_left.jpg,normal fundus,1,0,0,0,0
+4302,44,Male,4302_right.jpg,normal fundus,1,0,0,0,0
+1066,62,Male,1066_right.jpg,normal fundus,1,0,0,0,0
+2643,28,Male,2643_left.jpg,normal fundus,1,0,0,0,0
+1474,79,Female,1474_left.jpg,glaucoma，moderate non proliferative retinopathy,0,1,0,0,1
+254,60,Female,254_left.jpg,cataract,0,0,1,0,0
+416,60,Female,416_left.jpg,normal fundus,1,0,0,0,0
+2368,57,Male,2368_left.jpg,normal fundus,1,0,0,0,0
+2379,66,Male,2379_left.jpg,normal fundus,1,0,0,0,0
+1865,65,Male,1865_right.jpg,refractive media opacity,0,0,0,0,1
+4142,54,Male,4142_left.jpg,severe nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+398,59,Female,398_left.jpg,branch retinal vein occlusion,0,0,0,0,1
+496,66,Female,496_right.jpg,vitreous degeneration,0,0,0,0,1
+3352,57,Female,3352_left.jpg,normal fundus,1,0,0,0,0
+2853,69,Female,2853_left.jpg,normal fundus,1,0,0,0,0
+2649,66,Male,2649_left.jpg,normal fundus,1,0,0,0,0
+1065,75,Male,1065_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+838,67,Male,838_right.jpg,vitreous degeneration,0,0,0,0,1
+33,60,Female,33_right.jpg,macular epiretinal membrane,0,0,0,0,1
+3342,60,Male,3342_left.jpg,normal fundus,1,0,0,0,0
+345,64,Female,345_right.jpg,hypertensive retinopathy，cataract,0,0,1,0,1
+2818,49,Male,2818_right.jpg,normal fundus,1,0,0,0,0
+885,54,Male,885_left.jpg,normal fundus,1,0,0,0,0
+1550,76,Male,1550_left.jpg,pathological myopia,0,0,0,1,0
+151,48,Male,151_left.jpg,normal fundus,1,0,0,0,0
+2149,73,Female,2149_right.jpg,cataract,0,0,1,0,0
+3955,67,Male,3955_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3406,46,Female,3406_right.jpg,normal fundus,1,0,0,0,0
+4547,49,Female,4547_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+924,72,Female,924_right.jpg,refractive media opacity,0,0,0,0,1
+1527,64,Female,1527_left.jpg,pathological myopia,0,0,0,1,0
+4324,53,Male,4324_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3095,74,Male,3095_left.jpg,normal fundus,1,0,0,0,0
+2417,51,Male,2417_left.jpg,normal fundus,1,0,0,0,0
+1987,70,Female,1987_left.jpg,cataract,0,0,1,0,0
+4120,61,Male,4120_right.jpg,severe nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+103,55,Female,103_left.jpg,cataract,0,0,1,0,0
+105,61,Female,105_left.jpg,epiretinal membrane,0,0,0,0,1
+4251,49,Male,4251_right.jpg,normal fundus,1,0,0,0,0
+1196,67,Male,1196_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+3290,72,Male,3290_right.jpg,normal fundus,1,0,0,0,0
+992,53,Female,992_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+949,49,Male,949_right.jpg,cataract,0,0,1,0,0
+231,60,Female,231_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+954,61,Female,954_left.jpg,epiretinal membrane,0,0,0,0,1
+3943,54,Male,3943_right.jpg,normal fundus,1,0,0,0,0
+3044,60,Female,3044_left.jpg,normal fundus,1,0,0,0,0
+771,45,Female,771_right.jpg,normal fundus,1,0,0,0,0
+2385,74,Female,2385_left.jpg,normal fundus,1,0,0,0,0
+2825,64,Female,2825_left.jpg,normal fundus,1,0,0,0,0
+4202,61,Female,4202_left.jpg,hypertensive retinopathy,0,0,0,0,1
+520,63,Female,520_left.jpg,drusen,0,0,0,0,1
+337,55,Male,337_left.jpg,vitreous degeneration,0,0,0,0,1
+4399,62,Male,4399_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4468,65,Male,4468_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+98,69,Male,98_right.jpg,normal fundus,1,0,0,0,0
+508,55,Male,508_left.jpg,drusen,0,0,0,0,1
+4575,40,Male,4575_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2414,60,Female,2414_right.jpg,normal fundus,1,0,0,0,0
+2999,63,Male,2999_right.jpg,normal fundus,1,0,0,0,0
+1571,65,Male,1571_left.jpg,pathological myopia,0,0,0,1,0
+953,46,Male,953_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+249,64,Male,249_right.jpg,proliferative diabetic retinopathy,0,1,0,0,0
+1543,30,Female,1543_right.jpg,pathological myopia,0,0,0,1,0
+730,59,Male,730_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1411,79,Female,1411_left.jpg,glaucoma,0,0,0,0,1
+6,60,Male,6_left.jpg,macular epiretinal membrane,0,0,0,0,1
+4391,47,Male,4391_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3345,65,Female,3345_left.jpg,normal fundus,1,0,0,0,0
+4339,52,Male,4339_right.jpg,normal fundus,1,0,0,0,0
+86,56,Female,86_right.jpg,pathological myopia,0,0,0,1,0
+4415,31,Male,4415_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+245,65,Male,245_left.jpg,normal fundus,1,0,0,0,0
+4545,60,Male,4545_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+202,63,Female,202_left.jpg,normal fundus,1,0,0,0,0
+1874,87,Male,1874_left.jpg,wet age-related macular degeneration,0,0,0,0,1
+247,49,Male,247_right.jpg,dry age-related macular degeneration，glaucoma,0,0,0,0,1
+3250,44,Male,3250_right.jpg,normal fundus,1,0,0,0,0
+19,45,Male,19_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3369,50,Female,3369_left.jpg,normal fundus，lens dust,1,0,0,0,0
+4689,54,Male,4689_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+3315,57,Male,3315_right.jpg,normal fundus,1,0,0,0,0
+4268,50,Male,4268_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+166,65,Female,166_right.jpg,vitreous degeneration,0,0,0,0,1
+327,53,Male,327_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3282,54,Female,3282_right.jpg,normal fundus,1,0,0,0,0
+2856,59,Male,2856_right.jpg,normal fundus,1,0,0,0,0
+2452,58,Male,2452_left.jpg,normal fundus,1,0,0,0,0
+4085,66,Male,4085_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+593,69,Female,593_right.jpg,severe nonproliferative retinopathy，white vessel,0,1,0,0,1
+2882,48,Male,2882_right.jpg,normal fundus,1,0,0,0,0
+1540,56,Female,1540_right.jpg,pathological myopia，lens dust,0,0,0,1,0
+3979,54,Male,3979_left.jpg,mild nonproliferative retinopathy，dry age-related macular degeneration,0,1,0,0,1
+2180,66,Female,2180_left.jpg,cataract,0,0,1,0,0
+4456,54,Female,4456_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3099,61,Female,3099_right.jpg,normal fundus,1,0,0,0,0
+424,56,Male,424_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+952,76,Female,952_left.jpg,macular epiretinal membrane，mild nonproliferative retinopathy,0,1,0,0,1
+300,55,Male,300_right.jpg,hypertensive retinopathy,0,0,0,0,1
+420,63,Female,420_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1250,54,Male,1250_left.jpg,glaucoma,0,0,0,0,1
+2154,83,Male,2154_left.jpg,cataract,0,0,1,0,0
+3125,52,Male,3125_left.jpg,normal fundus,1,0,0,0,0
+366,74,Male,366_right.jpg,normal fundus,1,0,0,0,0
+1104,66,Female,1104_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+3344,55,Male,3344_left.jpg,normal fundus,1,0,0,0,0
+896,57,Female,896_left.jpg,normal fundus,1,0,0,0,0
+2373,44,Male,2373_left.jpg,normal fundus,1,0,0,0,0
+558,52,Male,558_right.jpg,drusen，lens dust,0,0,0,0,1
+4628,47,Female,4628_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4194,50,Female,4194_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4146,57,Female,4146_left.jpg,normal fundus,1,0,0,0,0
+2898,54,Male,2898_right.jpg,normal fundus,1,0,0,0,0
+986,68,Female,986_left.jpg,epiretinal membrane,0,0,0,0,1
+4235,69,Female,4235_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2505,55,Female,2505_left.jpg,normal fundus,1,0,0,0,0
+4486,78,Female,4486_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+156,82,Female,156_left.jpg,refractive media opacity,0,0,0,0,1
+1694,52,Male,1694_left.jpg,refractive media opacity,0,0,0,0,1
+4270,53,Female,4270_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+4614,58,Male,4614_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4686,63,Male,4686_right.jpg,proliferative diabetic retinopathy,0,1,0,0,0
+3082,64,Male,3082_left.jpg,normal fundus,1,0,0,0,0
+2462,53,Male,2462_left.jpg,normal fundus,1,0,0,0,0
+763,59,Male,763_right.jpg,moderate non proliferative retinopathy，atrophic change,0,1,0,0,1
+1040,65,Male,1040_right.jpg,normal fundus,1,0,0,0,0
+2982,64,Female,2982_left.jpg,normal fundus,1,0,0,0,0
+2835,56,Female,2835_right.jpg,normal fundus,1,0,0,0,0
+2797,59,Male,2797_right.jpg,normal fundus,1,0,0,0,0
+4673,85,Male,4673_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3007,59,Female,3007_right.jpg,normal fundus,1,0,0,0,0
+802,46,Male,802_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4528,62,Male,4528_right.jpg,normal fundus,1,0,0,0,0
+3249,56,Male,3249_right.jpg,normal fundus,1,0,0,0,0
+974,64,Male,974_left.jpg,macular epiretinal membrane,0,0,0,0,1
+3027,62,Male,3027_right.jpg,normal fundus,1,0,0,0,0
+2443,46,Male,2443_left.jpg,normal fundus,1,0,0,0,0
+2216,38,Male,2216_right.jpg,cataract,0,0,1,0,0
+93,70,Male,93_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+576,62,Female,576_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0,1
+4159,57,Male,4159_right.jpg,normal fundus,1,0,0,0,0
+4345,45,Male,4345_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+565,59,Female,565_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+4469,52,Male,4469_left.jpg,normal fundus,1,0,0,0,0
+3264,63,Male,3264_right.jpg,normal fundus,1,0,0,0,0
+1157,68,Male,1157_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4280,74,Female,4280_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3156,67,Male,3156_right.jpg,normal fundus,1,0,0,0,0
+4630,52,Male,4630_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2631,52,Male,2631_left.jpg,normal fundus,1,0,0,0,0
+4113,50,Male,4113_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2440,59,Female,2440_right.jpg,normal fundus,1,0,0,0,0
+1267,55,Male,1267_right.jpg,glaucoma,0,0,0,0,1
+928,45,Female,928_left.jpg,drusen,0,0,0,0,1
+389,54,Male,389_left.jpg,myelinated nerve fibers,0,0,0,0,1
+321,54,Female,321_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+2221,71,Male,2221_left.jpg,cataract,0,0,1,0,0
+1311,67,Female,1311_left.jpg,normal fundus,1,0,0,0,0
+116,61,Male,116_left.jpg,hypertensive retinopathy,0,0,0,0,1
+3168,53,Male,3168_right.jpg,normal fundus,1,0,0,0,0
+1165,44,Male,1165_right.jpg,myelinated nerve fibers,0,0,0,0,1
+4214,45,Male,4214_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+16,54,Female,16_left.jpg,normal fundus,1,0,0,0,0
+1681,70,Male,1681_left.jpg,refractive media opacity,0,0,0,0,1
+2251,70,Male,2251_right.jpg,cataract，lens dust,0,0,1,0,0
+2706,56,Male,2706_right.jpg,normal fundus,1,0,0,0,0
+2511,53,Male,2511_right.jpg,normal fundus,1,0,0,0,0
+4408,59,Female,4408_right.jpg,normal fundus,1,0,0,0,0
+971,56,Male,971_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+1539,68,Male,1539_left.jpg,pathological myopia,0,0,0,1,0
+339,63,Female,339_right.jpg,vitreous degeneration,0,0,0,0,1
+469,69,Female,469_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1623,58,Female,1623_left.jpg,pathological myopia,0,0,0,1,0
+1465,54,Male,1465_left.jpg,normal fundus,1,0,0,0,0
+2513,69,Male,2513_left.jpg,normal fundus,1,0,0,0,0
+761,56,Female,761_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+2561,32,Male,2561_left.jpg,normal fundus,1,0,0,0,0
+1259,56,Male,1259_left.jpg,glaucoma,0,0,0,0,1
+732,54,Male,732_right.jpg,myelinated nerve fibers,0,0,0,0,1
+872,64,Female,872_right.jpg,normal fundus,1,0,0,0,0
+3159,62,Male,3159_left.jpg,normal fundus,1,0,0,0,0
+4167,54,Male,4167_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2105,76,Female,2105_left.jpg,cataract,0,0,1,0,0
+238,70,Male,238_right.jpg,dry age-related macular degeneration，glaucoma,0,0,0,0,1
+2793,70,Male,2793_left.jpg,normal fundus,1,0,0,0,0
+1853,48,Male,1853_left.jpg,hypertensive retinopathy,0,0,0,0,1
+4427,43,Male,4427_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2600,57,Male,2600_left.jpg,normal fundus,1,0,0,0,0
+3951,54,Male,3951_left.jpg,mild nonproliferative retinopathy，hypertensive retinopathy,0,1,0,0,1
+4438,56,Male,4438_left.jpg,normal fundus,1,0,0,0,0
+1568,1,Female,1568_right.jpg,pathological myopia,0,0,0,1,0
+118,48,Male,118_left.jpg,moderate non proliferative retinopathy，myelinated nerve fibers,0,1,0,0,1
+270,64,Male,270_right.jpg,wet age-related macular degeneration,0,0,0,0,1
+2666,61,Male,2666_right.jpg,normal fundus,1,0,0,0,0
+1570,46,Female,1570_left.jpg,pathological myopia,0,0,0,1,0
+3214,47,Male,3214_left.jpg,normal fundus,1,0,0,0,0
+2210,78,Female,2210_left.jpg,cataract,0,0,1,0,0
+2175,63,Male,2175_left.jpg,cataract,0,0,1,0,0
+4050,62,Male,4050_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1573,69,Female,1573_right.jpg,pathological myopia,0,0,0,1,0
+4107,48,Male,4107_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4340,49,Male,4340_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4678,54,Male,4678_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2195,47,Female,2195_left.jpg,cataract,0,0,1,0,0
+2456,48,Male,2456_left.jpg,normal fundus,1,0,0,0,0
+3276,50,Male,3276_right.jpg,normal fundus,1,0,0,0,0
+3034,48,Male,3034_left.jpg,normal fundus,1,0,0,0,0
+3044,60,Female,3044_right.jpg,normal fundus,1,0,0,0,0
+2542,73,Male,2542_right.jpg,normal fundus,1,0,0,0,0
+1198,44,Female,1198_right.jpg,normal fundus,1,0,0,0,0
+2179,70,Female,2179_left.jpg,cataract,0,0,1,0,0
+1153,65,Female,1153_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+1218,68,Female,1218_right.jpg,glaucoma,0,0,0,0,1
+2944,64,Female,2944_left.jpg,normal fundus,1,0,0,0,0
+2745,48,Male,2745_right.jpg,normal fundus,1,0,0,0,0
+388,72,Male,388_left.jpg,refractive media opacity,0,0,0,0,1
+4093,55,Male,4093_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1225,39,Male,1225_right.jpg,glaucoma，myopia retinopathy,0,0,0,1,1
+2652,49,Female,2652_left.jpg,normal fundus，lens dust,1,0,0,0,0
+1611,70,Female,1611_left.jpg,pathological myopia,0,0,0,1,0
+1072,54,Female,1072_left.jpg,normal fundus,1,0,0,0,0
+4647,52,Male,4647_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2177,87,Male,2177_left.jpg,normal fundus，lens dust,1,0,0,0,0
+1299,49,Female,1299_right.jpg,normal fundus,1,0,0,0,0
+693,60,Female,693_left.jpg,vitreous degeneration,0,0,0,0,1
+1620,62,Male,1620_left.jpg,normal fundus,1,0,0,0,0
+2766,37,Female,2766_left.jpg,normal fundus,1,0,0,0,0
+1854,83,Male,1854_right.jpg,wet age-related macular degeneration,0,0,0,0,1
+3206,71,Male,3206_left.jpg,normal fundus,1,0,0,0,0
+2888,14,Female,2888_left.jpg,normal fundus,1,0,0,0,0
+4590,40,Male,4590_right.jpg,normal fundus,1,0,0,0,0
+4455,65,Male,4455_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4059,69,Male,4059_left.jpg,normal fundus,1,0,0,0,0
+4176,52,Female,4176_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4451,37,Male,4451_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1124,63,Male,1124_left.jpg,vitreous degeneration,0,0,0,0,1
+4417,52,Male,4417_left.jpg,normal fundus,1,0,0,0,0
+1556,66,Female,1556_right.jpg,normal fundus,1,0,0,0,0
+1886,74,Female,1886_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+734,74,Male,734_left.jpg,normal fundus,1,0,0,0,0
+4195,56,Male,4195_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2391,52,Female,2391_left.jpg,normal fundus,1,0,0,0,0
+2401,57,Female,2401_right.jpg,normal fundus,1,0,0,0,0
+3086,45,Male,3086_left.jpg,normal fundus,1,0,0,0,0
+3937,57,Male,3937_left.jpg,normal fundus,1,0,0,0,0
+125,71,Male,125_left.jpg,epiretinal membrane,0,0,0,0,1
+4078,64,Female,4078_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2161,59,Male,2161_right.jpg,cataract,0,0,1,0,0
+589,67,Male,589_right.jpg,epiretinal membrane,0,0,0,0,1
+3125,52,Male,3125_right.jpg,normal fundus,1,0,0,0,0
+3945,51,Female,3945_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1405,67,Male,1405_left.jpg,suspected glaucoma，refractive media opacity,0,0,0,0,1
+3141,47,Male,3141_left.jpg,normal fundus,1,0,0,0,0
+788,48,Male,788_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+1119,65,Male,1119_left.jpg,epiretinal membrane，chorioretinal atrophy,0,0,0,0,1
+2181,79,Female,2181_left.jpg,cataract,0,0,1,0,0
+3117,55,Male,3117_left.jpg,normal fundus,1,0,0,0,0
+1869,75,Male,1869_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+692,45,Female,692_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,1
+493,68,Female,493_left.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,1
+3292,57,Female,3292_left.jpg,normal fundus,1,0,0,0,0
+4507,70,Female,4507_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2184,65,Female,2184_right.jpg,cataract,0,0,1,0,0
+2651,55,Female,2651_right.jpg,normal fundus,1,0,0,0,0
+228,54,Male,228_right.jpg,macular epiretinal membrane,0,0,0,0,1
+1410,69,Female,1410_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2473,31,Male,2473_left.jpg,normal fundus,1,0,0,0,0
+126,66,Male,126_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+4636,54,Male,4636_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1986,70,Male,1986_left.jpg,glaucoma,0,0,0,0,1
+1624,71,Female,1624_right.jpg,pathological myopia,0,0,0,1,0
+691,68,Female,691_left.jpg,cataract,0,0,1,0,0
+1527,64,Female,1527_right.jpg,pathological myopia,0,0,0,1,0
+258,58,Female,258_right.jpg,macular epiretinal membrane,0,0,0,0,1
+792,59,Female,792_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+809,67,Male,809_left.jpg,cataract,0,0,1,0,0
+2775,66,Male,2775_right.jpg,normal fundus,1,0,0,0,0
+1583,1,Female,1583_right.jpg,pathological myopia,0,0,0,1,0
+1295,64,Female,1295_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+4129,57,Female,4129_left.jpg,hypertensive retinopathy,0,0,0,0,1
+1535,45,Male,1535_right.jpg,pathological myopia，lens dust,0,0,0,1,0
+2569,68,Female,2569_left.jpg,normal fundus,1,0,0,0,0
+1892,69,Female,1892_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+301,55,Male,301_right.jpg,drusen,0,0,0,0,1
+4030,49,Female,4030_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2566,62,Female,2566_left.jpg,normal fundus，lens dust,1,0,0,0,0
+824,74,Female,824_right.jpg,normal fundus,1,0,0,0,0
+4005,62,Female,4005_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1531,63,Female,1531_left.jpg,pathological myopia,0,0,0,1,0
+1567,47,Male,1567_right.jpg,pathological myopia,0,0,0,1,0
+2989,44,Male,2989_left.jpg,normal fundus,1,0,0,0,0
+2895,33,Male,2895_left.jpg,normal fundus,1,0,0,0,0
+4621,67,Male,4621_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2123,47,Male,2123_left.jpg,cataract,0,0,1,0,0
+2219,68,Female,2219_right.jpg,cataract,0,0,1,0,0
+2488,48,Female,2488_left.jpg,normal fundus,1,0,0,0,0
+1008,65,Male,1008_right.jpg,epiretinal membrane,0,0,0,0,1
+1266,68,Male,1266_right.jpg,glaucoma,0,0,0,0,1
+2623,45,Female,2623_left.jpg,normal fundus,1,0,0,0,0
+1503,49,Male,1503_right.jpg,glaucoma,0,0,0,0,1
+2164,67,Male,2164_right.jpg,cataract,0,0,1,0,0
+582,48,Male,582_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3100,57,Male,3100_right.jpg,normal fundus,1,0,0,0,0
+2907,58,Male,2907_right.jpg,normal fundus,1,0,0,0,0
+392,57,Male,392_left.jpg,epiretinal membrane over the macula,0,0,0,0,1
+3271,42,Female,3271_right.jpg,normal fundus,1,0,0,0,0
+4353,47,Male,4353_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4274,54,Female,4274_right.jpg,normal fundus,1,0,0,0,0
+3214,47,Male,3214_right.jpg,normal fundus,1,0,0,0,0
+3177,66,Female,3177_right.jpg,normal fundus,1,0,0,0,0
+3415,70,Female,3415_left.jpg,normal fundus,1,0,0,0,0
+2827,66,Male,2827_left.jpg,normal fundus,1,0,0,0,0
+4300,49,Female,4300_left.jpg,normal fundus,1,0,0,0,0
+2626,55,Female,2626_left.jpg,normal fundus,1,0,0,0,0
+3438,67,Male,3438_left.jpg,normal fundus,1,0,0,0,0
+2933,50,Female,2933_left.jpg,normal fundus,1,0,0,0,0
+82,33,Male,82_left.jpg,normal fundus,1,0,0,0,0
+4110,67,Male,4110_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2819,74,Female,2819_right.jpg,normal fundus,1,0,0,0,0
+4602,59,Male,4602_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+625,72,Female,625_left.jpg,cataract，suspected glaucoma,0,0,1,0,1
+959,63,Female,959_right.jpg,drusen,0,0,0,0,1
+1102,56,Male,1102_right.jpg,cataract,0,0,1,0,0
+412,60,Female,412_right.jpg,proliferative diabetic retinopathy,0,1,0,0,0
+31,62,Male,31_left.jpg,epiretinal membrane,0,0,0,0,1
+758,51,Female,758_right.jpg,vitreous degeneration,0,0,0,0,1
+2915,61,Female,2915_right.jpg,normal fundus,1,0,0,0,0
+1056,62,Male,1056_right.jpg,hypertensive retinopathy，macular epiretinal membrane,0,0,0,0,1
+3965,72,Female,3965_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1429,62,Female,1429_left.jpg,suspected glaucoma,0,0,0,0,1
+111,64,Male,111_right.jpg,moderate non proliferative retinopathy，white vessel,0,1,0,0,1
+848,56,Male,848_right.jpg,normal fundus,1,0,0,0,0
+1663,77,Male,1663_right.jpg,normal fundus,1,0,0,0,0
+942,46,Female,942_left.jpg,myelinated nerve fibers,0,0,0,0,1
+4067,54,Female,4067_right.jpg,normal fundus,1,0,0,0,0
+1408,69,Male,1408_right.jpg,suspected glaucoma，refractive media opacity,0,0,0,0,1
+1817,51,Female,1817_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+4247,56,Female,4247_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3962,54,Female,3962_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+781,65,Female,781_right.jpg,branch retinal vein occlusion,0,0,0,0,1
+4168,65,Female,4168_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1147,65,Female,1147_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1417,83,Male,1417_right.jpg,suspected glaucoma,0,0,0,0,1
+3385,43,Male,3385_right.jpg,normal fundus,1,0,0,0,0
+1479,76,Female,1479_left.jpg,glaucoma,0,0,0,0,1
+3420,55,Female,3420_right.jpg,normal fundus,1,0,0,0,0
+4324,53,Male,4324_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1138,46,Male,1138_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3252,70,Female,3252_right.jpg,normal fundus,1,0,0,0,0
+4595,58,Male,4595_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+465,58,Female,465_right.jpg,drusen,0,0,0,0,1
+4582,63,Female,4582_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2189,81,Female,2189_left.jpg,cataract,0,0,1,0,0
+2685,57,Male,2685_right.jpg,normal fundus,1,0,0,0,0
+2048,63,Male,2048_left.jpg,hypertensive retinopathy,0,0,0,0,1
+3348,33,Male,3348_left.jpg,normal fundus,1,0,0,0,0
+316,51,Male,316_left.jpg,drusen,0,0,0,0,1
+1048,60,Female,1048_left.jpg,hypertensive retinopathy,0,0,0,0,1
+2519,61,Female,2519_left.jpg,normal fundus,1,0,0,0,0
+174,71,Female,174_right.jpg,normal fundus,1,0,0,0,0
+4492,56,Male,4492_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+2824,60,Male,2824_right.jpg,normal fundus,1,0,0,0,0
+229,63,Female,229_left.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+750,56,Male,750_left.jpg,cataract,0,0,1,0,0
+873,66,Male,873_right.jpg,drusen,0,0,0,0,1
+2900,65,Male,2900_left.jpg,normal fundus,1,0,0,0,0
+2632,63,Male,2632_left.jpg,normal fundus,1,0,0,0,0
+2205,51,Female,2205_left.jpg,normal fundus,1,0,0,0,0
+157,65,Female,157_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4377,54,Female,4377_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1137,60,Female,1137_left.jpg,normal fundus，lens dust,1,0,0,0,0
+2409,52,Male,2409_left.jpg,normal fundus,1,0,0,0,0
+2537,56,Male,2537_left.jpg,normal fundus,1,0,0,0,0
+4118,50,Female,4118_left.jpg,normal fundus,1,0,0,0,0
+2563,49,Male,2563_right.jpg,normal fundus,1,0,0,0,0
+4511,39,Female,4511_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4326,66,Female,4326_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1270,62,Male,1270_left.jpg,glaucoma,0,0,0,0,1
+4441,62,Male,4441_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+719,59,Female,719_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+2642,25,Male,2642_left.jpg,normal fundus,1,0,0,0,0
+2524,59,Male,2524_right.jpg,normal fundus,1,0,0,0,0
+4289,46,Male,4289_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1469,51,Female,1469_left.jpg,glaucoma,0,0,0,0,1
+972,53,Male,972_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2356,51,Male,2356_right.jpg,normal fundus,1,0,0,0,0
+2408,78,Female,2408_left.jpg,normal fundus,1,0,0,0,0
+1891,64,Male,1891_right.jpg,wet age-related macular degeneration,0,0,0,0,1
+1122,65,Female,1122_right.jpg,normal fundus,1,0,0,0,0
+2226,52,Female,2226_left.jpg,cataract,0,0,1,0,0
+272,59,Male,272_right.jpg,hypertensive retinopathy,0,0,0,0,1
+1211,80,Male,1211_left.jpg,glaucoma，optic nerve atrophy,0,0,0,0,1
+557,45,Male,557_left.jpg,vitreous degeneration,0,0,0,0,1
+2138,79,Female,2138_right.jpg,cataract,0,0,1,0,0
+2981,68,Female,2981_right.jpg,normal fundus,1,0,0,0,0
+3340,53,Female,3340_left.jpg,normal fundus,1,0,0,0,0
+2555,51,Male,2555_right.jpg,normal fundus,1,0,0,0,0
+4298,59,Male,4298_left.jpg,normal fundus,1,0,0,0,0
+2377,51,Male,2377_left.jpg,normal fundus,1,0,0,0,0
+962,68,Female,962_left.jpg,drusen，mild nonproliferative retinopathy,0,1,0,0,1
+1040,65,Male,1040_left.jpg,myelinated nerve fibers,0,0,0,0,1
+4054,63,Male,4054_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2640,49,Male,2640_left.jpg,normal fundus,1,0,0,0,0
+1514,33,Male,1514_right.jpg,normal fundus,1,0,0,0,0
+3223,56,Male,3223_right.jpg,normal fundus,1,0,0,0,0
+2452,58,Male,2452_right.jpg,normal fundus,1,0,0,0,0
+2342,76,Male,2342_right.jpg,normal fundus,1,0,0,0,0
+2999,63,Male,2999_left.jpg,normal fundus,1,0,0,0,0
+2761,53,Female,2761_left.jpg,normal fundus,1,0,0,0,0
+4269,61,Female,4269_right.jpg,normal fundus,1,0,0,0,0
+789,65,Female,789_right.jpg,branch retinal vein occlusion,0,0,0,0,1
+4221,65,Male,4221_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3345,65,Female,3345_right.jpg,normal fundus,1,0,0,0,0
+6,60,Male,6_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0,1
+4308,48,Male,4308_left.jpg,normal fundus,1,0,0,0,0
+849,60,Female,849_right.jpg,hypertensive retinopathy,0,0,0,0,1
+4036,56,Male,4036_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+1576,67,Female,1576_left.jpg,pathological myopia,0,0,0,1,0
+3160,37,Male,3160_right.jpg,normal fundus,1,0,0,0,0
+1968,52,Male,1968_left.jpg,cataract，lens dust,0,0,1,0,0
+3235,53,Female,3235_left.jpg,normal fundus,1,0,0,0,0
+4587,67,Male,4587_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1145,40,Female,1145_right.jpg,normal fundus,1,0,0,0,0
+2595,75,Male,2595_left.jpg,normal fundus,1,0,0,0,0
+2136,76,Female,2136_left.jpg,cataract,0,0,1,0,0
+2397,58,Male,2397_right.jpg,normal fundus,1,0,0,0,0
+4564,50,Male,4564_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2095,76,Female,2095_right.jpg,cataract,0,0,1,0,0
+1064,61,Male,1064_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+4471,53,Female,4471_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1681,70,Male,1681_right.jpg,pathological myopia,0,0,0,1,0
+2905,38,Female,2905_left.jpg,normal fundus,1,0,0,0,0
+3441,44,Male,3441_left.jpg,normal fundus,1,0,0,0,0
+1225,39,Male,1225_left.jpg,glaucoma，myopia retinopathy,0,0,0,1,1
+411,57,Male,411_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2239,46,Male,2239_right.jpg,cataract,0,0,1,0,0
+1460,62,Female,1460_left.jpg,normal fundus,1,0,0,0,0
+2505,55,Female,2505_right.jpg,normal fundus,1,0,0,0,0
+594,70,Female,594_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+888,56,Male,888_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+940,48,Female,940_right.jpg,normal fundus,1,0,0,0,0
+914,61,Female,914_left.jpg,moderate non proliferative retinopathy，myelinated nerve fibers，laser spot,0,1,0,0,1
+3310,56,Male,3310_right.jpg,normal fundus,1,0,0,0,0
+535,47,Male,535_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4205,46,Female,4205_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1176,65,Female,1176_right.jpg,macular epiretinal membrane,0,0,0,0,1
+1880,68,Male,1880_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+4030,49,Female,4030_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2248,74,Female,2248_right.jpg,cataract，lens dust,0,0,1,0,0
+477,65,Female,477_left.jpg,cataract,0,0,1,0,0
+3353,42,Female,3353_left.jpg,normal fundus,1,0,0,0,0
+4038,75,Female,4038_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2456,48,Male,2456_right.jpg,normal fundus,1,0,0,0,0
+3157,62,Female,3157_left.jpg,normal fundus,1,0,0,0,0
+309,52,Female,309_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1560,77,Female,1560_right.jpg,pathological myopia,0,0,0,1,0
+4534,56,Male,4534_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2647,43,Male,2647_right.jpg,normal fundus,1,0,0,0,0
+2129,73,Male,2129_right.jpg,cataract,0,0,1,0,0
+459,59,Female,459_left.jpg,normal fundus，lens dust,1,0,0,0,0
+3262,57,Male,3262_left.jpg,normal fundus,1,0,0,0,0
+2682,54,Male,2682_left.jpg,normal fundus,1,0,0,0,0
+599,65,Male,599_left.jpg,normal fundus,1,0,0,0,0
+1012,56,Female,1012_right.jpg,pathological myopia,0,0,0,1,0
+4119,41,Male,4119_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4572,54,Female,4572_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1558,73,Female,1558_right.jpg,pathological myopia,0,0,0,1,0
+102,73,Female,102_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+4204,47,Female,4204_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+4334,49,Male,4334_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4239,62,Male,4239_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2892,72,Male,2892_left.jpg,normal fundus,1,0,0,0,0
+684,60,Female,684_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4618,58,Male,4618_left.jpg,normal fundus,1,0,0,0,0
+259,50,Female,259_left.jpg,normal fundus,1,0,0,0,0
+4056,52,Female,4056_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+88,71,Female,88_right.jpg,macular epiretinal membrane,0,0,0,0,1
+2979,53,Male,2979_right.jpg,normal fundus,1,0,0,0,0
+1118,47,Female,1118_right.jpg,maculopathy,0,0,0,0,1
+2559,52,Male,2559_left.jpg,normal fundus,1,0,0,0,0
+551,57,Female,551_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+211,60,Male,211_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+334,74,Female,334_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+4432,49,Male,4432_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+826,60,Female,826_left.jpg,hypertensive retinopathy,0,0,0,0,1
+395,58,Male,395_left.jpg,drusen,0,0,0,0,1
+2800,63,Female,2800_right.jpg,normal fundus,1,0,0,0,0
+948,65,Male,948_right.jpg,moderate non proliferative retinopathy，macular epiretinal membrane,0,1,0,0,1
+2766,37,Female,2766_right.jpg,normal fundus,1,0,0,0,0
+4593,65,Male,4593_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3379,45,Female,3379_right.jpg,normal fundus,1,0,0,0,0
+464,50,Female,464_right.jpg,normal fundus,1,0,0,0,0
+107,68,Female,107_right.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0,1
+3361,64,Male,3361_right.jpg,normal fundus,1,0,0,0,0
+2577,60,Male,2577_left.jpg,normal fundus,1,0,0,0,0
+1260,66,Female,1260_left.jpg,glaucoma,0,0,0,0,1
+2883,72,Male,2883_right.jpg,normal fundus,1,0,0,0,0
+3433,34,Male,3433_left.jpg,normal fundus,1,0,0,0,0
+2335,55,Female,2335_right.jpg,normal fundus,1,0,0,0,0
+3429,79,Male,3429_right.jpg,normal fundus,1,0,0,0,0
+3333,71,Male,3333_right.jpg,normal fundus,1,0,0,0,0
+1710,62,Male,1710_left.jpg,pathological myopia,0,0,0,1,0
+4044,62,Male,4044_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2032,48,Male,2032_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2496,52,Female,2496_right.jpg,normal fundus,1,0,0,0,0
+2447,34,Female,2447_left.jpg,normal fundus,1,0,0,0,0
+168,66,Male,168_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+3175,70,Female,3175_left.jpg,normal fundus,1,0,0,0,0
+2786,61,Male,2786_left.jpg,normal fundus,1,0,0,0,0
+1859,59,Male,1859_left.jpg,wet age-related macular degeneration,0,0,0,0,1
+17,57,Male,17_left.jpg,drusen,0,0,0,0,1
+4185,65,Female,4185_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+569,64,Male,569_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2528,37,Male,2528_right.jpg,normal fundus,1,0,0,0,0
+617,62,Male,617_right.jpg,drusen,0,0,0,0,1
+2874,45,Male,2874_right.jpg,normal fundus,1,0,0,0,0
+814,76,Male,814_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2559,52,Male,2559_right.jpg,normal fundus,1,0,0,0,0
+1942,52,Male,1942_right.jpg,diabetic retinopathy，dry age-related macular degeneration,0,1,0,0,1
+1892,69,Female,1892_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+4209,62,Female,4209_left.jpg,normal fundus,1,0,0,0,0
+133,59,Female,133_left.jpg,moderate non proliferative retinopathy，epiretinal membrane,0,1,0,0,1
+24,75,Female,24_left.jpg,normal fundus,1,0,0,0,0
+2629,34,Male,2629_right.jpg,normal fundus,1,0,0,0,0
+4595,58,Male,4595_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2545,46,Male,2545_left.jpg,normal fundus,1,0,0,0,0
+1869,75,Male,1869_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+4647,52,Male,4647_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+3093,73,Female,3093_right.jpg,normal fundus,1,0,0,0,0
+3443,65,Male,3443_left.jpg,normal fundus,1,0,0,0,0
+644,69,Male,644_left.jpg,myelinated nerve fibers,0,0,0,0,1
+4289,46,Male,4289_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1878,63,Female,1878_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+34,61,Male,34_right.jpg,drusen,0,0,0,0,1
+2401,57,Female,2401_left.jpg,normal fundus,1,0,0,0,0
+4497,52,Male,4497_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2442,54,Male,2442_left.jpg,normal fundus,1,0,0,0,0
+4440,60,Male,4440_left.jpg,normal fundus,1,0,0,0,0
+1028,50,Female,1028_left.jpg,branch retinal vein occlusion,0,0,0,0,1
+4158,52,Male,4158_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1532,62,Female,1532_left.jpg,pathological myopia,0,0,0,1,0
+2246,69,Male,2246_left.jpg,cataract,0,0,1,0,0
+1271,59,Female,1271_left.jpg,glaucoma,0,0,0,0,1
+532,64,Female,532_right.jpg,dry age-related macular degeneration,0,0,0,0,1
+694,64,Female,694_right.jpg,normal fundus,1,0,0,0,0
+4576,50,Female,4576_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4398,59,Male,4398_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3066,65,Female,3066_right.jpg,normal fundus,1,0,0,0,0
+3227,52,Male,3227_right.jpg,normal fundus,1,0,0,0,0
+676,52,Male,676_right.jpg,moderate non proliferative retinopathy，moderate non proliferative retinopathy，moderate non proliferative retinopathy,0,1,0,0,1
+759,58,Female,759_right.jpg,hypertensive retinopathy,0,0,0,0,1
+2662,49,Female,2662_left.jpg,normal fundus,1,0,0,0,0
+3351,55,Female,3351_right.jpg,normal fundus,1,0,0,0,0
+164,62,Female,164_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+923,49,Male,923_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+349,72,Male,349_right.jpg,refractive media opacity,0,0,0,0,1
+2585,56,Male,2585_right.jpg,normal fundus,1,0,0,0,0
+2113,52,Female,2113_left.jpg,cataract,0,0,1,0,0
+4394,56,Male,4394_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+913,61,Female,913_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+4493,39,Female,4493_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+3162,33,Male,3162_right.jpg,normal fundus,1,0,0,0,0
+46,66,Male,46_right.jpg,pathological myopia,0,0,0,1,0
+3377,72,Male,3377_right.jpg,normal fundus,1,0,0,0,0
+2140,70,Male,2140_right.jpg,cataract,0,0,1,0,0
+2349,45,Male,2349_right.jpg,normal fundus,1,0,0,0,0
+4033,45,Male,4033_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4437,50,Male,4437_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+268,49,Female,268_right.jpg,severe proliferative diabetic retinopathy，laser spot,0,1,0,0,1
+2907,58,Male,2907_left.jpg,normal fundus,1,0,0,0,0
+2125,83,Female,2125_right.jpg,normal fundus,1,0,0,0,0
+1606,54,Male,1606_right.jpg,pathological myopia,0,0,0,1,0
+671,65,Male,671_left.jpg,normal fundus,1,0,0,0,0
+4675,53,Male,4675_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1548,63,Female,1548_right.jpg,pathological myopia,0,0,0,1,0
+3035,80,Female,3035_right.jpg,normal fundus,1,0,0,0,0
+3968,75,Female,3968_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2678,67,Female,2678_left.jpg,normal fundus,1,0,0,0,0
+359,54,Male,359_left.jpg,dry age-related macular degeneration,0,0,0,0,1
+100,59,Male,100_right.jpg,normal fundus,1,0,0,0,0
+127,52,Male,127_right.jpg,proliferative diabetic retinopathy，hypertensive retinopathy,0,1,0,0,1
+2425,68,Male,2425_left.jpg,normal fundus,1,0,0,0,0
+274,53,Male,274_left.jpg,mild nonproliferative retinopathy，epiretinal membrane,0,1,0,0,1
+2384,65,Female,2384_left.jpg,normal fundus,1,0,0,0,0
+27,33,Male,27_left.jpg,normal fundus,1,0,0,0,0
+822,59,Male,822_right.jpg,myelinated nerve fibers,0,0,0,0,1
+3350,30,Male,3350_right.jpg,normal fundus,1,0,0,0,0
+2233,77,Female,2233_left.jpg,cataract,0,0,1,0,0
+854,74,Male,854_left.jpg,normal fundus,1,0,0,0,0
+289,57,Male,289_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2428,76,Male,2428_left.jpg,normal fundus，lens dust,1,0,0,0,0
+1431,73,Male,1431_left.jpg,suspected glaucoma,0,0,0,0,1
+2792,54,Male,2792_right.jpg,normal fundus,1,0,0,0,0
+373,60,Female,373_left.jpg,normal fundus,1,0,0,0,0
+2739,46,Male,2739_right.jpg,normal fundus,1,0,0,0,0
+1241,64,Female,1241_left.jpg,glaucoma,0,0,0,0,1
+2815,74,Male,2815_right.jpg,normal fundus,1,0,0,0,0
+186,45,Male,186_right.jpg,mild nonproliferative retinopathy，myelinated nerve fibers,0,1,0,0,1
+4161,55,Female,4161_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+4568,54,Male,4568_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+553,69,Female,553_right.jpg,cataract,0,0,1,0,0
+864,71,Female,864_right.jpg,severe nonproliferative retinopathy,0,1,0,0,0
+64,80,Male,64_left.jpg,diabetic retinopathy,0,1,0,0,0
+2387,64,Female,2387_left.jpg,normal fundus,1,0,0,0,0
+1554,78,Female,1554_right.jpg,pathological myopia,0,0,0,1,0
+575,65,Male,575_left.jpg,normal fundus,1,0,0,0,0
+403,47,Female,403_right.jpg,normal fundus,1,0,0,0,0
+1280,50,Female,1280_right.jpg,normal fundus,1,0,0,0,0
+846,54,Male,846_right.jpg,normal fundus,1,0,0,0,0
+3015,35,Male,3015_left.jpg,normal fundus,1,0,0,0,0
+157,65,Female,157_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2540,64,Male,2540_left.jpg,normal fundus,1,0,0,0,0
+1531,63,Female,1531_right.jpg,pathological myopia,0,0,0,1,0
+718,52,Male,718_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+515,54,Female,515_left.jpg,normal fundus,1,0,0,0,0
+2448,56,Male,2448_left.jpg,normal fundus,1,0,0,0,0
+3152,62,Male,3152_right.jpg,normal fundus,1,0,0,0,0
+2199,69,Female,2199_right.jpg,macular epiretinal membrane,0,0,0,0,1
+1034,56,Male,1034_right.jpg,normal fundus,1,0,0,0,0
+4406,63,Male,4406_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+2339,35,Male,2339_left.jpg,normal fundus,1,0,0,0,0
+4546,71,Female,4546_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1116,23,Male,1116_right.jpg,maculopathy,0,0,0,0,1
+1115,81,Female,1115_left.jpg,cataract,0,0,1,0,0
+2825,64,Female,2825_right.jpg,normal fundus,1,0,0,0,0
+2191,80,Female,2191_left.jpg,normal fundus,1,0,0,0,0
+2981,68,Female,2981_left.jpg,normal fundus,1,0,0,0,0
+1510,56,Male,1510_left.jpg,normal fundus,1,0,0,0,0
+2415,66,Female,2415_right.jpg,normal fundus,1,0,0,0,0
+3329,44,Male,3329_left.jpg,normal fundus,1,0,0,0,0
+1209,69,Female,1209_left.jpg,glaucoma,0,0,0,0,1
+4644,60,Female,4644_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+2902,60,Male,2902_right.jpg,normal fundus,1,0,0,0,0
+4679,69,Male,4679_right.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+1309,49,Male,1309_left.jpg,glaucoma，hypertensive retinopathy,0,0,0,0,1
+3303,29,Female,3303_left.jpg,normal fundus,1,0,0,0,0
+2337,61,Female,2337_right.jpg,normal fundus,1,0,0,0,0
+1165,44,Male,1165_left.jpg,normal fundus,1,0,0,0,0
+390,59,Female,390_right.jpg,pathological myopia,0,0,0,1,0
+4542,54,Male,4542_left.jpg,normal fundus,1,0,0,0,0
+2563,49,Male,2563_left.jpg,normal fundus,1,0,0,0,0
+466,62,Male,466_right.jpg,moderate non proliferative retinopathy，laser spot,0,1,0,0,1
+1919,50,Male,1919_left.jpg,refractive media opacity,0,0,0,0,1
+4192,65,Female,4192_left.jpg,moderate non proliferative retinopathy,0,1,0,0,0
+26,63,Female,26_right.jpg,moderate non proliferative retinopathy，abnormal pigment ,0,1,0,0,1
+3327,68,Male,3327_right.jpg,normal fundus,1,0,0,0,0
+4557,53,Female,4557_right.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+454,60,Male,454_left.jpg,vitreous degeneration,0,0,0,0,1
+1109,60,Male,1109_left.jpg,normal fundus,1,0,0,0,0
+4252,58,Male,4252_left.jpg,mild nonproliferative retinopathy,0,1,0,0,0
+997,63,Female,997_left.jpg,diabetic retinopathy，post laser photocoagulation,0,1,0,0,1
+1666,47,Male,1666_left.jpg,normal fundus,1,0,0,0,0

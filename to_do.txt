@@ -24,4 +24,15 @@ Tsoumakas access to Aristotelis - Done
 
 12) Brainstorm
 
-13) SOS Print an image before feeding to the model
+13) SOS Print an image before feeding to the model - done
+
+================================================================
+12/5/2024 5:54 PM
+
+-Να βρουμε ποιες κλασεις θα κρατησουμε
+-Να δοκιμασουμε να βγαλουμε λιγοτερες κλασεις
+-Να δοκιμασουμε αλλους transformers και αλλα cnns
+-Να δοκιμασουμε βαρη και sampling
+-Να δουμε ποσο μπορουμε να το φτασουμε με πειραματισμους στο head και αρχιτεκτονικες
+-(cost sensitive)
+-backpropagate in the transformer

@@ -2,11 +2,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-metrics_df = pd.read_csv('logs/experiment_name/version_1/metrics.csv')
+metrics_df = pd.read_csv('logs/experiment_name/version_5/metrics.csv')
 
 fig, axs = plt.subplots(2, 4, figsize=(16, 8))
 
-for i in range(8):
+for i in range(4):
     label_train_f1 = metrics_df.groupby('epoch')[f'{i} train f1'].mean()
     label_val_f1 = metrics_df.groupby('epoch')[f'{i} val f1'].mean()
     epochs = range(1, len(label_train_f1) + 1)

@@ -4,9 +4,9 @@ import shutil
 
 if __name__ == "__main__":
     
-    df_val = pd.read_csv('./data/val.csv')
-    df_test = pd.read_csv('./data/test.csv')
-    df_train = pd.read_csv('./data/train.csv')
+    df_val = pd.read_csv('../csv_backup/no_other/val.csv')
+    df_test = pd.read_csv('../csv_backup/no_other/test.csv')
+    df_train = pd.read_csv('../csv_backup/no_other/train.csv')
     
     val_names = df_val['Fundus']
     test_names = df_test['Fundus']
