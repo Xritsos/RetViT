@@ -3,11 +3,12 @@ from matplotlib import pyplot as plt
 from datasets import load_dataset
 from torch.utils.data import DataLoader
 import torch
+import numpy as np
 from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import CSVLogger
 from pytorch_lightning.callbacks import EarlyStopping
-from torchmetrics.classification import MultilabelF1Score
-
+from torchmetrics.classification import MultilabelF1Score, MultilabelHammingDistance
+from sklearn.metrics import f1_score
 
 import pandas as pd
 
@@ -29,14 +30,20 @@ class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
 
-        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
-                                                              num_labels=8,
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
+        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
+                                                              num_labels=4,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
                                                               label2id=label2id,
                                                               ignore_mismatched_sizes=True)
 
+        self.train_labels = []
+        self.train_predictions = []
+        self.val_labels = []
+        self.val_predictions = []
+        self.test_predictions = []
+        self.test_labels = []
         # custom_head = nn.Sequential(
         #     nn.Linear(1536, 1024),
         #     nn.ReLU(),
@@ -58,8 +65,8 @@ class ViTLightningModule(pl.LightningModule):
         #     nn.Dropout(p=0.2),
         #     nn.Linear(64, 8)
         # )
-
-        # Replace the classifier with your custom head
+        #
+        # # Replace the classifier with your custom head
         # self.vit.classifier = custom_head
 
         for param in self.vit.parameters():
@@ -86,33 +93,29 @@ class ViTLightningModule(pl.LightningModule):
         predicted_labels = (probabilities > 0.5).float()
 
         correct = (predicted_labels == labels).sum().item()
-        accuracy = correct/pixel_values.shape[0]
-        f1 = MultilabelF1Score(num_labels=8, average='weighted').to(device)
-        f1 = f1(predicted_labels, labels)
+        accuracy = correct / pixel_values.shape[0]
 
-        return loss, accuracy, f1
+        return loss, accuracy, labels, predicted_labels
 
     def training_step(self, batch, batch_idx):
-        loss, accuracy, f1 = self.common_step(batch, batch_idx)
-        # logs metrics for each training_step,
-        # and the average across the epoch
-        self.log("training_loss", loss, on_epoch=True, prog_bar=True)
-        self.log("training F1 Score", f1, on_epoch=True, prog_bar=True)
-
+        loss, accuracy, labels, predicted_labels = self.common_step(batch, batch_idx)
+        self.train_labels.append(labels.cpu())
+        self.train_predictions.append(predicted_labels.cpu())
+        # self.log("train loss", loss, on_epoch=True, prog_bar=True)
         return loss
 
     def validation_step(self, batch, batch_idx):
-        loss, accuracy, f1 = self.common_step(batch, batch_idx)
-        self.log("validation_loss", loss, on_epoch=True, prog_bar=True)
-        self.log("validation F1 Score", f1, on_epoch=True, prog_bar=True)
-
+        loss, accuracy, labels, predicted_labels = self.common_step(batch, batch_idx)
+        self.val_labels.append(labels.cpu())
+        self.val_predictions.append(predicted_labels.cpu())
+        # self.log("val loss", loss, on_epoch=True, prog_bar=True)
         return loss
 
     def test_step(self, batch, batch_idx):
-        loss, accuracy, f1 = self.common_step(batch, batch_idx)
-        self.log("test_loss", loss, prog_bar=True)
-        self.log("test F1 Score", f1, prog_bar=True)
-
+        loss, accuracy, labels, predicted_labels = self.common_step(batch, batch_idx)
+        self.test_labels.append(labels.cpu())
+        self.test_predictions.append(predicted_labels.cpu())
+        # self.log("test loss", loss, on_epoch=True, prog_bar=True)
         return loss
 
     def configure_optimizers(self):
@@ -129,13 +132,44 @@ class ViTLightningModule(pl.LightningModule):
     def test_dataloader(self):
         return test_dataloader
 
+    def on_train_epoch_end(self):
+        train_preds = np.concatenate([t.numpy() for t in self.train_predictions])
+        train_labels = np.concatenate([t.numpy() for t in self.train_labels])
+
+        for i in range(4):
+            label_score = f1_score(train_labels[:, i], train_preds[:, i], zero_division=1)
+            self.log(f"{i} train f1", label_score, on_epoch=True, prog_bar=True)
+
+        self.train_predictions.clear()  # free memory
+        self.train_labels.clear()
+
+    def on_validation_epoch_end(self):
+        val_preds = np.concatenate([t.numpy() for t in self.val_predictions])
+        val_labels = np.concatenate([t.numpy() for t in self.val_labels])
+
+        for i in range(4):
+            label_score = f1_score(val_labels[:, i], val_preds[:, i])
+            self.log(f"{i} val f1", label_score, on_epoch=True, prog_bar=True)
+        self.val_predictions.clear()
+        self.val_labels.clear()
+
+    def on_test_epoch_end(self):
+        test_preds = np.concatenate([t.numpy() for t in self.test_predictions])
+        test_labels = np.concatenate([t.numpy() for t in self.test_labels])
+
+        for i in range(4):
+            label_score = f1_score(test_labels[:, i], test_preds[:, i])
+            self.log(f"{i} test f1", label_score, on_epoch=True, prog_bar=True)
+        self.test_predictions.clear()
+        self.test_labels.clear()
+
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 train_ds, val_ds, test_ds = utils.load_data()
 
 # integer to label mapping
-id2label = {0: "N", 1: "D", 2: "G", 3: "C", 4: "A", 5: "H", 6: "M", 7: "O"}
+id2label = {0: "N", 1: "D", 2: "C", 3: "M"}
 label2id = {label:id for id, label in id2label.items()}
 
 
@@ -179,3 +213,6 @@ trainer.fit(model)
 print("================ Testing... ======================")
 trainer.test(model, ckpt_path='best')
 print("==================================================")
+
+
+utils.plot_results()

@@ -12,12 +12,13 @@ from torchvision.transforms import (Compose, Normalize,
 
 from torch.utils.data import Dataset
 
+
 class CustomImageDataset(Dataset):
     def __init__(self, csv_file, root_dir, transform=None):
         self.data_frame = pd.read_csv(csv_file)
         self.root_dir = root_dir
         self.transform = transform
-        self.label_names = ["N", "D", "G", "C", "A", "H", "M", "O"]
+        self.label_names = ["N", "D", "C", "M"]
 
     def __len__(self):
         return len(self.data_frame)
@@ -47,4 +48,3 @@ class CustomImageDataset(Dataset):
         # this return dictionary is returned in the collate_fn function
         # this might be useless and should be removed ?
         return {"img": image, "label": label, "pixel_values": image_tensor}
-    

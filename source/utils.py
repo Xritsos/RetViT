@@ -10,11 +10,36 @@ from torchvision.transforms import (CenterCrop,
                                     ToTensor)
 from transformers import AutoImageProcessor
 import torch
+import matplotlib.pyplot as plt
 
+
+def plot_results():
+    metrics_df = pd.read_csv('logs/experiment_name/version_11/metrics.csv')
+
+    fig, axs = plt.subplots(2, 4, figsize=(16, 8))
+
+    for i in range(8):
+        label_train_f1 = metrics_df.groupby('epoch')[f'{i} train f1'].mean()
+        label_val_f1 = metrics_df.groupby('epoch')[f'{i} val f1'].mean()
+        epochs = range(1, len(label_train_f1) + 1)
+
+        row = i // 4
+        col = i % 4
+
+        axs[row, col].plot(epochs, label_train_f1, 'b', label=f'Mean Training F1 for label {i}')
+        axs[row, col].plot(epochs, label_val_f1, 'r', label=f'Mean Validation F1 for label {i}')
+        axs[row, col].set_title(f'Train - Val F1 for label {i}')
+        axs[row, col].set_xlabel('Epochs')
+        axs[row, col].set_ylabel('F1 Score')
+        axs[row, col].legend()
+        axs[row, col].set_ylim(0, 1)
+
+    plt.tight_layout()
+    plt.show()
 
 # prepare images for inference
-#processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
-processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
+#processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
 image_mean = processor.image_mean
 image_std = processor.image_std
 
@@ -42,7 +67,7 @@ def get_params(config_path):
     early_stopping_patience = int(config.loc[0, 'early_stopping_patience'])
     num_epochs = int(config.loc[0, 'num_epochs'])
 
-    # class_weights = torch.tensor([2.21, 3.74, 21.66, 21.76, 23.11, 32.56, 26.09, 7.16], dtype=torch.float).to('cuda')
+    class_weights = torch.tensor([2.21, 3.74, 21.66, 21.76, 23.11, 32.56, 26.09, 7.16], dtype=torch.float).to('cuda')
     # weight = class_weights
     criterion = nn.BCEWithLogitsLoss()
 

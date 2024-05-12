@@ -1,30 +1,27 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-metrics_df = pd.read_csv('logs/experiment_name/version_4/metrics.csv')
 
-mean_train_loss = metrics_df.groupby('epoch')['training_loss_epoch'].mean()
-mean_val_loss = metrics_df.groupby('epoch')['validation_loss'].mean()
-epochs = range(1, len(mean_train_loss) + 1)
+metrics_df = pd.read_csv('logs/experiment_name/version_1/metrics.csv')
 
-mean_train_f1 = metrics_df.groupby('epoch')['training F1 Score_epoch'].mean()
-mean_val_f1 = metrics_df.groupby('epoch')['validation F1 Score'].mean()
+fig, axs = plt.subplots(2, 4, figsize=(16, 8))
 
-fig, axs = plt.subplots(2)
+for i in range(8):
+    label_train_f1 = metrics_df.groupby('epoch')[f'{i} train f1'].mean()
+    label_val_f1 = metrics_df.groupby('epoch')[f'{i} val f1'].mean()
+    epochs = range(1, len(label_train_f1) + 1)
 
-axs[0].plot(epochs, mean_train_loss, 'b', label='Mean Training Loss')
-axs[0].plot(epochs, mean_val_loss, 'r', label='Mean Validation Loss')
-axs[0].set_title('Mean Training and Validation Loss')
-axs[0].set_xlabel('Epochs')
-axs[0].set_ylabel('Loss')
-axs[0].legend()
+    row = i // 4
+    col = i % 4
 
-axs[1].plot(epochs, mean_train_f1, 'b', label='Mean Training F1 Score')
-axs[1].plot(epochs, mean_val_f1, 'r', label='Mean Validation F1 Score')
-axs[1].set_title('Mean Training and Validation F1 Score')
-axs[1].set_xlabel('Epochs')
-axs[1].set_ylabel('F1 Score')
-axs[1].legend()
+    axs[row, col].plot(epochs, label_train_f1, 'b', label=f'Mean Training F1 for label {i}')
+    axs[row, col].plot(epochs, label_val_f1, 'r', label=f'Mean Validation F1 for label {i}')
+    axs[row, col].set_title(f'Train - Val F1 for label {i}')
+    axs[row, col].set_xlabel('Epochs')
+    axs[row, col].set_ylabel('F1 Score')
+    axs[row, col].legend()
+    axs[row, col].set_ylim(0, 1)
 
 plt.tight_layout()
 plt.show()
+
