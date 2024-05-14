@@ -18,7 +18,7 @@ class CustomImageDataset(Dataset):
         self.data_frame = pd.read_csv(csv_file)
         self.root_dir = root_dir
         self.transform = transform
-        self.label_names = ["N", "D", "C", "M", "O"]
+        self.label_names = ["N", "D", "C", "M"]
 
     def __len__(self):
         return len(self.data_frame)

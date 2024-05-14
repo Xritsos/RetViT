@@ -31,9 +31,9 @@ class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
 
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
-        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
-                                                              num_labels=5,
+        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
+                                                              num_labels=4,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
                                                               label2id=label2id,
@@ -136,7 +136,7 @@ class ViTLightningModule(pl.LightningModule):
         train_preds = np.concatenate([t.numpy() for t in self.train_predictions])
         train_labels = np.concatenate([t.numpy() for t in self.train_labels])
 
-        for i in range(5):
+        for i in range(4):
             label_score = f1_score(train_labels[:, i], train_preds[:, i], zero_division=1)
             self.log(f"{i} train f1", label_score, on_epoch=True, prog_bar=True)
 
@@ -147,7 +147,7 @@ class ViTLightningModule(pl.LightningModule):
         val_preds = np.concatenate([t.numpy() for t in self.val_predictions])
         val_labels = np.concatenate([t.numpy() for t in self.val_labels])
 
-        for i in range(5):
+        for i in range(4):
             label_score = f1_score(val_labels[:, i], val_preds[:, i])
             self.log(f"{i} val f1", label_score, on_epoch=True, prog_bar=True)
         self.val_predictions.clear()
@@ -157,7 +157,7 @@ class ViTLightningModule(pl.LightningModule):
         test_preds = np.concatenate([t.numpy() for t in self.test_predictions])
         test_labels = np.concatenate([t.numpy() for t in self.test_labels])
 
-        for i in range(5):
+        for i in range(4):
             label_score = f1_score(test_labels[:, i], test_preds[:, i])
             self.log(f"{i} test f1", label_score, on_epoch=True, prog_bar=True)
         self.test_predictions.clear()
@@ -169,7 +169,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 train_ds, val_ds, test_ds = utils.load_data()
 
 # integer to label mapping
-id2label = {0: "N", 1: "D", 2: "C", 3: "M", 4: "O"}
+id2label = {0: "N", 1: "D", 2: "C", 3: "M"}
 label2id = {label:id for id, label in id2label.items()}
 
 
@@ -203,8 +203,8 @@ early_stop_callback = EarlyStopping(
 
 csv_logger = CSVLogger(save_dir='logs/', name='experiment_name', flush_logs_every_n_steps=1)
 
-# checkpoint_path = '/home/g/gbotso/Desktop/Project/RetViT/logs/experiment_name/version_2/checkpoints/epoch=41-step=11718.ckpt'
-#model = ViTLightningModule.load_from_checkpoint(checkpoint_path)
+# checkpoint_path = '/home/g/gbotso/Desktop/Project/RetViT/logs/experiment_name/version_5/checkpoints/epoch=100-step=17473.ckpt'
+# model = ViTLightningModule.load_from_checkpoint(checkpoint_path)
 model = ViTLightningModule()
 
 trainer = Trainer(accelerator='gpu', max_epochs=num_epochs,
