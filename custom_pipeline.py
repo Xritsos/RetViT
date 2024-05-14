@@ -8,7 +8,7 @@ from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import CSVLogger
 from pytorch_lightning.callbacks import EarlyStopping, ModelCheckpoint
 from torchmetrics.classification import MultilabelF1Score, MultilabelHammingDistance
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score,confusion_matrix
 
 import pandas as pd
 import os
@@ -31,9 +31,9 @@ class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
 
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
-        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
-                                                              num_labels=4,
+        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
+                                                              num_labels=6,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
                                                               label2id=label2id,
@@ -45,30 +45,6 @@ class ViTLightningModule(pl.LightningModule):
         self.val_predictions = []
         self.test_predictions = []
         self.test_labels = []
-        # custom_head = nn.Sequential(
-        #     nn.Linear(1536, 1024),
-        #     nn.ReLU(),
-        #     nn.Dropout(p=0.2),
-        #     nn.Linear(1024, 768),
-        #     nn.ReLU(),
-        #     nn.Dropout(p=0.2),
-        #     nn.Linear(768, 512),
-        #     nn.ReLU(),
-        #     nn.Dropout(p=0.2),
-        #     nn.Linear(512, 256),
-        #     nn.ReLU(),
-        #     nn.Dropout(p=0.2),
-        #     nn.Linear(256, 128),
-        #     nn.ReLU(),
-        #     nn.Dropout(p=0.2),
-        #     nn.Linear(128, 64),
-        #     nn.ReLU(),
-        #     nn.Dropout(p=0.2),
-        #     nn.Linear(64, 8)
-        # )
-        #
-        # # Replace the classifier with your custom head
-        # self.vit.classifier = custom_head
 
         for param in self.vit.parameters():
             param.requires_grad = False
@@ -76,8 +52,6 @@ class ViTLightningModule(pl.LightningModule):
         for param in self.vit.classifier.parameters():
             param.requires_grad = True
 
-    # add this above for the multilabel case, plus more params values for multilabel
-    #  problem_type="multi_label_classification",
 
     def forward(self, pixel_values):
         outputs = self.vit(pixel_values=pixel_values)
@@ -136,8 +110,8 @@ class ViTLightningModule(pl.LightningModule):
         train_preds = np.concatenate([t.numpy() for t in self.train_predictions])
         train_labels = np.concatenate([t.numpy() for t in self.train_labels])
 
-        for i in range(4):
-            label_score = f1_score(train_labels[:, i], train_preds[:, i], zero_division=1)
+        for i in range(6):
+            label_score = f1_score(train_labels[:, i], train_preds[:, i], average='weighted')
             self.log(f"{i} train f1", label_score, on_epoch=True, prog_bar=True)
 
         self.train_predictions.clear()  # free memory
@@ -147,8 +121,10 @@ class ViTLightningModule(pl.LightningModule):
         val_preds = np.concatenate([t.numpy() for t in self.val_predictions])
         val_labels = np.concatenate([t.numpy() for t in self.val_labels])
 
-        for i in range(4):
-            label_score = f1_score(val_labels[:, i], val_preds[:, i])
+        for i in range(6):
+            label_score = f1_score(val_labels[:, i], val_preds[:, i], average='weighted')
+            cm = confusion_matrix(val_labels[:, i], np.round(val_preds[:, i]))
+            print(f"Confusion Matrix for Label {i + 1}:\n{cm}\n")
             self.log(f"{i} val f1", label_score, on_epoch=True, prog_bar=True)
         self.val_predictions.clear()
         self.val_labels.clear()
@@ -157,8 +133,8 @@ class ViTLightningModule(pl.LightningModule):
         test_preds = np.concatenate([t.numpy() for t in self.test_predictions])
         test_labels = np.concatenate([t.numpy() for t in self.test_labels])
 
-        for i in range(4):
-            label_score = f1_score(test_labels[:, i], test_preds[:, i])
+        for i in range(6):
+            label_score = f1_score(test_labels[:, i], test_preds[:, i], average='weighted')
             self.log(f"{i} test f1", label_score, on_epoch=True, prog_bar=True)
         self.test_predictions.clear()
         self.test_labels.clear()
@@ -169,7 +145,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 train_ds, val_ds, test_ds = utils.load_data()
 
 # integer to label mapping
-id2label = {0: "N", 1: "D", 2: "C", 3: "M"}
+id2label = {0: "D", 1: "G", 2: "C", 3: "A", 4: "H", 5: "M"}
 label2id = {label:id for id, label in id2label.items()}
 
 

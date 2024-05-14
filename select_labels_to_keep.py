@@ -17,8 +17,8 @@ def select_labels(filepath, columns_to_drop, columns_to_keep):
     df.to_csv(filepath, index=False)
 
 
-columns_to_drop = ['C', 'A', 'M', 'O']
-columns_to_check = ['N', 'D', 'G', 'H']
+columns_to_check = ['C', 'A', 'M', 'D', 'G', 'H']
+columns_to_drop = ['N', 'O']
 
 for i in ['data/train.csv', 'data/val.csv', 'data/test.csv']:
     select_labels(i, columns_to_drop, columns_to_check)

@@ -14,11 +14,11 @@ import matplotlib.pyplot as plt
 
 
 def plot_results():
-    metrics_df = pd.read_csv('logs/experiment_name/version_5/metrics.csv')
+    metrics_df = pd.read_csv('logs/experiment_name/version_0/metrics.csv')
 
     fig, axs = plt.subplots(1, 4, figsize=(16, 8))
 
-    for i in range(4):
+    for i in range(6):
         label_train_f1 = metrics_df.groupby('epoch')[f'{i} train f1'].mean()
         label_val_f1 = metrics_df.groupby('epoch')[f'{i} val f1'].mean()
         epochs = range(1, len(label_train_f1) + 1)
@@ -36,8 +36,8 @@ def plot_results():
     plt.show()
 
 # prepare images for inference
-processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
-#processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+#processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
+processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
 image_mean = processor.image_mean
 image_std = processor.image_std
 
@@ -65,9 +65,9 @@ def get_params(config_path):
     early_stopping_patience = int(config.loc[0, 'early_stopping_patience'])
     num_epochs = int(config.loc[0, 'num_epochs'])
 
-    # class_weights = torch.tensor([2.21, 3.74, 21.66, 21.76, 23.11, 32.56, 26.09, 7.16], dtype=torch.float).to('cuda')
-    # weight = class_weights
-    criterion = nn.BCEWithLogitsLoss()
+    class_weights = torch.tensor([1, 1, 1, 1], dtype=torch.float).to('cuda')
+    weight = class_weights
+    criterion = nn.BCEWithLogitsLoss(weight=weight)
 
     return learning_rate, weight_decay, batch_size, early_stopping_patience, num_epochs, criterion
 
