@@ -31,8 +31,8 @@ class ViTLightningModule(pl.LightningModule):
     def __init__(self):
         super(ViTLightningModule, self).__init__()
 
-        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
-        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
+        self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-large-patch4-window12-384',
+        #self.vit = AutoModelForImageClassification.from_pretrained('microsoft/swin-tiny-patch4-window7-224',
                                                               num_labels=4,
                                                               problem_type="multi_label_classification",
                                                               id2label=id2label,
