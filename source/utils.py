@@ -1,5 +1,4 @@
 import pandas as pd
-import torch.nn as nn
 from source.train.dataloader import CustomImageDataset
 from torchvision.transforms import (CenterCrop,
                                     Compose,
@@ -8,21 +7,45 @@ from torchvision.transforms import (CenterCrop,
                                     RandomResizedCrop,
                                     Resize,
                                     ToTensor)
-from transformers import AutoImageProcessor
+from torchvision.transforms import RandomRotation, ColorJitter, RandomAffine, RandomVerticalFlip
+
+from transformers import AutoImageProcessor, BeitImageProcessor, LevitImageProcessor, DeiTModel
 import torch
 import matplotlib.pyplot as plt
+import sys
+import os
+import glob
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import config
 
 
 def plot_results():
-    metrics_df = pd.read_csv('logs/experiment_name/version_0/metrics.csv')
+    base_path = 'logs/experiment_name/'
 
-    fig, axs = plt.subplots(1, 4, figsize=(16, 8))
+    subdirs = glob.glob(os.path.join(base_path, '*/'))
 
-    for i in range(6):
+    if not subdirs:
+        print("No subdirectories found in the experiment_name directory.")
+        return
+
+    latest_dir = max(subdirs, key=os.path.getctime)
+
+    metrics_file = os.path.join(latest_dir, 'metrics.csv')
+
+    if not os.path.isfile(metrics_file):
+        print(f"No metrics.csv file found in the latest directory: {latest_dir}")
+        return
+    else:
+        print(f"plotting results from {metrics_file}")
+
+    # Read the metrics.csv file
+    metrics_df = pd.read_csv(metrics_file)
+    fig, axs = plt.subplots(1, config.num_labels, figsize=(16, 8))
+
+    for i in range(config.num_labels):
         label_train_f1 = metrics_df.groupby('epoch')[f'{i} train f1'].mean()
         label_val_f1 = metrics_df.groupby('epoch')[f'{i} val f1'].mean()
         epochs = range(1, len(label_train_f1) + 1)
-
 
         axs[i].plot(epochs, label_train_f1, 'b', label=f'Mean Training F1 for label {i}')
         axs[i].plot(epochs, label_val_f1, 'r', label=f'Mean Validation F1 for label {i}')
@@ -37,7 +60,24 @@ def plot_results():
 
 # prepare images for inference
 #processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
-processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+if config.model_processor == 'SWIN':
+    processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
+elif config.model_processor == 'BEiT':
+    processor = BeitImageProcessor.from_pretrained("microsoft/beit-base-patch16-224-pt22k-ft22k")
+elif config.model_processor == 'LeViT':
+    processor = LevitImageProcessor.from_pretrained("facebook/levit-128S")
+elif config.model_processor == 'DeiT':
+    processor = AutoImageProcessor.from_pretrained("facebook/deit-base-distilled-patch16-224")
+elif config.model_processor == 'ImageGPT':
+    processor = AutoImageProcessor.from_pretrained("openai/imagegpt-small")
+elif config.model_processor == 'ResNet':
+    processor = AutoImageProcessor.from_pretrained("microsoft/resnet-50")
+elif config.model_processor == 'VIT':
+    processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224")
+else:
+    print('NO COMPATIBLE MODEL ADDED. Moving on with VIT.')
+    processor = AutoImageProcessor.from_pretrained("google/vit-base-patch16-224")
+
 image_mean = processor.image_mean
 image_std = processor.image_std
 
@@ -45,42 +85,36 @@ image_std = processor.image_std
 normalize = Normalize(mean=image_mean, std=image_std)
 
 if "height" in processor.size:
-    size = (processor.size["height"], processor.size["width"])
+    size = (224, 224)  # Sos this is hardcoded in case of error use dynamic processor values
     # crop_size = size
     max_size = None
 elif "shortest_edge" in processor.size:
     size = processor.size["shortest_edge"]
     crop_size = (size, size)
     max_size = processor.size.get("longest_edge")
+size = (224, 224)
 
-
-def get_params(config_path):
-    # Read the CSV file
-    config = pd.read_csv(config_path)
-
-    # Extract values from the DataFrame
-    learning_rate = config.loc[0, 'learning_rate']
-    weight_decay = config.loc[0, 'weight_decay']
-    batch_size = int(config.loc[0, 'batch_size'])
-    early_stopping_patience = int(config.loc[0, 'early_stopping_patience'])
-    num_epochs = int(config.loc[0, 'num_epochs'])
-
-    class_weights = torch.tensor([1, 1, 1, 1], dtype=torch.float).to('cuda')
-    weight = class_weights
-    criterion = nn.BCEWithLogitsLoss(weight=weight)
-
-    return learning_rate, weight_decay, batch_size, early_stopping_patience, num_epochs, criterion
-
-
-def load_data():
+def load_data(dataset):
     # load_data
-    path_train = './data/train.csv'
-    path_val = './data/val.csv'
-    path_test = './data/test.csv'
 
-    root_train = './data/train/'
-    root_val = './data/val/'
-    root_test = './data/test/'
+    if dataset == 'ODIR':
+        path_train = 'data/ODIR/train.csv'
+        path_val = 'data/ODIR/val.csv'
+        path_test = 'data/ODIR/test.csv'
+
+        root_train = 'data/ODIR/train/'
+        root_val = 'data/ODIR/val/'
+        root_test = 'data/ODIR/test/'
+    elif dataset == 'RFMID':
+        path_train = './data/RFMiD/RFMiD_Training_Labels_curated.csv'
+        path_val = './data/RFMiD/RFMiD_Validation_Labels_curated.csv'
+        path_test = './data/RFMiD/RFMiD_Testing_Labels_curated.csv'
+
+        root_train = './data/RFMiD/images/'
+        root_val = './data/RFMiD/images/'
+        root_test = './data/RFMiD/images/'
+    else:
+        raise ValueError('Non-accepted dataset. Use ODIR or RFMID')
 
     def train_transforms(examples):
         # examples['pixel_values'] = [_train_transforms(image.convert("RGB")) for image in examples['img']]
@@ -102,7 +136,6 @@ def load_data():
                                  normalize])
 
     _val_transforms = Compose([Resize(size),
-                               # CenterCrop(crop_size),
                                ToTensor(),
                                normalize])
 
@@ -113,7 +146,6 @@ def collate_fn(examples):
     pixel_values = torch.stack([example["pixel_values"] for example in examples])
     pixel_values = torch.permute(pixel_values, (0, 2, 1, 3))
 
-    # labels = torch.tensor([example["label"] for example in examples])
     labels = torch.stack([example["label"] for example in examples])
 
     return {"pixel_values": pixel_values, "labels": labels}

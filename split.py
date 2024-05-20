@@ -14,18 +14,18 @@ if __name__ == "__main__":
     
     for image in val_names:
         try:
-            shutil.move(f'./data/dataset/{image}', f'./data/val/{image}')
+            shutil.move(f'./data/dataset/{image}', f'data/ODIR/val/{image}')
         except Exception as ex:
             print(ex)
     
     for image in test_names:
         try:
-            shutil.move(f'./data/dataset/{image}', f'./data/test/{image}')
+            shutil.move(f'./data/dataset/{image}', f'data/ODIR/test/{image}')
         except Exception as ex:
             print(ex)
         
     for image in train_names:
         try:
-            shutil.move(f'./data/dataset/{image}', f'./data/train/{image}')
+            shutil.move(f'./data/dataset/{image}', f'data/ODIR/train/{image}')
         except Exception as ex:
             print(ex)

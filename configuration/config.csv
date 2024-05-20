@@ -1,3 +1,0 @@
-learning_rate,weight_decay,batch_size,early_stopping_patience,num_epochs
-0.001,0.00,16,5,20
-
