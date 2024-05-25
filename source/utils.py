@@ -1,15 +1,17 @@
 import pandas as pd
 from source.train.dataloader import CustomImageDataset
-from torchvision.transforms import (CenterCrop,
-                                    Compose,
-                                    Normalize,
-                                    RandomHorizontalFlip,
-                                    RandomResizedCrop,
-                                    Resize,
-                                    ToTensor)
+from torchvision.transforms import v2
+# from torchvision.transforms import (CenterCrop,
+#                                     Compose,
+#                                     Normalize,
+#                                     RandomHorizontalFlip,
+#                                     RandomResizedCrop,
+#                                     Resize,
+#                                     ToTensor)
 from torchvision.transforms import RandomRotation, ColorJitter, RandomAffine, RandomVerticalFlip
 
 from transformers import AutoImageProcessor, BeitImageProcessor, LevitImageProcessor, DeiTModel
+
 import torch
 import matplotlib.pyplot as plt
 import sys
@@ -82,7 +84,7 @@ image_mean = processor.image_mean
 image_std = processor.image_std
 
 # data augmentation - normalization
-normalize = Normalize(mean=image_mean, std=image_std)
+normalize = v2.Normalize(mean=image_mean, std=image_std)
 
 if "height" in processor.size:
     size = (224, 224)  # Sos this is hardcoded in case of error use dynamic processor values
@@ -96,7 +98,6 @@ size = (224, 224)
 
 def load_data(dataset):
     # load_data
-
     if dataset == 'ODIR':
         path_train = 'data/ODIR/train.csv'
         path_val = 'data/ODIR/val.csv'
@@ -130,14 +131,19 @@ def load_data(dataset):
     val_ds = CustomImageDataset(csv_file=path_val, root_dir=root_val, transform=val_transforms)
     test_ds = CustomImageDataset(csv_file=path_test, root_dir=root_test, transform=val_transforms)
 
-    _train_transforms = Compose([Resize(size),
-                                 RandomHorizontalFlip(),
-                                 ToTensor(),
+    _train_transforms = v2.Compose([v2.Resize(size),
+                                 v2.RandomHorizontalFlip(0.5),
+                                 v2.RandomVerticalFlip(0.1),
+                                 v2.RandomApply(transforms=[v2.RandomRotation(degrees=(0, 90))], p=0.5),
+                                 v2.RandomApply(transforms=[v2.ColorJitter(brightness=.3, hue=.1)], p=0.3),
+                                 v2.RandomApply(transforms=[v2.GaussianBlur(kernel_size=(5, 9))], p=0.3),
+                                 v2.ToTensor(),
                                  normalize])
 
-    _val_transforms = Compose([Resize(size),
-                               ToTensor(),
-                               normalize])
+    _val_transforms = v2.Compose([v2.Resize(size),
+                                  # CenterCrop(crop_size),
+                                  v2.ToTensor(),
+                                  normalize])
 
     return train_ds, val_ds, test_ds
 
