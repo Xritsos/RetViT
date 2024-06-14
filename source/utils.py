@@ -1,13 +1,6 @@
 import pandas as pd
-from source.train.dataloader import CustomImageDataset
+from data_loading.dataloader import CustomImageDataset
 from torchvision.transforms import v2
-# from torchvision.transforms import (CenterCrop,
-#                                     Compose,
-#                                     Normalize,
-#                                     RandomHorizontalFlip,
-#                                     RandomResizedCrop,
-#                                     Resize,
-#                                     ToTensor)
 from torchvision.transforms import RandomRotation, ColorJitter, RandomAffine, RandomVerticalFlip
 
 from transformers import AutoImageProcessor, BeitImageProcessor, LevitImageProcessor, DeiTModel
@@ -18,7 +11,7 @@ import sys
 import os
 import glob
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import config
+from source import config
 
 
 def plot_results():
@@ -61,7 +54,6 @@ def plot_results():
     plt.show()
 
 # prepare images for inference
-#processor = AutoImageProcessor.from_pretrained("microsoft/swin-large-patch4-window12-384")
 if config.model_processor == 'SWIN':
     processor = AutoImageProcessor.from_pretrained("microsoft/swin-tiny-patch4-window7-224")
 elif config.model_processor == 'BEiT':
@@ -99,13 +91,13 @@ size = (224, 224)
 def load_data(dataset):
     # load_data
     if dataset == 'ODIR':
-        path_train = 'data/ODIR/train.csv'
-        path_val = 'data/ODIR/val.csv'
-        path_test = 'data/ODIR/test.csv'
+        path_train = 'data/ODIR/train_strat.csv'
+        path_val = 'data/ODIR/val_strat.csv'
+        path_test = 'data/ODIR/test_strat.csv'
 
-        root_train = 'data/ODIR/train/'
-        root_val = 'data/ODIR/val/'
-        root_test = 'data/ODIR/test/'
+        root_train = 'data/ODIR/images/'
+        root_val = 'data/ODIR/images/'
+        root_test = 'data/ODIR/images/'
     elif dataset == 'RFMID':
         path_train = './data/RFMiD/RFMiD_Training_Labels_curated.csv'
         path_val = './data/RFMiD/RFMiD_Validation_Labels_curated.csv'
@@ -118,12 +110,10 @@ def load_data(dataset):
         raise ValueError('Non-accepted dataset. Use ODIR or RFMID')
 
     def train_transforms(examples):
-        # examples['pixel_values'] = [_train_transforms(image.convert("RGB")) for image in examples['img']]
         transformed = _train_transforms(examples)
         return transformed
 
     def val_transforms(examples):
-        # examples['pixel_values'] = [_val_transforms(image.convert("RGB")) for image in examples['img']]
         transformed = _val_transforms(examples)
         return transformed
 
@@ -141,7 +131,6 @@ def load_data(dataset):
                                  normalize])
 
     _val_transforms = v2.Compose([v2.Resize(size),
-                                  # CenterCrop(crop_size),
                                   v2.ToTensor(),
                                   normalize])
 

@@ -3,7 +3,7 @@ import pandas as pd
 
 merged_df = pd.read_csv('./data/final_dataset.csv')
 
-# Plot class distribution
+# plot class distribution
 class_counts = merged_df[['N', 'D', 'C', 'M']].sum().sort_values(ascending=False)
 plt.figure(figsize=(8, 6))
 class_counts.plot(kind='bar', color='skyblue')

@@ -16,8 +16,6 @@ def print_label_cases():
     print('Normal: ', df['N'].value_counts()[1])
 
 
-#print_label_cases()
-
 df = df.sort_values(by='ID')
 grouped = df.groupby(['N', 'A', 'G', 'H', 'D', 'C', 'M']).size().reset_index(name='Count')
 

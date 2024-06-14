@@ -3,16 +3,14 @@ from pytorch_lightning import Trainer
 from pytorch_lightning.loggers import CSVLogger
 from pytorch_lightning.callbacks import EarlyStopping, ModelCheckpoint
 
-from source import utils
-import config
-from model import ViTLightningModule, BEiT, LeViT, DeiT, ResNet50, VIT
+import utils, config
+from models.models import ViTLightningModule, BEiT, LeViT, DeiT, ResNet50, VIT
 
 seed_value = 42
 torch.manual_seed(seed_value)
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-# for early stopping, see https://pytorch-lightning.readthedocs.io/en/1.0.0/early_stopping.html?highlight=early%20stopping
 early_stop_callback = EarlyStopping(
     monitor='val_loss',
     patience=config.early_stopping_patience,
@@ -28,10 +26,8 @@ save = ModelCheckpoint(
 )
 
 
-csv_logger = CSVLogger(save_dir='logs/', name='experiment_name', flush_logs_every_n_steps=1)
+csv_logger = CSVLogger(save_dir='../logs/', name='experiment_name', flush_logs_every_n_steps=1)
 
-# checkpoint_path = '/home/g/gbotso/Desktop/Project/RetViT/logs/experiment_name/version_5/checkpoints/epoch=100-step=17473.ckpt'
-# model = ViTLightningModule.load_from_checkpoint(checkpoint_path)
 if config.model_processor == 'SWIN':
     model = ViTLightningModule()
 elif config.model_processor == 'BEiT':

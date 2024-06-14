@@ -15,6 +15,7 @@ import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import config
 
+
 class CustomImageDataset(Dataset):
     def __init__(self, csv_file, root_dir, transform=None):
         self.data_frame = pd.read_csv(csv_file)
