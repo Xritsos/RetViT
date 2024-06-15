@@ -35,7 +35,7 @@ The authors would like to acknowledge the National Institute of Health Data Scie
 
 Results presented in this work have been produced using the AUTH Compute Infrastructure and Resources. The authors would like to acknowledge the support provided by the Scientific Computing Office throughout the progress of this research work.
 
-## Refences
+## References
 [1] ODIR dataset: https://odir2019.grand-challenge.org/dataset/   
 
 Contact:  
